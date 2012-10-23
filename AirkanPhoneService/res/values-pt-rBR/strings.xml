@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telefone Airkan</string>
+    <string name="phoneact_name">Gerenciador de Telefone Airkan</string>
+    <string name="mdnssdact_name">Gerenciador de mDNSSD</string>
+    <string name="service_start">Serviço de Telefone Airkan iniciado.</string>
+    <string name="listenservice_start">Serviço de mDNSSD iniciado.</string>
+</resources>
