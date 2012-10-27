@@ -14,8 +14,6 @@
     <string name="one_usercrt">um certificado de usuário</string>
     <string name="one_cacrt">um certificado CA</string>
     <string name="n_cacrts">%d certificados CA</string>
-    <string name="one_wapi_ascrt">um certificado WAPI AS</string>
-    <string name="one_wapi_usercrt">um certificado de usuário WAPI</string>
     <string name="password_error">Insira a senha correta.</string>
     <string name="password_empty_error">Insira a senha.</string>
     <string name="name_empty_error">Insira um nome.</string>

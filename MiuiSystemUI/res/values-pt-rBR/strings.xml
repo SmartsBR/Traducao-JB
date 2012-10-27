@@ -48,8 +48,7 @@ Use somente o carregador fornecido."</string>
     <string name="status_bar_settings_auto_brightness_label">Brilho autom.</string>
     <string name="status_bar_settings_notifications">Notificações</string>
     <string name="status_bar_settings_battery_meter_format">%d%%</string>
-    <string name="status_bar_network_name_separator">"
-"</string>
+    <string name="status_bar_network_name_separator">|</string>
     <string name="bluetooth_tethered">Tether Bluetooth</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Configurar métodos de entrada</string>
     <string name="status_bar_use_physical_keyboard">Usar teclado físico</string>
@@ -144,11 +143,26 @@ Se você reativar os dados móveis, cobranças adicionais poderão ser realizada
     <string name="gps_notification_searching_text">Procurando GPS</string>
     <string name="gps_notification_found_text">Local definido por GPS</string>
     <string name="accessibility_clear_all">Limpar todas as notificações.</string>
+    <string name="dreams_dock_launcher">Ativar proteção de tela</string>
+    <string name="status_bar_notification_inspect_item_title">Info do app</string>
+    <string name="notifications_off_title">Notificações desl.</string>
+    <string name="notifications_off_text">Toque aqui para ativar as notificações novamente.</string>
+    <string name="accessibility_rotation_lock_off">A tela rotacionará automaticamente.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Tela travada em modo paisagem.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Tela travada em modo retrato.</string>
+    <string name="share">Compartilhar</string>
+    <string name="description_direction_up">Deslizar pra cima para %s.</string>
+    <string name="description_direction_down">Deslizar pra baixo para %s.</string>
+    <string name="description_direction_left">Deslizar à esquerda para %s.</string>
+    <string name="description_direction_right">Deslizar à direita para %s.</string>
+    <string name="description_target_search">Pesquisar</string>
     <string name="tab_notifications_lable">Notificações</string>
     <string name="tab_toggles_lable">Atalhos</string>
     <string name="status_bar_time_format_12">h:mma</string>
     <string name="status_bar_time_format_24">HH:mm</string>
-    <string name="status_bar_date_format">dd/MM/yyyy</string>
+    <string name="status_bar_time_format_12_simple">h:mm</string>
+    <string name="status_bar_date_format">"E
+d-M-yyyy"</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
     <string name="status_bar_recent_memory_info">%1$s / %2$s</string>
     <string name="usb_mode_notification">Armazenamento USB</string>

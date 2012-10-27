@@ -105,7 +105,7 @@ Mais de %2$s já se conectaram à MIUI %3$s"</string>
     <string name="share_sina">Postar com o Sina Weibo</string>
     <string name="install_sina">Instalar o Sina Weibo</string>
     <string name="share_qq">Postar com o Tencent Weibo</string>
-	<string name="install_qq">Instalar o Tencent Weibo</string>
+    <string name="install_qq">Instalar o Tencent Weibo</string>
     <string name="upgrade_kernel">Versão do kernel atual preisa ser atualizado</string>
     <string name="upgrade_kernel_msg">"Versão do kernel atual não coincide com a ROM MIUI.Você precisa atualizar o kernel manualmente. Por favor, consulte o tutorial de atualização:
 "</string>

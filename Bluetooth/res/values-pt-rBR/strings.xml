@@ -2,6 +2,10 @@
 <resources>
     <string name="permlab_bluetoothShareManager">Acessar o gerenciador de download.</string>
     <string name="permdesc_bluetoothShareManager">Permite que o aplicativo acesse e use o gerenciador BluetoothShare para transferir arquivos.</string>
+    <string name="permlab_bluetoothWhitelist">Acesso à whitelist do bluetooth.</string>
+    <string name="permdesc_bluetoothWhitelist">Allows the app to temporarily whitelist a Bluetooth device, allowing that device to send files to this device without user confirmation.</string>
+    <string name="permlab_handoverStatus">Receive BT handover transfer broadcasts.</string>
+    <string name="permdesc_handoverStatus">Allows receiving handover transfer status information from Bluetooth.</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Dispositivo desconhecido</string>
     <string name="unknownNumber">Desconhecido</string>
@@ -28,6 +32,7 @@
     <string name="notification_received_fail">Compart. Bluetooth: o arquivo %1$s não foi recebido</string>
     <string name="notification_sending">Compart. Bluetooth: enviando %1$s</string>
     <string name="notification_sent">Compart. Bluetooth: %1$s enviado</string>
+    <string name="empty_file_notification_sent">Compart. Bluetooth: Dispositivo remoto rejeitou arquivo de tamanho nulo %1$s</string>
     <string name="notification_sent_complete">100% concluído</string>
     <string name="notification_sent_fail">Compart. Bluetooth: o arquivo %1$s não foi enviado</string>
     <string name="download_title">Transferência de arquivo</string>
@@ -96,7 +101,7 @@
     <string name="transfer_menu_open">Abrir</string>
     <string name="transfer_menu_clear">Limpar da lista</string>
     <string name="transfer_clear_dlg_title">Limpar</string>
-    <string name="bluetooth_share_file_name">compartilhamento_bluetooth</string>
+    <string name="bluetooth_share_file_name">bluetooth_content_share</string>
     <string name="sharedUserId" />
     <string name="process" />
     <string name="bpp_main">Impressão Bluetooth</string>

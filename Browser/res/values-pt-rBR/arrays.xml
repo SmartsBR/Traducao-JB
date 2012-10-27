@@ -406,7 +406,7 @@
         <item>http://1.im.cz/szn/img/favicon.ico</item>
         <item>http://search.seznam.cz/?q={searchTerms}</item>
         <item>UTF-8</item>
-        <item>http:///suggest.fulltext.seznam.cz/?dict=fulltext_ff&amp;amp;phrase={searchTerms}&amp;amp;encoding={inputEncoding}&amp;amp;response_encoding=utf-8</item>
+        <item>http://suggest.fulltext.seznam.cz/?dict=fulltext_ff&amp;amp;phrase={searchTerms}&amp;amp;encoding={inputEncoding}&amp;amp;response_encoding=utf-8</item>
     </string-array>
     <string-array name="centrum_cz">
         <item>Centrum.cz</item>
@@ -835,7 +835,27 @@
         <item>@string/pref_data_preload_value_never</item>
         <item>@string/pref_data_preload_value_wifi_only</item>
         <item>@string/pref_data_preload_value_always</item>
+    </array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Nunca</item>
+        <item>Apenas com Wi-Fi</item>
+        <item>Sempre</item>
     </string-array>
+    <array name="pref_link_prefetch_values">
+        <item>@string/pref_link_prefetch_value_never</item>
+        <item>@string/pref_link_prefetch_value_wifi_only</item>
+        <item>@string/pref_link_prefetch_value_always</item>
+    </array>
+    <string-array name="pref_video_preload_choices">
+        <item>Nunca</item>
+        <item>Apenas com Wi-Fi</item>
+        <item>Sempre</item>
+    </string-array>
+    <array name="pref_video_preload_values">
+        <item>@string/pref_video_preload_value_never</item>
+        <item>@string/pref_video_preload_value_wifi_only</item>
+        <item>@string/pref_video_preload_value_always</item>
+    </array>
     <string-array name="bookmarks">
         <item>Google</item>
         <item>http://www.google.com/</item>

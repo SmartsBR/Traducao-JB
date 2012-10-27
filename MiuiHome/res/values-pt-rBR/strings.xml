@@ -122,6 +122,7 @@
     <string name="gadget_weather_download_message">É necessário baixar um pacote de tema: %1$s. Tamanho: %2$s. Por favor selecione-o novamente após concluir o download.</string>
     <string name="gadget_weather_download_start">Iniciar</string>
     <string name="gadget_weather_downloading">Transferindo o pacote de tema. Por favor, selecione-o novamente após o término da transferência</string>
+    <string name="gadget_weather_low_temp">temp. baixa</string>
     <string name="upside_apps_title">Selecione aplicativo</string>
     <string name="upside_edit_bottom_empty_tip">Toque no retângulo para alterá-lo</string>
     <string name="upside_edit_bar_empty">Vazio</string>

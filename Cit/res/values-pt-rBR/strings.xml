@@ -22,6 +22,8 @@
 <string name="cit_magnetic_sensor_check_title">Teste do sensor de campo magnético</string>
 <string name="cit_proximity_sensor_check_title">Teste de sensor de proximidade</string>
 <string name="cit_light_sensor_check_title">Teste do sensor de luz</string>
+<string name="cit_pressure_sensor_check_title">Teste do sensor de pressão</string>
+<string name="cit_gyroscope_sensor_check_title">Teste do giroscópio</string>
 <string name="cit_play_sd_mp3_title">Reproduzir no leitor de MP3 de SD</string>
 <string name="cit_audio_loopback_check_one_title">Microfone do aparelho para testar o loop principal</string>
 <string name="cit_audio_loopback_check_two_title">testa o feedback entre o microfone e o altofalante</string>
@@ -47,6 +49,8 @@
  agora afaste-as. Se o valor retornado for 0,0 o teste foi concluido com êxito, caso contrário, houve falha"</string>
 <string name="cit_magnetic_sensor_check_summary">Isto irá testar o sensor de campo magnético (X, Y, Z)</string>
 <string name="cit_light_sensor_check_summary">Mostrar o valor DAC do sensor de luz</string>
+    <string name="cit_gyroscope_sensor_check_summary">Sensor giroscópio X, Y e Z</string>
+    <string name="cit_pressure_sensor_check_summary">Sensor de pressão</string>
 <string name="cit_leds_check_summary">Testará a luz de fundo, luz de alimentação e Flash</string>
 <string name="cit_vibrator_check_summary">Executa uma verificação se a vibração está funcionando (incluindo vibração curta e longa)</string>
 <string name="cit_wifi_address_check_summary">Endereço atual das informações de conexão WLAN, confirme na parte verde</string>
@@ -198,8 +202,6 @@ Clique em ativar GPS ..."</string>
 <string name="cit_keyboard_menu">tecla de teste: MENU</string>
 <string name="cit_kayboard_volume_up">Testar botão: AUMENTAR_VOLUME</string>
 <string name="cit_kayboard_volume_down">tecla de teste: BAIXAR_VOLUME</string>
-<string name="cit_keyboard_focus">Testar botão: FOCO</string>
-<string name="cit_keyboard_camera">tecla de teste: CAMERA</string>
 <string name="cit_fm_not_supported">O modelo não suporta FM</string>
 <string name="cit_fm_open_bluetooth">Ligue o Bluetooth...</string>
 <string name="cit_fm_open_1">Iniciar FM - 88.5</string>

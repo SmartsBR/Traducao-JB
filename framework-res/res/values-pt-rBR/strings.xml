@@ -28,19 +28,25 @@
     <string name="config_tether_apndata" />
     <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
     <string name="default_wallpaper_component">@null</string>
-    <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
-    <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
+    <string name="config_networkLocationProvider1">com.google.android.location.NetworkLocationProvider</string>
+    <string name="config_networkLocationProvider2">com.android.location.service.NetworkLocationProvider</string>
+    <string name="config_geocodeProvider">com.android.location.service.GeocodeProvider</string>
+    <string name="config_geofenceProvider">com.qualcomm.services.location</string>
     <string name="config_datause_iface">rmnet0</string>
     <string name="config_default_dns_server">8.8.8.8</string>
     <string name="gsm_alphabet_default_charset" />
+    <string name="db_default_journal_mode">PERSIST</string>
+    <string name="db_default_sync_mode">FULL</string>
+    <string name="db_wal_sync_mode">FULL</string>
     <string name="config_useragentprofile_url" />
     <string name="config_isoImagePath" />
-    <string name="config_ntpServer">pool.ntp.org</string>
+    <string name="config_ntpServer">2.android.pool.ntp.org</string>
     <string name="config_wimaxServiceJarLocation" />
     <string name="config_wimaxNativeLibLocation" />
     <string name="config_wimaxManagerClassname" />
     <string name="config_wimaxServiceClassname" />
     <string name="config_wimaxStateTrackerClassname" />
+    <string name="config_defaultDreamComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
     <string name="month_long_standalone_january">janeiro</string>
     <string name="month_long_standalone_february">fevereiro</string>
     <string name="month_long_standalone_march">março</string>
@@ -195,7 +201,6 @@
     <string name="ellipsis">…</string>
     <string name="ellipsis_two_dots">..</string>
     <string name="mmiError">Problema de conexão ou código MMI inválido.</string>
-    <string name="unsupportedMmiCode">Código MMI não suportado.</string>
     <string name="mmiFdnError">A operação é limitada somente a números de chamadas fixas.</string>
     <string name="stkCcUssdToDial">Requisição USSD alterada para requisição de chamada.</string>
     <string name="stkCcUssdToSs">Requisição USSD alterada para requisição SS.</string>
@@ -217,9 +222,11 @@
     <string name="invalidPuk">Digite um PUK com oito números ou mais.</string>
     <string name="needPuk">O seu cartão SIM está bloqueado por um PUK. Digite o código PUK para desbloqueá-lo.</string>
     <string name="needPuk2">Digite o PUK2 para desbloquear o cartão SIM.</string>
+    <string name="enablePin">Falha. Ativar bloqueio de SIM/RUIM.</string>
     <string name="pinpuk_attempts">"
 Tentativas Restantes :"</string>
-    <string name="enablePin">Sem sucesso. Ative o bloqueio de SIM/RUIM.</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
     <string name="ClipMmi">ID do chamador de entrada</string>
     <string name="ClirMmi">ID do chamador de saída</string>
     <string name="CfMmi">Encaminhamento de chamada</string>
@@ -309,6 +316,8 @@ Tentativas Restantes :"</string>
     <string name="shutdown_progress">Encerrando…</string>
     <string name="shutdown_confirm">O seu telefone será desligado.</string>
     <string name="shutdown_confirm_question">Gostaria de desligar?</string>
+    <string name="reboot_safemode_title">Reiniciar em Modo de Segurança</string>
+    <string name="reboot_safemode_confirm">Você deseja reiniciar no Modo de Segurança? Isto irá desativar todos os aplicativos de terceiros instalados em seu telefone. Eles serão restaurados assim que você reiniciar novamente o telefone.</string>
     <string name="recent_tasks_title">Recente</string>
     <string name="no_recent_tasks">Nenhum aplicativo recente.</string>
     <string name="global_actions">Opções do telefone</string>
@@ -358,6 +367,8 @@ Tentativas Restantes :"</string>
     <string name="permdesc_receiveMms">Permite que o aplicativo receba e processe mensagens MMS. Aplicativos maliciosos podem monitorar as suas mensagens ou excluí-las sem mostrá-las a você.</string>
     <string name="permlab_receiveEmergencyBroadcast">receber transmissões de emergência</string>
     <string name="permdesc_receiveEmergencyBroadcast">Permite que o aplicativo receba e processe mensagens de transmissão de emergência. Esta permissão está disponível somente para aplicativos do sistema.</string>
+    <string name="permlab_readCellBroadcasts">ler mensagens de broadcast</string>
+    <string name="permdesc_readCellBroadcasts">Permite o aplicativo para ler mensagens de broadcast quando uma mensagem emergencial é recebida..</string>
     <string name="permlab_sendSms">enviar mensagens SMS</string>
     <string name="permdesc_sendSms">Permite que o aplicativo envie mensagens SMS. Aplicativos maliciosos podem gerar gastos enviando mensagens sem a sua confirmação.</string>
     <string name="permlab_sendSmsNoConfirmation">enviar mensagens SMS sem confirmação</string>
@@ -370,10 +381,16 @@ Tentativas Restantes :"</string>
     <string name="permdesc_receiveWapPush">Permite que o aplicativo receba e processe mensagens WAP. Aplicativos maliciosos podem monitorar as suas mensagens ou excluí-las sem mostrá-las a você.</string>
     <string name="permlab_getTasks">recuperar aplicativos em execução</string>
     <string name="permdesc_getTasks">Permite que o aplicativo recupere as informações sobre tarefas em execução no momento ou recentemente. Pode permitir que aplicativos maliciosos descubram informações particulares sobre outros aplicativos.</string>
+    <string name="permlab_getDetailedTasks">receber detalhes de aplicativos em execução</string>
+    <string name="permdesc_getDetailedTasks">permite que o aplicativo receba dados de aplicativos em execução no sistema</string>
     <string name="permlab_reorderTasks">reorganizar aplicativos em execução</string>
     <string name="permdesc_reorderTasks">Permite que um aplicativo mova as tarefas para o primeiro e para o segundo planos. Aplicativos maliciosos podem se forçar à frente sem o seu controle.</string>
     <string name="permlab_removeTasks">parar aplicativos em execução</string>
     <string name="permdesc_removeTasks">Permite que um aplicativo remova tarefas e desative seus aplicativos. Aplicativos maliciosos podem interferir no comportamento de outros aplicativos.</string>
+    <string name="permlab_startAnyActivity">iniciar qualquer atividade</string>
+    <string name="permdesc_startAnyActivity">Permite que o aplicativo inicie qualquer atividade, independente de permissões existentes no telefone.</string>
+    <string name="permlab_setScreenCompatibility">definir compatibilidade de tela</string>
+    <string name="permdesc_setScreenCompatibility">Permite que o aplicativo controle a compatibilidade de tela de outros aplicativos. Aplicativos maliciosos podem utilizar este recurso para quebrar o comportamento de outros aplicativos..</string>
     <string name="permlab_setDebugApp">ativar depuração do aplicativo</string>
     <string name="permdesc_setDebugApp">Permite que um aplicativo ative a depuração de outro aplicativo. Aplicativos maliciosos podem usar isso para encerrar outros aplicativos.</string>
     <string name="permlab_changeConfiguration">alterar as suas configurações de UI</string>
@@ -426,6 +443,8 @@ Tentativas Restantes :"</string>
     <string name="permdesc_readInputState">Permite que os aplicativos vejam as teclas que você pressiona, mesmo quando estiver interagindo com outro aplicativo (como ao digitar uma senha). Aplicativos normais não devem precisar disso em momento algum.</string>
     <string name="permlab_bindInputMethod">vincular a um método de entrada</string>
     <string name="permdesc_bindInputMethod">Permite que o detentor se sujeite à interface de nível superior de um método de entrada. Aplicativos normais não devem precisar disso em momento algum.</string>
+    <string name="permlab_bindAccessibilityService">vincular a um serviço de acessibilidade</string>
+    <string name="permdesc_bindAccessibilityService">Permite que um serviço seja vinculado a aplicativos de sistema para um melhor serviço de acessibilidade.</string>
     <string name="permlab_bindTextService">sujeitar-se a um serviço de texto</string>
     <string name="permdesc_bindTextService">Permite que o titular se sujeite à interface de nível superior de um serviço de texto (por exemplo, SpellCheckerService). Não deve ser necessário para aplicativos normais.</string>
     <string name="permlab_bindVpnService">se ligam a um serviço de VPN</string>
@@ -440,6 +459,8 @@ Tentativas Restantes :"</string>
     <string name="permdesc_setOrientation">Permite que um aplicativo altere a rotação da tela a qualquer momento. Aplicativos normais não devem precisar disso em momento algum.</string>
     <string name="permlab_setPointerSpeed">alterar velocidade do ponteiro</string>
     <string name="permdesc_setPointerSpeed">Permite que um aplicativo altere a velocidade do ponteiro do mouse ou do trackpad a qualquer momento. Nunca será necessário para aplicativos normais.</string>
+    <string name="permlab_setKeyboardLayout">alterar leiaute do teclado</string>
+    <string name="permdesc_setKeyboardLayout">Permite que um aplicativo altere o leiaute do teclado. Não deve ser necessário para aplicativos normais.</string>
     <string name="permlab_signalPersistentProcesses">enviar sinais de Linux para os aplicativos</string>
     <string name="permdesc_signalPersistentProcesses">Permite que o aplicativo solicite que o sinal fornecido seja enviado a todos os processos persistentes.</string>
     <string name="permlab_persistentActivity">executar sempre o aplicativo</string>
@@ -466,6 +487,8 @@ Tentativas Restantes :"</string>
     <string name="permdesc_diagnostic">Permite que um aplicativo leia e grave em qualquer recurso que pertença ao grupo de diagnósticos; por exemplo, arquivos em /dev. Isso possivelmente pode afetar a estabilidade e a segurança do sistema. Isso deve ser usado APENAS para diagnósticos específicos do hardware realizados pelo fabricante ou pelo operador.</string>
     <string name="permlab_changeComponentState">ativar ou desativar os componentes do aplicativo</string>
     <string name="permdesc_changeComponentState">Permite que um aplicativo altere se um componente de outro aplicativo está ativado ou não. Aplicativos maliciosos podem usar isso para desativar recursos importantes do telefone. É preciso ter cuidado com essa permissão, pois é possível deixar os componentes do aplicativo em um estado inutilizável, inconsistente ou instável.</string>
+    <string name="permlab_grantRevokePermissions">permitir ou negar permissões</string>
+    <string name="permdesc_grantRevokePermissions">Permite que um aplicativo negue ou permita que certas permissões sejam utilizadas para aplicativos especificos.</string>
     <string name="permlab_setPreferredApplications">definir os aplicativos preferidos</string>
     <string name="permdesc_setPreferredApplications">Permite que um aplicativo modifique os seus aplicativos preferidos. Isso pode permitir que aplicativos maliciosos alterem silenciosamente os aplicativos em execução, falsificando os seus aplicativos existentes para coletar os seus dados particulares.</string>
     <string name="permlab_writeSettings">modificar configurações globais do sistema</string>
@@ -482,6 +505,10 @@ Tentativas Restantes :"</string>
     <string name="permdesc_readContacts">Permite que um aplicativo leia todos os dados de contato (endereço) armazenados no seu telefone. Aplicativos maliciosos podem usar isso para enviar os seus dados para outras pessoas.</string>
     <string name="permlab_writeContacts">gravar dados de contato</string>
     <string name="permdesc_writeContacts">Permite que um aplicativo modifique os dados de contato (endereço) armazenados no seu telefone. Aplicativos maliciosos podem usar isso para apagar ou modificar os seus dados de contato.</string>
+    <string name="permlab_readCallLog">ler registro de chamada</string>
+    <string name="permdesc_readCallLog">"Permite que um aplicativo leia seu registro de chamadas, incluindo dados sobre chamadas recebidas e efetuadas."</string>
+    <string name="permlab_writeCallLog">gravar em registro de chamada</string>
+    <string name="permdesc_writeCallLog">"Permite que um aplicativo grave em seu registro de chamadas, incluindo modificação nos registros salvos."</string>
     <string name="permlab_readProfile">ler dados de seu perfil</string>
     <string name="permdesc_readProfile">Permite que o aplicativo leia informações pessoais de seu perfil armazenadas em seu dispositivo, como seu nome e suas informações de contato. Isso significa que o aplicativo pode identificá-lo e enviar as informações de seu perfil para outras pessoas.</string>
     <string name="permlab_writeProfile">escrever nos dados do perfil</string>
@@ -602,12 +629,12 @@ Tentativas Restantes :"</string>
     <string name="permdesc_changeWifiState">Permite que um aplicativo se conecte e desconecte dos pontos de acesso Wi-Fi e faça alterações nas redes Wi-Fi configuradas.</string>
     <string name="permlab_changeWifiMulticastState">permitir recebimento de multicast Wi-Fi</string>
     <string name="permdesc_changeWifiMulticastState">Permite que um aplicativo receba pacotes não endereçados diretamente para o seu aparelho. Isso pode ser útil ao detectar os serviços oferecidos nas proximidades. Ele consome mais energia do que o modo não-multicast.</string>
+    <string name="permlab_bluetoothAdmin">acessar configurações de Bluetooth</string>
+    <string name="permdesc_bluetoothAdmin">Permite que um aplicativo configure e acesse as configurações de Bluetooth do aparelho.</string>
     <string name="permlab_accessWimaxState">visualizar estado do WiMAX</string>
     <string name="permdesc_accessWimaxState">Permite que um aplicativo veja as informações sobre o estado do WiMAX.</string>
     <string name="permlab_changeWimaxState">alterar estado do WiMAX</string>
     <string name="permdesc_changeWimaxState">Permite que um aplicativo seja conectado e desconectado à uma rede WiMAX.</string>
-    <string name="permlab_bluetoothAdmin">administração de Bluetooth</string>
-    <string name="permdesc_bluetoothAdmin">Permite que um aplicativo configure o telefone Bluetooth local, descubra e pareie com dispositivos remotos.</string>
     <string name="permlab_bluetooth">criar conexões Bluetooth</string>
     <string name="permdesc_bluetooth">Permite que um aplicativo veja a configuração do telefone Bluetooth local e que possa fazer e aceitar conexões com dispositivos pareados.</string>
     <string name="permlab_nfc">controlar a comunicação a curta distância</string>
@@ -628,6 +655,8 @@ Tentativas Restantes :"</string>
     <string name="permdesc_readDictionary">Permite que um aplicativo leia quaisquer palavras, nomes e frases particulares armazenados pelo usuário no dicionário do usuário.</string>
     <string name="permlab_writeDictionary">gravar no dicionário definido pelo usuário</string>
     <string name="permdesc_writeDictionary">Permite que um aplicativo grave novas palavras no dicionário do usuário.</string>
+    <string name="permlab_sdcardRead">testar acesso a um armazenamento protegido</string>
+    <string name="permdesc_sdcardRead">Permite que um aplicativo teste as permissões a um armazenamento USB que será disponivel em dispositivos futuros.</string>
     <string name="permlab_sdcardWrite">modificar/excluir conteúdo do cartão SD</string>
     <string name="permdesc_sdcardWrite">Permite que um aplicativo grave no cartão SD.</string>
     <string name="permlab_mediaStorageWrite">modificar/excluir conteúdos de armazenamento de mídia internos</string>
@@ -741,6 +770,8 @@ Tentativas Restantes :"</string>
     <string name="keyguard_password_enter_pin_password_code">Digite o PIN para desbloquear</string>
     <string name="keyguard_password_wrong_pin_code">Código PIN incorreto!</string>
     <string name="keyguard_password_wrong_puk_code">Código PUK incorreto!</string>
+    <string name="keyguard_password_pin_failed">Falha na operação do PIN!</string>
+    <string name="keyguard_password_puk_failed">Falha na operação do PUK!</string>
     <string name="keyguard_pin_accepted">Código Aceito!</string>
     <string name="keyguard_label_text">Para desbloquear, pressione Menu e, em seguida, 0.</string>
     <string name="emergency_call_dialog_number_for_display">Número de emergência</string>
@@ -754,6 +785,7 @@ Tentativas Restantes :"</string>
     <string name="lockscreen_pattern_correct">Correto!</string>
     <string name="lockscreen_pattern_wrong">Tente novamente</string>
     <string name="lockscreen_password_wrong">Tente novamente</string>
+    <string name="faceunlock_multiple_failures">Tentativas de desbloqueio facial excedidas</string>
     <string name="lockscreen_plugged_in">Carregando, %d%%</string>
     <string name="lockscreen_charged">Carregado.</string>
     <string name="lockscreen_battery_short">%d%%</string>
@@ -762,6 +794,7 @@ Tentativas Restantes :"</string>
     <string name="lockscreen_missing_sim_message">Não há um cartão SIM no telefone.</string>
     <string name="lockscreen_missing_sim_instructions">Insira um cartão SIM.</string>
     <string name="lockscreen_missing_sim_instructions_long">O cartão SIM não foi inserido ou não está legível. Insira um cartão SIM.</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">Cartão SIM inativo.</string>
     <string name="lockscreen_permanent_disabled_sim_instructions">"Seu cartão SIM está permanentemente desativado.
  Entre em contato com seu provedor de serviços de rede sem fio para obter outro cartão SIM."</string>
     <string name="lockscreen_transport_prev_description">Botão \"Faixa anterior\"</string>
@@ -818,6 +851,10 @@ Acesse "<b>google.com/accounts/recovery</b></string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="granularity_label_character">caractere</string>
+    <string name="granularity_label_word">palavra</string>
+    <string name="granularity_label_link">link</string>
+    <string name="granularity_label_line">linha</string>
     <string name="hour_ampm" formatted="false">%-l%P</string>
     <string name="hour_cap_ampm" formatted="false">%-l%p</string>
     <string name="factorytest_failed">Falha no teste de fábrica</string>
@@ -908,6 +945,12 @@ Selecione OK para continuar ou Cancelar para permanecer na página atual."</stri
     <string name="permdesc_packageVerificationAgent">Permite que o aplicativo verifique se um pacote pode ser instalado.</string>
     <string name="permlab_bindPackageVerifier">vincular a um verificador de pacote</string>
     <string name="permdesc_bindPackageVerifier">Permite que o titular faça solicitações de verificadores de pacote. Nunca deve ser necessário para aplicativos normais.</string>
+    <string name="permlab_serialPort">acessar portas seriais</string>
+    <string name="permdesc_serialPort">Permite que o usuário acesse portas seriais do aparelho utilizando a API SerialManager.</string>
+    <string name="permlab_accessContentProvidersExternally">acessar provedores de conteúdo externamente</string>
+    <string name="permdesc_accessContentProvidersExternally">Permite que o usuário acesse provedores de conteúdo em um console shell.</string>
+    <string name="permlab_updateLock">desencorajar atualizações automáticas</string>
+    <string name="permdesc_updateLock">Permite que o usuário altere configurações de atualização automática do sistema.</string>
     <string name="save_password_message">Deseja que o navegador lembre desta senha?</string>
     <string name="save_password_notnow">Agora não</string>
     <string name="save_password_remember">Lembrar</string>
@@ -924,6 +967,8 @@ Selecione OK para continuar ou Cancelar para permanecer na página atual."</stri
     <string name="searchview_description_clear">Limpar consulta</string>
     <string name="searchview_description_submit">Enviar consulta</string>
     <string name="searchview_description_voice">Pesquisa por voz</string>
+    <string name="enable_explore_by_touch_warning_title">Ativar Exploramento por Touch?</string>
+    <string name="enable_explore_by_touch_warning_message">"%1$s deseja ativar o Exploramento por Touch. Quando o Exploramento está ativo, você pode ouvir ou ver descrições do que existe na região pressionada na tela ou performar gestos para interar com o telefone."</string>
     <string name="oneMonthDurationPast">1 mês atrás</string>
     <string name="beforeOneMonthDurationPast">Antes de 1 mês atrás</string>
     <string name="last_month">Mês passado</string>
@@ -985,6 +1030,9 @@ Gostaria de fechá-lo?"</string>
     <string name="force_close">OK</string>
     <string name="report">Informar</string>
     <string name="wait">Aguardar</string>
+    <string name="webpage_unresponsive">"A página não está respondendo.
+
+Você deseja fechá-la?"</string>
     <string name="launch_warning_title">Aplicativo redirecionado</string>
     <string name="launch_warning_replace">%1$s não está em execução.</string>
     <string name="launch_warning_original">%1$s foi iniciado.</string>
@@ -1033,13 +1081,17 @@ Gostaria de fechá-lo?"</string>
     <string name="wifi_p2p_dialog_title">Wi-Fi Direct</string>
     <string name="wifi_p2p_turnon_message">Iniciar a operação do Wi-Fi Direct. Isso desligará a operação do ponto de acesso/cliente Wi-Fi.</string>
     <string name="wifi_p2p_failed_message">Não foi possível iniciar o Wi-Fi Direct</string>
-    <string name="wifi_p2p_pbc_go_negotiation_request_message">Solicitação de configuração da conexão do Wi-Fi Direct de %1$s. Clique em OK para aceitar.</string>
-    <string name="wifi_p2p_pin_go_negotiation_request_message">Solicitação de configuração da conexão do Wi-Fi Direct de %1$s. Digite o PIN para prosseguir.</string>
-    <string name="wifi_p2p_pin_display_message">É necessário inserir o PIN WPS %1$s no dispositivo pareado %2$s para prosseguir com a configuração da conexão</string>
     <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct ativado</string>
     <string name="wifi_p2p_enabled_notification_message">Tocar para acessar configurações</string>
+    <string name="accept">Aceitar</string>
+    <string name="decline">Recusar</string>
+    <string name="wifi_p2p_invitation_sent_title">Convite enviado</string>
+    <string name="wifi_p2p_invitation_to_connect_title">Convidar para conexão</string>
+    <string name="wifi_p2p_from_message">De:</string>
+    <string name="wifi_p2p_to_message">Para:</string>
+    <string name="wifi_p2p_enter_pin_message">Insira o código PIN:</string>
+    <string name="wifi_p2p_show_pin_message">PIN:</string>
     <string name="select_character">Inserir caractere</string>
-    <string name="sms_control_default_app_name">Aplicativo desconhecido</string>
     <string name="sms_control_title">Enviando mensagens SMS</string>
     <string name="sms_control_message">Muitas mensagens SMS estão sendo enviadas. Selecione \"OK\" para continuar ou \"Cancelar\" para interromper o envio.</string>
     <string name="sms_control_yes">OK</string>
@@ -1053,11 +1105,14 @@ Gostaria de fechá-lo?"</string>
     <string name="time_picker_dialog_title">Definir hora</string>
     <string name="date_picker_dialog_title">Definir data</string>
     <string name="date_time_set">Definir</string>
+    <string name="date_time_done">Concluído</string>
     <string name="default_permission_group">Padrão</string>
     <string name="permissions_format">%1$s, %2$s</string>
     <string name="no_permissions">Nenhuma permissão necessária</string>
     <string name="perms_hide"><b>Ocultar</b></string>
     <string name="perms_show_all"><b>Mostrar todas</b></string>
+    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff900000">Novo: </font></string>
+    <string name="perms_description_app">Disponibilizado por %1$s.</string>
     <string name="usb_storage_activity_title">Armaz. USB</string>
     <string name="usb_storage_title">Conectado por USB</string>
     <string name="usb_storage_message">Você conectou ao computador via USB. Toque no botão abaixo se quiser copiar arquivos entre o computador e o cartão SD do seu Android.</string>
@@ -1088,6 +1143,10 @@ Gostaria de fechá-lo?"</string>
     <string name="locale_replacement" />
     <string name="select_input_method">Selecionar método de entrada</string>
     <string name="configure_input_methods">Configurar métodos de entrada</string>
+    <string name="use_physical_keyboard">Teclado físico</string>
+    <string name="hardware">Hardware</string>
+    <string name="select_keyboard_layout_notification_title">Selecione leiaute do teclado</string>
+    <string name="select_keyboard_layout_notification_message">Toque para selecionar um leiaute par ao teclado.</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style"><u>candidatos</u></string>
@@ -1108,6 +1167,8 @@ Gostaria de fechá-lo?"</string>
     <string name="permdesc_pkgUsageStats">Permite a modificação das estatísticas de uso do componente coletadas. Não deve ser usado por aplicativos normais.</string>
     <string name="permlab_copyProtectedData">Permite a invocação do serviço de recipiente padrão para copiar o conteúdo. Não deve ser usado por aplicativos normais.</string>
     <string name="permdesc_copyProtectedData">Permite a invocação do serviço de recipiente padrão para copiar o conteúdo. Não deve ser usado por aplicativos normais.</string>
+    <string name="permlab_route_media_output">Rotear saída de mídia</string>
+    <string name="permdesc_route_media_output">Permite que um aplicativo roteie a saída de áudio do telefone para dispositivos externos.</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Toque duas vezes para ter controle do zoom</string>
     <string name="gadget_host_error_inflating">Erro ao aumentar o widget</string>
     <string name="ime_action_go">Ir</string>
@@ -1161,10 +1222,12 @@ para a conta %s"</string>
     <string name="no_matches">Não encontrado</string>
     <string name="find_on_page">Localizar na página</string>
     <string name="action_mode_done">Concluído</string>
+    <string name="progress_unmounting_internal">Desconectando Armazenamento Interno...</string>
     <string name="progress_unmounting">Desconectando cartão SD...</string>
+    <string name="progress_erasing_internal">Apagando Armazenamento Interno...</string>
     <string name="progress_erasing">Apagando cartão SD...</string>
-    <string name="format_error">Não foi possível apagar o cartão SD.</string>
-    <string name="media_bad_removal">O cartão SD foi removido antes de ser desconectado.</string>
+    <string name="format_error">Impossível apagar Armazenamento USB</string>
+    <string name="media_bad_removal">Cartão SD removido antes da desconexão.</string>
     <string name="media_checking">O cartão SD está sendo verificado no momento.</string>
     <string name="media_removed">O cartão SD foi removido.</string>
     <string name="media_shared">O cartão SD está em uso por um computador no momento.</string>
@@ -1184,7 +1247,6 @@ para a conta %s"</string>
     <string name="sync_do_nothing">Não fazer nada por enquanto.</string>
     <string name="choose_account_label">Selecione uma conta</string>
     <string name="add_account_label">Adicionar uma conta</string>
-    <string name="choose_account_text">Que conta você gostaria de usar?</string>
     <string name="add_account_button_label">Adicionar conta</string>
     <string name="number_picker_increment_button">Incremento</string>
     <string name="number_picker_decrement_button">Redução</string>
@@ -1202,14 +1264,6 @@ para a conta %s"</string>
     <string name="date_picker_decrement_day_button">Reduzir dia</string>
     <string name="date_picker_increment_year_button">Aumentar ano</string>
     <string name="date_picker_decrement_year_button">Diminuir ano</string>
-    <string name="checkbox_checked">verificado</string>
-    <string name="checkbox_not_checked">não selecionado</string>
-    <string name="radiobutton_selected">selecionado</string>
-    <string name="radiobutton_not_selected">Não selecionado</string>
-    <string name="switch_on">ativado</string>
-    <string name="switch_off">desativado</string>
-    <string name="togglebutton_pressed">pressionado</string>
-    <string name="togglebutton_not_pressed">não pressionado</string>
     <string name="keyboardview_keycode_alt">Alt</string>
     <string name="keyboardview_keycode_cancel">Cancelar</string>
     <string name="keyboardview_keycode_delete">Excluir</string>
@@ -1229,6 +1283,7 @@ para a conta %s"</string>
     <string name="description_target_camera">Câmera</string>
     <string name="description_target_silent">Silencioso</string>
     <string name="description_target_soundon">Som ativado</string>
+    <string name="description_target_search">Pesquisar</string>
     <string name="description_target_unlock_tablet">Deslize para desbloquear.</string>
     <string name="keyboard_headset_required_to_hear_password">Conecte um fone de ouvido para ouvir as teclas da senha em voz alta.</string>
     <string name="keyboard_password_character_no_headset">Ponto final.</string>
@@ -1275,4 +1330,13 @@ para a conta %s"</string>
     <string name="sending">Enviando...</string>
     <string name="launchBrowserDefault">Abrir Navegador?</string>
     <string name="SetupCallDefault">Aceitar chamada?</string>
+    <string name="activity_resolver_use_always">Sempre</string>
+    <string name="activity_resolver_use_once">Uma vez</string>
+    <string name="default_audio_route_name">Telefone</string>
+    <string name="default_audio_route_name_headphones">Fones de ouvido</string>
+    <string name="default_audio_route_name_dock_speakers">Falantes do Dock</string>
+    <string name="default_audio_route_name_hdmi">Áudio HDMI</string>
+    <string name="default_audio_route_category_name">Sistema</string>
+    <string name="bluetooth_a2dp_audio_route_name">Áudio Bluetooth</string>
+    <string name="media_route_chooser_grouping_done">Concluído</string>
 </resources>

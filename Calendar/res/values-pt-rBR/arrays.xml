@@ -4,11 +4,13 @@
         <item>Notificação</item>
         <item>E-mail</item>
         <item>SMS</item>
+        <item>Alarme</item>
     </string-array>
     <integer-array name="reminder_methods_values">
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
     </integer-array>
     <string-array name="reminder_minutes_labels">
         <item>0 minutos</item>
@@ -113,7 +115,8 @@
         <item>Bogotá</item>
         <item>Horário Oriental</item>
         <item>Venezuela</item>
-        <item>Horár. Atlântico</item>
+        <item>Horár. Atlântico (Barbados)</item>
+        <item>Horár. Atlântico (Canadá)</item>
         <item>Manaus</item>
         <item>Santiago</item>
         <item>Terra Nova</item>
@@ -199,6 +202,7 @@
         <item>America/New_York</item>
         <item>America/Caracas</item>
         <item>America/Barbados</item>
+        <item>America/Halifax</item>
         <item>America/Manaus</item>
         <item>America/Santiago</item>
         <item>America/St_Johns</item>
@@ -317,6 +321,12 @@
         <item>Semana</item>
         <item>Mês</item>
         <item>Compromissos</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Estarei alguns minutos atrasado.</item>
+        <item>Estarei aí em dez minutos.</item>
+        <item>Comece sem mim.</item>
+        <item>"Desculpe, não poderei ir. Teremos que remarcar."</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Sempre</item>

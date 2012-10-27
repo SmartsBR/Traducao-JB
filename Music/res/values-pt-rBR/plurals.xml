@@ -72,8 +72,4 @@
         <item quantity="other">%d músicas foram excluídas.</item>
         <item quantity="one">1 música foi excluída.</item>
     </plurals>
-    <plurals name="Nnowplaying">
-        <item quantity="other">músicas em execução</item>
-        <item quantity="one">música está em execução</item>
-    </plurals>
 </resources>

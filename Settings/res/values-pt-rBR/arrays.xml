@@ -140,6 +140,8 @@
         <item>Desconectando…</item>
         <item>Desconectado</item>
         <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Evitando conexão fraca temporariamente</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -152,20 +154,22 @@
         <item>Desconectando da %1$s…</item>
         <item>Desconectado</item>
         <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Evitando conexão fraca temporariamente</item>
     </string-array>
-    <string-array name="wifi_security">
+    <array name="wifi_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wep</item>
         <item>@string/wifi_security_psk_generic</item>
         <item>@string/wifi_security_eap</item>
-        <item>@string/wifi_security_wapi_psk</item>
-        <item>@string/wifi_security_wapi_cert</item>
-    </string-array>
-    <string-array name="wifi_security_no_eap">
+    </array>
+    <array name="wifi_security_no_eap">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wep</item>
         <item>@string/wifi_security_psk_generic</item>
-    </string-array>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
+    </array>
     <string-array name="wifi_ap_security">
         <item>Aberta</item>
         <item>WPA PSK</item>
@@ -175,6 +179,7 @@
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Pressione o botão</item>
@@ -234,6 +239,7 @@
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
         <item>Nenhum</item>
@@ -241,12 +247,6 @@
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifi_network_setup">
-        <item>Desativado</item>
-        <item>Pressione o botão</item>
-        <item>PIN do ponto de acesso</item>
-        <item>PIN deste dispositivo</item>
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
@@ -316,16 +316,6 @@
         <item>sdcard</item>
         <item>auto</item>
     </string-array>
-    <string-array name="silent_mode_entries">
-        <item>Desativado</item>
-        <item>Vibrar</item>
-        <item>Desativar som</item>
-    </string-array>
-    <string-array name="silent_mode_values">
-        <item>off</item>
-        <item>vibrate</item>
-        <item>mute</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Curto</item>
         <item>Médio</item>
@@ -387,6 +377,24 @@
         <item>5</item>
         <item>10</item>
     </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Sem animação</item>
+        <item>Escala de animação .5x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1.5x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
     <string-array name="app_process_limit_entries">
         <item>Limite padrão</item>
         <item>Sem processos em segundo plano</item>
@@ -427,6 +435,20 @@
         <item>Tempo limite</item>
         <item>Malsucedida</item>
     </string-array>
+    <string-array name="user_content_ratings_entries">
+        <item>Ser superior</item>
+        <item>Humano</item>
+        <item>Neandertal</item>
+        <item>Chimpanzé</item>
+        <item>Macaco</item>
+    </string-array>
+    <string-array name="user_content_ratings_values">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
     <string-array name="multi_sim_entries">
         <item>SIM 1</item>
         <item>SIM 2</item>
@@ -454,16 +476,24 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="input_method_selector_titles">
+    <string-array name="multi_sim_entries_voice_without_prompt">
+        <item>SIM 1</item>
+        <item>SSIM 2</item>
+    </string-array>
+    <string-array name="multi_sim_values_voice_without_prompt">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>
         <item>@string/input_method_selector_always_show_title</item>
         <item>@string/input_method_selector_always_hide_title</item>
-    </string-array>
-    <string-array name="input_method_selector_values">
+    </array>
+    <array name="input_method_selector_values">
         <item>@string/input_method_selector_show_automatically_value</item>
         <item>@string/input_method_selector_always_show_value</item>
         <item>@string/input_method_selector_always_hide_value</item>
-    </string-array>
+    </array>
     <string-array name="haptic_feedback_level_entries">
         <item>Baixo</item>
         <item>Médio</item>
@@ -517,18 +547,22 @@
     <string-array name="led_color_values">
         <item>blue</item>
         <item>red</item>
+        <item>\#FFFF3300</item>
+        <item>yellow</item>
         <item>green</item>
-        <item>\#FFFF0033</item>
-        <item>\#FF5500FF</item>
+        <item>cyan</item>
+        <item>white</item>
         <item>\#FFAA00AA</item>
     </string-array>
     <string-array name="led_color_entries">
         <item>Azul</item>
         <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
         <item>Verde</item>
+        <item>Ciano</item>
         <item>Rosa</item>
         <item>Violeta</item>
-        <item>Roxo</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
@@ -542,9 +576,20 @@
         <item>com.miui.providers.userbook</item>
         <item>com.miui.providers.weather</item>
     </string-array>
-    <string-array name="wifi_wapi_psk_type">
-        <item>@string/wifi_security_wapi_psk_ascii</item>
-        <item>@string/wifi_security_wapi_psk_hexadecimal</item>
+    <string-array name="wifi_security_only_wapi_cert_entries">
+        <item>WAPI CERT</item>
+    </string-array>
+    <array name="mi2_wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
+    </array>
+    <string-array name="wifi_wapi_key_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI hexadecimal</item>
     </string-array>
     <string-array name="back_long_press_timeout">
         <item>0.5 segundo</item>
@@ -574,13 +619,13 @@
         <item>20000</item>
         <item>-1</item>
     </string-array>
-    <string-array name="font_size_title">
+    <array name="font_size_title">
         <item>@string/font_size_small</item>
         <item>@string/font_size_normal</item>
         <item>@string/font_size_medium</item>
         <item>@string/font_size_large</item>
         <item>@string/font_size_huge</item>
-    </string-array>
+    </array>
     <string-array name="font_size_scale">
         <item>0.77</item>
         <item>1.0</item>
@@ -602,4 +647,32 @@
         <item>27</item>
         <item>34</item>
     </integer-array>
+    <string-array name="entries_dolby_control">
+        <item>Desligado</item>
+        <item>Modo de Música</item>
+        <item>Modo de Vídeo</item>
+    </string-array>
+    <string-array name="entryvalues_dolby_control">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wfd_status">
+        <item>Dispositivo conectado, criando sessão...</item>
+        <item>Sessão criada</item>
+        <item>Desfazendo sessão...</item>
+        <item>Falha na sessão</item>
+        <item>Tempo esgotado de sessão, tentando novamente...</item>
+        <item>Dispositivo Conectado</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Performance</item>
+        <item>Normal</item>
+        <item>Economia de Energia</item>
+    </string-array>
+    <string-array name="power_mode_value">
+        <item>high</item>
+        <item>middle</item>
+        <item>low</item>
+    </string-array>
 </resources>

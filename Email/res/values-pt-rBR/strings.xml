@@ -408,6 +408,7 @@ Cc: %4$s
     <string name="widget_loading">Carregando…</string>
     <string name="widget_touch_to_configure">Toque para configurar.</string>
     <string name="widget_no_accounts">Você ainda não configurou uma conta de e-mail.</string>
+    <string name="widget_no_mailboxes">"Sua conta não está sincronizada. Tente novamente mais tarde."</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">Pesquisar e-mail</string>
     <string name="search_mailbox_hint">Pesquisar %1$s</string>
@@ -416,7 +417,7 @@ Cc: %4$s
     <string name="search_slow_warning_message">Alguns servidores podem levar um longo tempo.</string>
     <string name="action_bar_mailbox_list_title">Pastas</string>
     <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
-    <string name="default_signature">Enviado de meu MI-ONE Plus</string>
+    <string name="default_signature">Enviado de meu MIPhone</string>
     <string name="require_manual_sync_message">A sincronização em segundo plano para essa conta é desativada durante o roaming.</string>
     <string name="application_name">Instant Upload</string>
     <string name="picasa_default_destination">Álbum do Instant Upload</string>
@@ -551,6 +552,9 @@ Cc: %4$s
     <string name="preference_plus_sync_all_prompt_text">O envio de fotos e vídeos que ainda não tenham sido enviados de seu telefone para um álbum privado na web pode demorar um pouco, mas será feito em segundo plano. Tem certeza de que deseja continuar?</string>
     <string name="preference_plus_sync_all_prompt_yes">Sim</string>
     <string name="preference_plus_sync_all_prompt_no">Não</string>
+    <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
+    <string name="single_new_message_notification_big_text">"%1$s
+%2$s"</string>
     <string name="choosertitle_sharevia">Compartilhar via</string>
     <string name="contextmenu_openlink">Abrir no navegador</string>
     <string name="contextmenu_copy">Copiar</string>
@@ -564,6 +568,7 @@ Cc: %4$s
     <string name="contextmenu_help">Utilidade</string>
     <string name="contextmenu_feedback">Enviar comentários</string>
     <string name="more_string">Mais %1$s...</string>
-    <string name="chips_waiting_for_directory_result">À espera de mais contatos</string>
-    <string name="copy">Copiar endereço de e-mail</string>
+    <string name="copy_email">Copiar endereço de e-mail</string>
+    <string name="copy_number">Copiar número de telefone</string>
+    <string name="done">Voltar</string>
 </resources>
