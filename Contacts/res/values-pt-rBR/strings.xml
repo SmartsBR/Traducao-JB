@@ -610,6 +610,9 @@ Escolha uma das seguintes opções:"</string>
     <string name="hint_search_phone_numbers">%d números de telefone</string>
     <string name="pick_favorites_contacts_list_title">%1$d contatos favoritos no total</string>
     <string name="pick_recent_contacts_list_title">%1$d contatos recentes no total</string>
+    <string name="loading_groups">Carregando grupos...</string>
+    <string name="loading_group_members">Carregando membros dos grupos...</string>
+    <string name="loading_recent">Carregando contatos recentes...</string>
     <string name="preference_import">Importar</string>
     <string name="preference_export">Exportar</string>
     <string name="preference_others">Outros</string>
@@ -653,6 +656,9 @@ Escolha uma das seguintes opções:"</string>
     <string name="select_show_contacts">Exibir contatos</string>
     <string name="pref_key_rebuild_t9_index_title">Reindexar dados</string>
     <string name="pref_key_rebuild_t9_index_message">Repara erro de busca de contatos</string>
+    <string name="pref_key_photo">Foto</string>
+    <string name="pref_key_photo_word_title">Foto automática</string>
+    <string name="pref_key_photo_word_summary">Exibe uma imagem para contatos que nao possuam foto</string>
     <string name="raw_contact_list_title">Este contato inclui os seguintes %1$d contatos extras, toque para selecionar o contato a editar</string>
     <string name="raw_contact_account_label">Conta:%1$s</string>
     <string name="move_and_resize">Mover e redimensionar</string>
@@ -688,4 +694,22 @@ Escolha uma das seguintes opções:"</string>
     <string name="option_send_to_others">Enviar para outros</string>
     <string name="option_not_star">Remover dos favoritos</string>
     <string name="option_not_in_group">Remover</string>
+    <string name="preference_smart_group_title">Grupo Inteligente</string>
+    <string name="preference_smart_group_company_title">Por empresa</string>
+    <string name="preference_smart_group_company_summary">Agrupar por empresa</string>
+    <string name="preference_smart_group_location_title">Por local</string>
+    <string name="preference_smart_group_location_summary">Agrupar por código de área</string>
+    <string name="preference_smart_group_frequency_title">Contactados recentemente</string>
+    <string name="preference_smart_group_frequency_summary">Agrupar por contatos contactados por chamada ou SMS</string>
+    <string name="smart_group_action_bar_title">%1$s-%2$s</string>
+    <string name="smart_group_label">Grupo Inteligente</string>
+    <string name="smart_group_company_label">Por empresa</string>
+    <string name="smart_group_location_label">Por local</string>
+    <string name="smart_group_frequency_label">Contactados Recentemente</string>
+    <string name="smart_group_company_unavailable">Sem empresa</string>
+    <string name="smart_group_location_unavailable">Sem endereço</string>
+    <string name="smart_group_frequency_1">Em um mês</string>
+    <string name="smart_group_frequency_2">Em 3 meses</string>
+    <string name="smart_group_frequency_3">Em 6 meses</string>
+    <string name="smart_group_frequency_4">Mais de 6 meses</string>
 </resources>

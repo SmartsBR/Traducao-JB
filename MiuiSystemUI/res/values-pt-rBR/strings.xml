@@ -170,6 +170,12 @@ d-M-yyyy"</string>
     <string name="usb_mode_mount_storage_title">Abrir armazenamento usb agora？</string>
     <string name="mount_storage">Sim</string>
     <string name="dismount_storage">Não</string>
+    <string name="usb_notification">Coenctado ao USB</string>
+    <string name="usb_notification_mtp_info">Acesse arquivos pelo computador</string>
+    <string name="usb_notification_ptp_info">Acesse fotos pelo computador</string>
+    <string name="usb_notification_mtp_problem">Ajuda ></string>
+    <string name="usb_ptp_text">Fotos</string>
+    <string name="usb_mtp_text">Arquivos</string>
     <string name="move_data_to_sdcard_title">Exportar dados internos para o cartão SD</string>
     <string name="move_data_to_sdcard_message">"Isto irá mover dados como screenshots, imagens e outros do armazenamento interno para o cartão SD. Esta opção visa a uma experiência de usuário mais estável. Utilize o armazenamento interno apenas para acesso limitado."</string>
     <string name="user_guide_for_notification">Nova notificação recebida，você pode deslizar a barra de status para verificar detalhes</string>

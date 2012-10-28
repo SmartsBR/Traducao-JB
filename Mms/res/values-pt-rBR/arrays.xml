@@ -90,7 +90,11 @@
         <item>Exibe horário de recebimento</item>
         <item>Exibe horário de envio (impreciso, utiliza dados do servidor)</item>
     </string-array>
-    <string-array name="resent_via_entries">
+    <string-array name="resent_via_entries_sms">
+        <item>Via SMS</item>
+        <item>Via SMS na Nuvem</item>
+    </string-array>
+    <string-array name="resent_via_entries_mms">
         <item>Por SMS</item>
         <item>Por SMS na Nuvem</item>
     </string-array>

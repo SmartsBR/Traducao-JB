@@ -2,6 +2,10 @@
 <resources>
     <string name="permlab_bluetoothShareManager">Acessar o gerenciador de download.</string>
     <string name="permdesc_bluetoothShareManager">Permite que o aplicativo acesse e use o gerenciador BluetoothShare para transferir arquivos.</string>
+    <string name="permlab_bluetoothWhitelist">Lista de dispositivos bluetooth permitidos.</string>
+    <string name="permdesc_bluetoothWhitelist">Permite que aplicativo acesse a lista de dispositivos permitidos no Bluetooth, permitindo que o usuário envie e receba arquivos sem qualquer confirmação.</string>
+    <string name="permlab_handoverStatus">Receber broadcasts de transferência BT.</string>
+    <string name="permdesc_handoverStatus">Permite que o dispositivo receba mensagens de Broadcast referentea a transferencias bluetooth.</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Dispositivo desconhecido</string>
     <string name="unknownNumber">Desconhecido</string>

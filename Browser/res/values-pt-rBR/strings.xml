@@ -258,7 +258,7 @@
     <string name="pref_video_preload_value_wifi_only">WIFI_ONLY</string>
     <string name="pref_video_preload_value_always">ALWAYS</string>
     <string name="pref_video_preload_default_value">@string/pref_video_preload_value_wifi_only</string>
-    <string name="pref_video_preload_summary">Permite que o navegador carregue vídeos em segundo plano automaticamente quando o servidor permitir</string>
+    <string name="pref_video_preload_summary">Permite que o navegador pré-carregue vídeos quando o servidor permitir</string>
     <string name="pref_video_preload_dialogtitle">Pré-carregamento de vídeo</string>
     <string name="browserFrameNetworkErrorLabel">Problema na conexão</string>
     <string name="browserFrameFileErrorLabel">Problema no arquivo</string>

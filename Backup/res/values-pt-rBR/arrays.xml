@@ -11,6 +11,7 @@
         <item>Gerenciador de Permissões</item>
         <item>Câmera</item>
         <item>Assistente de Rede</item>
+        <item>Dados de Clima</item>
     </string-array>
     <string-array name="system_data_label">
         <item>Contatos</item>

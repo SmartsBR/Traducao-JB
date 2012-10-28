@@ -208,4 +208,21 @@ pan.xiaomi.com em seu PC"</string>
     <string name="copy_success">Copiado com sucesso</string>
     <string name="copy_failed">Falha ao copiar</string>
     <string name="toast_file_not_can_read">Erro na leitura do arquivo.</string>
+    <string name="server_control_advanced_settings">Configuração Avançada</string>
+    <string name="server_control_charset">Codificação de transferência</string>
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">Codificação padrão do sistema</string>
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">Se você estiver utilizando o Explorador de Arquivos do Windows, escolha esta codificação para evitar problemas com caracteres especiais</string>
+    <string name="stay_awake_title">Manter tela ativa</string>
+    <string name="stay_awake_summary">A tela ficará ativa durante toda a sessão FTP</string>
+    <string name="ftp_transfer_secure">Transferência segura</string>
+    <string name="ftp_port_number">Número da Porta</string>
+    <string name="ftp_account_req_notice">Usuário e senha, 4~16 caracteres, contendo números e letras, diferenc. maiusúlas e minúsculas</string>
+    <string name="ftp_open_port_error">Erro abrindo porta, verifique sua conexão de rede ou altere a porta utilizada.</string>
+    <string name="ftp_anonymous_login">Login anônimo</string>
+    <string name="ftp_username_and_passworld">Usuário e senha</string>
+    <string name="ftp_username_hint">Usuário</string>
+    <string name="ftp_password_hint">Senha</string>
+    <string name="ftp_invalid_username_or_password">Usuário ou senha inválidos</string>
 </resources>

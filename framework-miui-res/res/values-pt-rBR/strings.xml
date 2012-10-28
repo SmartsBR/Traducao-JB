@@ -509,9 +509,20 @@ Por favor insira um cartão SIM válido, ou insira a senha da sua conta Xiaomi"<
     <string name="alarm_message_12_hour_formate">h:mm aa</string>
     <string name="format_time_in_12_hours">%1$s %2$s</string>
     <string name="android_storage_usb">@android:string/storage_usb</string>
+    <string name="description_downloadtime">Download:</string>
+    <string name="permlab_accessNote">Acessar suas anotações</string>
+    <string name="permdesc_accessNote">Permite que o aplicativo leia e modifique anotações armazenadas em seu telefone. Aplicativos maliciosos podem utilizar esta permissão para apagar suas anotações ou enviá-las para terceiros.</string>
+    <string name="memory_clear_result">"Liberado com sucesso %1$s de memória,
+Memória disponível: %2$s"</string>
+    <string name="memory_clear_nothing_result">Não há memória disponível para ser liberada atualmente</string>
+    <string name="perm_send_push_lab">Enviar mensagem Push</string>
+    <string name="perm_send_push_dspt">Permite o envio de pensagens Push da Xiaomi</string>
+    <string name="miui_user_manual_title">Manual do Usuário</string>
     <string name="android_config_defaultDreamComponent">@android:string/config_defaultDreamComponent</string>
     <string name="android_date_time_set">@android:string/date_time_set</string>
-    <string name="description_downloadtime">Download:</string>
     <string name="peace_day">Memorial da Paz</string>
     <string name="national_father_day">Dia dos Pais</string>
+    <string name="android_usb_mtp_notification_title">@android:string/usb_mtp_notification_title</string>
+    <string name="android_usb_ptp_notification_title">@android:string/usb_ptp_notification_title</string>
+    <string name="android_usb_cd_installer_notification_title">@android:string/usb_cd_installer_notification_title</string>
 </resources>

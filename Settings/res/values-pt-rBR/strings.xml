@@ -2020,4 +2020,39 @@ Atenção, esta operação não pode ser desfeita"</string>
     <string name="wfd_wps_pbc">Preferir PIN</string>
     <string name="power_mode">Modo de Energia</string>
     <string name="skip_step">Pular Etapa</string>
+    <string name="msd_help_title">Ajuda</string>
+    <string name="msd_help_summary">"Tendo dificuldades ao acessar o armazenamento em massa de seu telefone pelo computador?
+Por favor selecione o sistema operacional do seu computador:"</string>
+    <string name="msd_install_succeed">Driver já instalado</string>
+    <string name="msd_install_next">Próximo</string>
+    <string name="msd_install">Reinstalar driver</string>
+    <string name="msd_install_finish">OK</string>
+    <string name="msd_install_windows_xp_step_2_1">"1.Se o Assistente de Instalação for exibido,
+sias as suas instruções até que ele seja concluído"</string>
+    <string name="msd_install_retry_windows_xp">"Se o seu computador não detectou o MI2 corretamente,
+tente o seguinte:
+"<li>Desconecte o MI2 do cabo USB, e então, reconecte-o.</li>"
+"<li>Reinstale o driver.</li></string>
+    <string name="msd_install_retry_windows_vista">"Se o seu computador não detectou o MI2 corretamente,
+tente o seguinte:
+"<li>Desconecte o MI2 do cabo USB, e então, reconecte-o.</li></string>
+    <string name="msd_install_retry_mac">"Se o seu computador não detectou o MI2 corretamente,
+tente o seguinte:
+"<li>"Pesquise em seu computador por
+Android File Transfer
+"</li>"
+"<li>Desconecte o MI2 do cabo USB, e então, reconecte-o.</li>"
+"<li>Reinstale o driver.</li></string>
+    <string name="msd_install_retry_linux">"Se o seu computador não detectou o MI2 corretamente,
+tente o seguinte:
+1) Execute o seguinte comando em seu linux: sudo aptitude install mtpfs libfuse-dev libmad0-dev
+2) Crie um diretório: mkdir /media/mtp
+3) Confirme o as permissoes de usuario no grupo ~fuse~
+4) Faça logout e login novamente
+5) Acesse o dispositivo montado em /media/mtp por um gerenciador de arquivos
+6) Para desmonta-lo, utilize o comando mount -u /media/mtp
+ Nota: Para sistemas baseados no ubuntu"</string>
+    <string name="vpn_settings_password">Proteção por senha de VPN</string>
+    <string name="vpn_safe">Segurança</string>
+    <string name="vpn_configure">Configuração</string>
 </resources>

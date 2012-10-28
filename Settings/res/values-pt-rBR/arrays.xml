@@ -675,4 +675,49 @@
         <item>middle</item>
         <item>low</item>
     </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP ou versões antigas</item>
+        <item>Windows Vista ou versões recentes</item>
+        <item>Mac OS</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>"Para windows XP ou versões antigas,
+o driver deverá ser instalado manualmente"</item>
+        <item>"Para Windows Vista ou versões recentes,
+o Music Player do MI2 aparecerá em seu computador"</item>
+        <item>"Para Mac OS,
+o driver e o software precisam ser instalados manualmente"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_1_summary">
+        <item>"(por favor ignore a janela do Assistente de Instalação)
+O dispositivo XIAOMI aparecerá em seu computador
+Abra e selecione Setup.exe para a instalação"</item>
+        <item></item>
+        <item>"O armazenamento XIAOMI aparecerá em sua mesa
+Abra e selecione AndroidFileTransfer.dmg para a instalação"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>"2.O armazenamento em massa do MI2 irá aparecer em seu computador
+Você poderá transferir seus arquivos a partir de agora"</item>
+        <item></item>
+        <item>"O computador abrirá automaticamente seu dispositivo e lerá os seus dados
+Você poderá transferir seus arquivos a partir de agora"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>"Se você instalar este driver
+O Armazenamento em massa de seu MI2 aparecerá em seu computador"</item>
+        <item>"Para Windows vista e novas versões,
+O Player de música do MI2 aparecerá em seu computador"</item>
+        <item>"Se você instalar este driver
+O computador irá abrir e ler dados do telefone automaticamente"</item>
+        <item></item>
+    </string-array>
+    <string-array name="msd_install_status">
+        <item>Instalar driver</item>
+        <item>Driver já instalado</item>
+    </string-array>
 </resources>

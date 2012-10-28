@@ -185,6 +185,8 @@
     <string name="birthday_event_description">"Hoje é o aniversário de %1$s!"</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
+    <string name="jump_date">Pular</string>
+    <string name="jump_date_full">Pular para data</string>
     <string name="more_string">e %1$s mais...</string>
     <string name="copy_email">Copiar email</string>
     <string name="copy_number">Copiar telefone</string>
