@@ -1088,11 +1088,11 @@ Seu cartão SIM será inutilizado caso a senha seja inserida incorretamente nova
     <string name="missed_call_notify_times_title_miui">Número de Alertas de ligações perdidas</string>
     <string name="missed_call_notify_times_summary_miui">Repete a cada 5 minutos quando nova mensagem é recebida</string>
     <string name="missed_call_notify_none_miui">Sem alerta</string>
-    <string name="missed_call_notify_once">Uma vez</string>
-    <string name="missed_call_notify_twice">Duas vezes</string>
-    <string name="missed_call_notify_thrice">Três vezes</string>
-    <string name="missed_call_notify_five_times">Cinco vezes</string>
-    <string name="missed_call_notify_ten_times">Dez vezes</string>
+    <string name="missed_call_notify_once_miui">Uma vez</string>
+    <string name="missed_call_notify_twice_miui">Duas vezes</string>
+    <string name="missed_call_notify_thrice_miui">Três vezes</string>
+    <string name="missed_call_notify_five_times_miui">Cinco vezes</string>
+    <string name="missed_call_notify_ten_times_miui">Dez vezes</string>
     <string name="dial_pad_touch_tone_setting_miui">Configurações dos Sons de Toque do Teclado</string>
     <string name="dial_pad_touch_tone_miui">Sons de Toque do Teclado</string>
     <string name="tone_miui">Sons</string>

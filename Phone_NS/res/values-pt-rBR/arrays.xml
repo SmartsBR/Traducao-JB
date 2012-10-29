@@ -330,7 +330,7 @@
         <item>2</item>
     </string-array>
     <array name="missed_call_notify_times_entries_miui">
-        <item>@string/misses_call_notify_none_miui</item>
+        <item>@string/missed_call_notify_none_miui</item>
         <item>@string/missed_call_notify_once_miui</item>
         <item>@string/missed_call_notify_twice_miui</item>
         <item>@string/missed_call_notify_thrice_miui</item>
