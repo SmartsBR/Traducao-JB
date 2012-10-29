@@ -28,9 +28,9 @@
         <item>@string/sip_always_send_keepalive</item>
     </array>
     <array name="incoming_call_widget_3way_targets">
-        <item>@miui:drawable/android_ic_lockscreen_answer</item>
-        <item>@miui:drawable/android_ic_lockscreen_send_sms</item>
-        <item>@miui:drawable/android_ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@drawable/ic_lockscreen_text</item>
+        <item>@drawable/ic_lockscreen_decline</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_3way_target_descriptions">
