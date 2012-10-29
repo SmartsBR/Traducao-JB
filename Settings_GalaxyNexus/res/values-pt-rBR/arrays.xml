@@ -676,7 +676,7 @@ O Armazenamento em massa de seu MI2 aparecerá em seu computador"</item>
         <item>"Para Windows vista e novas versões,
 O Player de música do MI2 aparecerá em seu computador"</item>
         <item>"Se você instalar este driver
-O computador irá abrir e ler dados do telefone automaticamente"</item>
+O computador irá abrir e ler dados do dispositivo automaticamente"</item>
         <item></item>
     </string-array>
     <string-array name="msd_install_status">

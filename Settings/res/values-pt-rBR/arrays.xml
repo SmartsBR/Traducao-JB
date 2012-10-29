@@ -449,41 +449,6 @@
         <item>2</item>
         <item>1</item>
     </string-array>
-    <string-array name="multi_sim_entries">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-    </string-array>
-    <string-array name="multi_sim_summaries">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-    </string-array>
-    <string-array name="multi_sim_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="multi_sim_entries_voice">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-        <item>Perguntar</item>
-    </string-array>
-    <string-array name="multi_sim_summaries_voice">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-        <item>Perguntar</item>
-    </string-array>
-    <string-array name="multi_sim_values_voice">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="multi_sim_entries_voice_without_prompt">
-        <item>SIM 1</item>
-        <item>SSIM 2</item>
-    </string-array>
-    <string-array name="multi_sim_values_voice_without_prompt">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>
         <item>@string/input_method_selector_always_show_title</item>
@@ -713,7 +678,7 @@ O Armazenamento em massa de seu MI2 aparecerá em seu computador"</item>
         <item>"Para Windows vista e novas versões,
 O Player de música do MI2 aparecerá em seu computador"</item>
         <item>"Se você instalar este driver
-O computador irá abrir e ler dados do telefone automaticamente"</item>
+O computador irá abrir e ler dados do dispositivo automaticamente"</item>
         <item></item>
     </string-array>
     <string-array name="msd_install_status">

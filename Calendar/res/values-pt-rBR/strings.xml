@@ -106,7 +106,7 @@
     <string name="yearly_plain">Anualmente</string>
     <string name="monthly_on_day">Mensalmente (no dia %s)</string>
     <string name="yearly">Anualmente (em %s)</string>
-    <string name="custom">Personalizado (não é possível personalizar no telefone)</string>
+    <string name="custom">Personalizado (não é possível personalizar no dispositivo)</string>
     <string name="modify_event">Alterar somente este evento</string>
     <string name="modify_all">Alterar todos os eventos da série</string>
     <string name="modify_all_following">Alterar este e todos os eventos futuros</string>
@@ -189,6 +189,6 @@
     <string name="jump_date_full">Pular para data</string>
     <string name="more_string">e %1$s mais...</string>
     <string name="copy_email">Copiar email</string>
-    <string name="copy_number">Copiar telefone</string>
+    <string name="copy_number">Copiar dispositivo</string>
     <string name="done">Voltar</string>
 </resources>

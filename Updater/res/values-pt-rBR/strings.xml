@@ -10,8 +10,8 @@
     <string name="apply_later_button_text">Atualizar depois</string>
     <string name="start_update">Iniciar atualização</string>
     <string name="applying_update">Atualizando...</string>
-    <string name="apply_update_guide">O processo de atualização pode ser feito em segundo plano, ele não aferatá seu telefone.</string>
-    <string name="apply_update_fail">Falha na atualização, clique em Trocar sistema para reiniciar o telefone agora, ou clique em Ver log para detalhes da atualização.</string>
+    <string name="apply_update_guide">O processo de atualização pode ser feito em segundo plano, ele não aferatá seu dispositivo.</string>
+    <string name="apply_update_fail">Falha na atualização, clique em Trocar sistema para reiniciar o dispositivo agora, ou clique em Ver log para detalhes da atualização.</string>
     <string name="apply_update_refuse">Uma atualização de sistema está em progresso. selecione depois para cancelar.</string>
     <string name="view_install_log">Ver log</string>
     <string name="send_install_log">Enviar log</string>
@@ -44,8 +44,8 @@
     <string name="apply_existing_update_md5error_title">MD5 inválido.</string>
     <string name="file_not_found_error_message">O arquivo não existe ou não pôde ser acessado, efetue o download novamente</string>
     <string name="apply_upload_info_message_manually">Inicie o modo recovery manualmente para aplicar a ROM em %s. Caso deseje efetuar um backup, faça-o agora e reinicie então o processo de atualização.</string>
-    <string name="apply_upload_info_message">Clique em "Atualizar", o telefone irá reiniciar automaticamente para aplicar a atualização</string>
-    <string name="apply_buddy_update_info_message">Clique em "Atualizar", o telefone irá iniciar a atualização. É recomendado que se faça um backup dos seus dados antes de iniciar este processo.</string>
+    <string name="apply_upload_info_message">Clique em "Atualizar", o dispositivo irá reiniciar automaticamente para aplicar a atualização</string>
+    <string name="apply_buddy_update_info_message">Clique em "Atualizar", o dispositivo irá iniciar a atualização. É recomendado que se faça um backup dos seus dados antes de iniciar este processo.</string>
     <string name="system_backup_button_text">É recomendado que você efetue um backup antes de iniciar a atualização.</string>
     <string name="system_backup_cancel_text">Atualizar</string>
     <string name="system_backup_ok_text">Backup</string>
@@ -87,7 +87,7 @@
 %2$s usuários já se conectaram à MIUI %3$s"</string>
     <string name="sign_in_info_rank_more">"Seu ranking de envios está depois de %1$s
 Mais de %2$s já se conectaram à MIUI %3$s"</string>
-    <string name="sign_in_add_account_helper">Seu telefone não está conectado à uma conta MIUI, faça o login para obter pontos após a atualização</string>
+    <string name="sign_in_add_account_helper">Seu dispositivo não está conectado à uma conta MIUI, faça o login para obter pontos após a atualização</string>
     <string name="my_rank">Ranking:</string>
     <string name="move_data_to_sdcard_title">Mover dados para o cartão SD</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Será necessário mover aproximadamente %dM，mas o cartão SD não possui espaço suficiente.</string>

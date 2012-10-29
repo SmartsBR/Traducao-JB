@@ -66,7 +66,7 @@
     <string name="input_password_hint">Senha</string>
     <string name="confirm">Confirmar</string>
     <string name="alert_title_remove_account">Excluir conta</string>
-    <string name="remove_account_notice">O que você gostaria de fazer com os dados já sincronizados entre a conta XiaoMi e seu telefone?</string>
+    <string name="remove_account_notice">O que você gostaria de fazer com os dados já sincronizados entre a conta XiaoMi e seu dispositivo?</string>
     <string name="data_keep_in_phone">Manter em meu aparelho</string>
     <string name="data_wipe_from_phone">Excluir de meu aparelho</string>
     <string name="login_notice">Conectando...</string>
@@ -98,7 +98,7 @@ para gerenciar seus dados"</string>
     <string name="find_device_error_network">Rede indisponível</string>
     <string name="find_device_error_server">Erro de servidor</string>
     <string name="find_device_success_title">Função Encontrar Dispositivo ativada</string>
-    <string name="find_device_notice_p1">Quando não puder encontrar seu telefone, visite</string>
+    <string name="find_device_notice_p1">Quando não puder encontrar seu dispositivo, visite</string>
     <string name="find_device_notice_p2">i.xiaomi.com</string>
     <string name="find_device_notice_p3">para encontrá-lo, bloqueá-lo ou apagar seus dados</string>
     <string name="i_know">OK</string>

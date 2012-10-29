@@ -8,7 +8,7 @@
     <string name="folder_name">Pasta</string>
     <string name="unnamed_folder_name">Pasta sem nome</string>
     <string name="chooser_wallpaper">Selecionar wallpaper de</string>
-    <string name="activity_not_found">O aplicativo não está instalado no seu telefone.</string>
+    <string name="activity_not_found">O aplicativo não está instalado no seu dispositivo.</string>
     <string name="cancel_action">Cancelar</string>
     <string name="menu_item_add_item">Adicionar à tela da página inicial</string>
     <string name="group_shortcuts">Atalhos</string>
@@ -86,7 +86,7 @@
     <string name="transformation_type_leftpage">Página</string>
     <string name="transformation_type_stack">Cascata</string>
     <string name="transformation_type_rotate">Rotação</string>
-    <string name="pref_wallpaper_scroll_type_title">Efeito de papel de parede</string>
+    <string name="pref_wallpaper_scroll_type_title">Efeito de wallpaper</string>
     <string name="pref_cell_layout_size">Leiaute dos ícones</string>
     <string name="widget_gadget_player">Música(4x)</string>
     <string name="buffering">Armazenando buffer...</string>

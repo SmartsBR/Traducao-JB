@@ -104,16 +104,16 @@
     <string name="bluetooth_profile_details">Configurações de perfil</string>
     <string name="bluetooth_name_not_set">Não há nenhum nome definido. Usando o nome da conta.</string>
     <string name="bluetooth_scan_for_devices">Procurar dispositivos</string>
-    <string name="bluetooth_rename_device">Renomear telefone</string>
+    <string name="bluetooth_rename_device">Renomear dispositivo</string>
     <string name="bluetooth_rename_button">Renomear</string>
     <string name="bluetooth_disconnect_title">Desconectar?</string>
     <string name="bluetooth_disconnect_all_profiles">Isso encerrará sua conexão com:&lt;br>&lt;b>%1$s&lt;/b></string>
     <string name="bluetooth_disable_profile_title">Desativar perfil?</string>
     <string name="bluetooth_disable_profile_message">Essa ação desativará o %1$s do %2$s</string>
     <string name="bluetooth_connected">Conectado</string>
-    <string name="bluetooth_connected_no_headset">Conectado (sem telefone)</string>
+    <string name="bluetooth_connected_no_headset">Conectado (sem dispositivo)</string>
     <string name="bluetooth_connected_no_a2dp">Conectado (sem mídia)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Conectado (sem telefone ou mídia)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Conectado (sem dispositivo ou mídia)</string>
     <string name="bluetooth_disconnected">Desconectado</string>
     <string name="bluetooth_disconnecting">Desconectando…</string>
     <string name="bluetooth_connecting">Conectando...</string>
@@ -126,13 +126,13 @@
     <string name="bluetooth_notif_title">Solicitação de pareamento</string>
     <string name="bluetooth_notif_message">Toque para parear com %1$s</string>
     <string name="bluetooth_show_received_files">Mostrar arquivos recebidos</string>
-    <string name="device_picker">Selecionador de dispositivo Bluetooth</string>
+    <string name="device_picker">Selecionador de telefone Bluetooth</string>
     <string name="bluetooth_permission_request">Solicitação de permissão para Bluetooth</string>
     <string name="bluetooth_ask_enablement">Um aplicativo quer ativar o Bluetooth. Permitir?</string>
-    <string name="bluetooth_ask_discovery">Um aplicativo em seu telefone quer torná-lo detectável por outros dispositivos Bluetooth por %1$d segundos. Permitir?</string>
-    <string name="bluetooth_ask_lasting_discovery">Um aplicativo em seu telefone quer tornar seu telefone \"sempre detectável\" por outros dispositivos Bluetooth. Permitir?</string>
-    <string name="bluetooth_ask_enablement_and_discovery">Um aplicativo em seu telefone quer ativar o Bluetooth e tornar seu telefone detectável por outros dispositivos por %1$d segundos. Permitir?</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery">Um aplicativo em seu telefone quer ativar o Bluetooth e tornar o telefone detectável por outros dispositivos. Permitir?</string>
+    <string name="bluetooth_ask_discovery">Um aplicativo em seu dispositivo quer torná-lo detectável por outros dispositivos Bluetooth por %1$d segundos. Permitir?</string>
+    <string name="bluetooth_ask_lasting_discovery">Um aplicativo em seu dispositivo quer tornar seu dispositivo \"sempre detectável\" por outros dispositivos Bluetooth. Permitir?</string>
+    <string name="bluetooth_ask_enablement_and_discovery">Um aplicativo em seu dispositivo quer ativar o Bluetooth e tornar seu dispositivo detectável por outros dispositivos por %1$d segundos. Permitir?</string>
+    <string name="bluetooth_ask_enablement_and_lasting_discovery">Um aplicativo em seu dispositivo quer ativar o Bluetooth e tornar o dispositivo detectável por outros dispositivos. Permitir?</string>
     <string name="bluetooth_turning_on">Ativar Bluetooth?</string>
     <string name="bluetooth_turning_off">Desligar o Bluetooth…</string>
     <string name="bluetooth_auto_connect">Conexão automática</string>
@@ -229,7 +229,7 @@
     <string name="device_info_label">Informações do dispositivo</string>
     <string name="battery_info_label">Informações da bateria</string>
     <string name="display_label">Tela</string>
-    <string name="phone_info_label">Informações do telefone</string>
+    <string name="phone_info_label">Informações do dispositivo</string>
     <string name="sd_card_settings_label">Cartão SD</string>
     <string name="proxy_settings_label">Configurações de proxy</string>
     <string name="cancel">Cancelar</string>
@@ -275,34 +275,34 @@
     <string name="show_owner_info_on_lockscreen_label">Mostrar inf. do proprietário ao bloquear a tela</string>
     <string name="owner_info_settings_title">Info do proprietário</string>
     <string name="owner_info_settings_summary" />
-    <string name="owner_info_settings_edit_text_hint">Digite o texto a ser exibido na tela de bloqueio</string>
+    <string name="owner_info_settings_edit_text_hint">Digite o texto a ser exibido na lockscreen</string>
     <string name="location_settings_title">Localização e GPS</string>
     <string name="security_settings_title">Segurança</string>
     <string name="security_settings_summary">Definir Meu local, desbloqueio de tela, bloqueio do SIM e do armazenamento de credenciais</string>
     <string name="cdma_security_settings_summary">Definir o Meu local, o desbloqueio de tela, o bloqueio do armazenamento de credenciais</string>
     <string name="security_passwords_title">Senhas</string>
     <string name="crypt_keeper_settings_title">Criptografia</string>
-    <string name="crypt_keeper_encrypt_title">Criptografar telefone</string>
-    <string name="crypt_keeper_encrypt_summary">Solicite um PIN ou senha numérica para decodificar seu telefone sempre que o ligar</string>
+    <string name="crypt_keeper_encrypt_title">Criptografar dispositivo</string>
+    <string name="crypt_keeper_encrypt_summary">Solicite um PIN ou senha numérica para decodificar seu dispositivo sempre que o ligar</string>
     <string name="crypt_keeper_encrypted_summary">Criptografado</string>
-    <string name="crypt_keeper_desc">"É possível criptografar contas, configurações, aplicativos transferidos e seus dados, arquivos de mídia e outros arquivos. Depois que criptografar seu telefone, insira uma senha ou PIN numérico para descriptografar o telefone sempre que ligá-lo. Não é possível desfazer a criptografia do telefone, a menos que a configuração original de fábrica seja redefinida, o que apaga todos os seus dados.
+    <string name="crypt_keeper_desc">"É possível criptografar contas, configurações, aplicativos transferidos e seus dados, arquivos de mídia e outros arquivos. Depois que criptografar seu dispositivo, insira uma senha ou PIN numérico para descriptografar o dispositivo sempre que ligá-lo. Não é possível desfazer a criptografia do dispositivo, a menos que a configuração original de fábrica seja redefinida, o que apaga todos os seus dados.
 
-A criptografia leva no mínimo uma hora. Você deve iniciar usando uma bateria carregada e manter o telefone conectado à tomada até que o processo seja concluído. Se houver interrupção, seus dados poderão ser perdidos parcialmente ou completamente."</string>
-    <string name="crypt_keeper_button_text">Criptografar telefone</string>
+A criptografia leva no mínimo uma hora. Você deve iniciar usando uma bateria carregada e manter o dispositivo conectado à tomada até que o processo seja concluído. Se houver interrupção, seus dados poderão ser perdidos parcialmente ou completamente."</string>
+    <string name="crypt_keeper_button_text">Criptografar dispositivo</string>
     <string name="crypt_keeper_low_charge_text">Carregue sua bateria e tente novamente.</string>
     <string name="crypt_keeper_unplugged_text">Conecte seu carregador e tente novamente.</string>
-    <string name="crypt_keeper_dialog_need_password_title">Não há PIN ou senha da tela de bloqueio</string>
-    <string name="crypt_keeper_dialog_need_password_message">Defina um PIN ou uma senha para a tela de bloqueio antes de iniciar a criptografia.</string>
+    <string name="crypt_keeper_dialog_need_password_title">Não há PIN ou senha da lockscreen</string>
+    <string name="crypt_keeper_dialog_need_password_message">Defina um PIN ou uma senha para a lockscreen antes de iniciar a criptografia.</string>
     <string name="crypt_keeper_confirm_title">Confirmar criptografia</string>
-    <string name="crypt_keeper_final_desc">Criptografar o telefone? Essa operação é irreversível e, se for interrompida, você perderá seus dados. A criptografia leva cerca de uma hora ou mais, sendo que nesse período o telefone será reiniciado várias vezes.</string>
+    <string name="crypt_keeper_final_desc">Criptografar o dispositivo? Essa operação é irreversível e, se for interrompida, você perderá seus dados. A criptografia leva cerca de uma hora ou mais, sendo que nesse período o dispositivo será reiniciado várias vezes.</string>
     <string name="crypt_keeper_setup_title">Criptografando</string>
-    <string name="crypt_keeper_setup_description">Aguarde enquanto seu telefone está sendo criptografado. ^1% concluído.</string>
+    <string name="crypt_keeper_setup_description">Aguarde enquanto seu dispositivo está sendo criptografado. ^1% concluído.</string>
     <string name="crypt_keeper_cooldown">Tente novamente em ^1 segundos.</string>
     <string name="crypt_keeper_enter_password">Digite sua senha</string>
     <string name="crypt_keeper_failed_title">Falha na criptografia</string>
-    <string name="crypt_keeper_failed_summary">"A criptografia foi interrompida e não pode ser concluída. Por esse motivo, os dados em seu telefone não podem mais ser acessados. 
+    <string name="crypt_keeper_failed_summary">"A criptografia foi interrompida e não pode ser concluída. Por esse motivo, os dados em seu dispositivo não podem mais ser acessados. 
 
-Para continuar usando seu telefone, é necessário restaurar as configurações originais. Quando você configurar seu telefone após a restauração, poderá recuperar quaisquer dados que foram salvos em backup em sua Conta do Google."</string>
+Para continuar usando seu dispositivo, é necessário restaurar as configurações originais. Quando você configurar seu dispositivo após a restauração, poderá recuperar quaisquer dados que foram salvos em backup em sua Conta do Google."</string>
     <string name="crypt_keeper_switch_input_method">Alternar método de entrada</string>
     <string name="lock_settings_picker_title">Selecionar bloqueio de tela</string>
     <string name="backup_lock_settings_picker_title">Selec. o bloq. de backup</string>
@@ -398,7 +398,7 @@ Para continuar usando seu telefone, é necessário restaurar as configurações 
     <string name="bluetooth_empty_list_bluetooth_off">"Para ver os dispositivos, ative  o Bluetooth."</string>
     <string name="bluetooth_connect_specific_profiles_title">Conectar-se a...</string>
     <string name="bluetooth_profile_a2dp">Áudio da mídia</string>
-    <string name="bluetooth_profile_headset">Áudio do telefone</string>
+    <string name="bluetooth_profile_headset">Áudio do dispositivo</string>
     <string name="bluetooth_profile_opp">Transferência de arquivo</string>
     <string name="bluetooth_profile_hid">Dispositivo de entrada</string>
     <string name="bluetooth_profile_pan">Acesso à Internet</string>
@@ -407,7 +407,7 @@ Para continuar usando seu telefone, é necessário restaurar as configurações 
     <string name="bluetooth_disconnect_headset_profile">%1$s será desconectado do áudio do viva-voz.</string>
     <string name="bluetooth_disconnect_hid_profile">%1$s será desconectado do dispositivo de entrada.</string>
     <string name="bluetooth_disconnect_pan_user_profile">O acesso à Internet por meio de %1$s será desconectado.</string>
-    <string name="bluetooth_disconnect_pan_nap_profile">O %1$s será desconectado do compart. da conexão de Internet deste telefone.</string>
+    <string name="bluetooth_disconnect_pan_nap_profile">O %1$s será desconectado do compart. da conexão de Internet deste dispositivo.</string>
     <string name="bluetooth_device_advanced_title">Dispositivo Bluetooth pareado</string>
     <string name="bluetooth_device_advanced_online_mode_title">Conectar</string>
     <string name="bluetooth_device_advanced_online_mode_summary">Conecta ao dispositivo Bluetooth</string>
@@ -415,14 +415,14 @@ Para continuar usando seu telefone, é necessário restaurar as configurações 
     <string name="bluetooth_device_advanced_rename_device">Renomear</string>
     <string name="bluetooth_device_advanced_enable_opp_title">Permitir transfer. de arquivo</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Conectado ao áudio da mídia</string>
-    <string name="bluetooth_headset_profile_summary_connected">Conectado ao áudio do telefone</string>
+    <string name="bluetooth_headset_profile_summary_connected">Conectado ao áudio do dispositivo</string>
     <string name="bluetooth_opp_profile_summary_connected">Conectado ao servidor de transferência de arquivo</string>
     <string name="bluetooth_opp_profile_summary_not_connected">Não está conectado ao servidor de transferência de arquivo</string>
     <string name="bluetooth_hid_profile_summary_connected">Conectado ao dispositivo de entrada</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Conectado ao dispositivo para acesso à Internet</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Compart. conexão local de Intern. com disp.</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Usar para áudio de mídia</string>
-    <string name="bluetooth_headset_profile_summary_use_for">Usar para áudio do telefone</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Usar para áudio do dispositivo</string>
     <string name="bluetooth_opp_profile_summary_use_for">Usado para transferência de arquivo</string>
     <string name="bluetooth_hid_profile_summary_use_for">Usar para entrada</string>
     <string name="bluetooth_pan_profile_summary_use_for">Usar para acesso à Internet</string>
@@ -432,7 +432,7 @@ Para continuar usando seu telefone, é necessário restaurar as configurações 
     <string name="bluetooth_dock_settings_a2dp">Para música e mídia</string>
     <string name="bluetooth_dock_settings_remember">Lembrar configurações</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_quick_toggle_summary">"Permitir troca de dados quando o telefone tocar em  outro dispositivo"</string>
+    <string name="nfc_quick_toggle_summary">"Permitir troca de dados quando o dispositivo tocar em  outro dispositivo"</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">Pronto para transmitir conteúdo de aplicativos via NFC</string>
     <string name="android_beam_off_summary">Desativado</string>
@@ -442,7 +442,7 @@ Para continuar usando seu telefone, é necessário restaurar as configurações 
 
 Basta posicionar os dispositivos próximos (normalmente de costas um para o outro) e tocar em sua tela. O aplicativo determina o que é arrastado."</string>
     <string name="nsd_quick_toggle_title">Serviço de descoberta de rede</string>
-    <string name="nsd_quick_toggle_summary">Permite que aplicativos em outros dispositivos descubram aplicativos deste telefone</string>
+    <string name="nsd_quick_toggle_summary">Permite que aplicativos em outros dispositivos descubram aplicativos deste dispositivo</string>
     <string name="wifi_quick_toggle_title">WiFi</string>
     <string name="wifi_quick_toggle_summary">Ativar WiFi</string>
     <string name="wifi_settings">WiFi</string>
@@ -607,7 +607,7 @@ Basta posicionar os dispositivos próximos (normalmente de costas um para o outr
     <string name="config_list_label">Redes configuradas</string>
     <string name="display_settings_title">Tela</string>
     <string name="sound_settings">Som</string>
-    <string name="ringtone_title">Toque do telefone</string>
+    <string name="ringtone_title">Toque do dispositivo</string>
     <string name="ringtone_summary" />
     <string name="all_volume_title">Volumes</string>
     <string name="musicfx_title">Efeitos sonoros</string>
@@ -645,17 +645,17 @@ Basta posicionar os dispositivos próximos (normalmente de costas um para o outr
     <string name="dock_audio_summary_none">Telefone não encaixado</string>
     <string name="dock_audio_summary_unknown">Configurações para o dock anexo</string>
     <string name="dock_not_found_title">Dock não encontrado</string>
-    <string name="dock_not_found_text">Você deve encaixar o telefone antes de configurar o áudio do dock.</string>
+    <string name="dock_not_found_text">Você deve encaixar o dispositivo antes de configurar o áudio do dock.</string>
     <string name="dock_sounds_enable_title">Som de inserção no dock</string>
-    <string name="dock_sounds_enable_summary_on">Reproduzir sons ao inserir ou remover o telefone do dock.</string>
-    <string name="dock_sounds_enable_summary_off">Não reproduzir sons ao inserir ou remover o telefone do dock.</string>
+    <string name="dock_sounds_enable_summary_on">Reproduzir sons ao inserir ou remover o dispositivo do dock.</string>
+    <string name="dock_sounds_enable_summary_off">Não reproduzir sons ao inserir ou remover o dispositivo do dock.</string>
     <string name="account_settings">Contas</string>
     <string name="search_settings">Pesquisar</string>
     <string name="search_settings_summary">Gerenciar configurações e histórico de pesquisa</string>
     <string name="display_settings">Tela</string>
     <string name="accelerometer_title">Girar tela automaticamente</string>
-    <string name="accelerometer_summary_on">Alternar orientação automaticamente ao girar o telefone</string>
-    <string name="accelerometer_summary_off">Alternar orientação automaticamente ao girar o telefone</string>
+    <string name="accelerometer_summary_on">Alternar orientação automaticamente ao girar o dispositivo</string>
+    <string name="accelerometer_summary_off">Alternar orientação automaticamente ao girar o dispositivo</string>
     <string name="brightness">Brilho</string>
     <string name="brightness_summary">Ajustar o brilho da tela</string>
     <string name="screen_timeout">Desligar tela</string>
@@ -679,8 +679,8 @@ Basta posicionar os dispositivos próximos (normalmente de costas um para o outr
     <string name="sim_lock_settings_category">Configurar bloqueio do SIM</string>
     <string name="sim_lock_settings_title">Bloqueio do cartão SIM</string>
     <string name="sim_pin_toggle">Bloquear cartão SIM</string>
-    <string name="sim_lock_on">Exigir PIN para usar o telefone</string>
-    <string name="sim_lock_off">Exigir PIN para usar o telefone</string>
+    <string name="sim_lock_on">Exigir PIN para usar o dispositivo</string>
+    <string name="sim_lock_off">Exigir PIN para usar o dispositivo</string>
     <string name="sim_pin_change">Alterar PIN do SIM</string>
     <string name="sim_enter_pin">PIN do SIM</string>
     <string name="sim_enable_sim_lock">Bloquear cartão SIM</string>
@@ -698,7 +698,7 @@ PIN possivelmente incorreto."</string>
 PIN possivelmente incorreto."</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Cancelar</string>
-    <string name="device_info_settings">Status do telefone</string>
+    <string name="device_info_settings">Status do dispositivo</string>
     <string name="system_update_settings_list_item_title">Atualizações do sistema</string>
     <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Versão do Android</string>
@@ -747,13 +747,13 @@ PIN possivelmente incorreto."</string>
     <string name="memory_media_misc_usage">Diversos</string>
     <string name="sd_eject">Desmontar cartão SD</string>
     <string name="sd_eject_summary">Desmonta o cartão SD para a sua remoção segura</string>
-    <string name="sd_insert_summary">Insira um cartão SD para utilizar no telefone</string>
+    <string name="sd_insert_summary">Insira um cartão SD para utilizar no dispositivo</string>
     <string name="sd_mount">Montar cartão SD</string>
     <string name="sd_mount_summary" />
     <string name="sd_format">Apagar cartão SD</string>
     <string name="sd_format_summary">Apaga todos os dados do cartão SD, como músicas e fotos</string>
     <string name="internal_format">Apagar Memória Interna</string>
-    <string name="internal_format_summary">Apaga todos os dados na memória interna do telefone, como músicas e fotos.</string>
+    <string name="internal_format_summary">Apaga todos os dados na memória interna do dispositivo, como músicas e fotos.</string>
     <string name="read_only">" (Somente leitura)"</string>
     <string name="dlg_confirm_unmount_title">Desmontar cartão SD?</string>
     <string name="dlg_confirm_unmount_text">Se você desmontar o cartão SD, alguns aplicativos que estão em uso serão interrompidos e podem não estar disponíveis até você montar o cartão SD novamente.</string>
@@ -814,8 +814,8 @@ PIN possivelmente incorreto."</string>
     <string name="menu_restore">Redefinir para o padrão</string>
     <string name="restore_default_apn_completed">Redefinição das configurações padrão do APN concluída.</string>
     <string name="master_clear_title">Restaurar configuração de fábrica</string>
-    <string name="master_clear_summary">Apaga todos os dados no telefone</string>
-    <string name="master_clear_desc">Essa ação apagará todos os dados do <b>armazenamento interno</b>" de seu telefone, incluindo:
+    <string name="master_clear_summary">Apaga todos os dados no dispositivo</string>
+    <string name="master_clear_desc">Essa ação apagará todos os dados do <b>armazenamento interno</b>" de seu dispositivo, incluindo:
 
 "<li>Sua Conta do Google</li>"
 "<li>Configurações e dados do sistema e dos aplicativos</li>"
@@ -832,7 +832,7 @@ No momento você está conectado às seguintes contas:
 Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "<b>cartão SD</b> precisa ser apagado.</string>
     <string name="erase_external_storage">Apagar cartão SD</string>
     <string name="erase_external_storage_description">Apagar todos os dados do cartão SD, como músicas e fotos</string>
-    <string name="master_clear_button_text">Redefinir telefone</string>
+    <string name="master_clear_button_text">Redefinir dispositivo</string>
     <string name="master_clear_final_desc">Apagar todas as suas informações pessoais e os aplicativos transferidos? Não é possível reverter esta ação!</string>
     <string name="master_clear_final_button_text">Apagar tudo</string>
     <string name="master_clear_gesture_prompt">Desenhe o seu padrão de desbloqueio</string>
@@ -866,9 +866,9 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "<b>car
     <string name="usb_tethering_unavailable_subtext">USB não conectado</string>
     <string name="usb_tethering_errored_subtext">Erro de vínculo de USB</string>
     <string name="bluetooth_tether_checkbox_text">Vínculo Bluetooth</string>
-    <string name="bluetooth_tethering_available_subtext">Compartilhando a conexão à Internet deste telefone</string>
-    <string name="bluetooth_tethering_device_connected_subtext">Compartilhar a conexão de Internet deste telefone com um dispositivo bluetooth</string>
-    <string name="bluetooth_tethering_devices_connected_subtext">Compartartilhar a conexão de Internet deste telefone com o dispositivo %1$d</string>
+    <string name="bluetooth_tethering_available_subtext">Compartilhando a conexão à Internet deste dispositivo</string>
+    <string name="bluetooth_tethering_device_connected_subtext">Compartilhar a conexão de Internet deste dispositivo com um dispositivo bluetooth</string>
+    <string name="bluetooth_tethering_devices_connected_subtext">Compartartilhar a conexão de Internet deste dispositivo com o dispositivo %1$d</string>
     <string name="bluetooth_tethering_off_subtext">Não está compartilhando a conexão de Internet deste telelefone</string>
     <string name="bluetooth_tethering_errored_subtext">Não vinculado</string>
     <string name="bluetooth_tethering_overflow_error">Não é possível vincular mais de %1$d dispositivos.</string>
@@ -886,7 +886,7 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "<b>car
     <string name="assisted_gps_disabled">Usar servidor para auxiliar GPS (desmarque para aprimorar o desempenho do GPS)</string>
     <string name="use_location_title">Localização para pesquisas</string>
     <string name="use_location_summary">Permite que o Google use sua localização para melhorar resultados de busca e outros serviços</string>
-    <string name="about_settings">Sobre o telefone</string>
+    <string name="about_settings">Sobre o dispositivo</string>
     <string name="about_settings_summary">Ver informações legais, status, versão do software</string>
     <string name="legal_information">Informações legais</string>
     <string name="contributors_title">Colaboradores</string>
@@ -935,7 +935,7 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "<b>car
     <string name="lockpattern_settings_enable_summary">É necessário desenhar o padrão para desbloquear a tela</string>
     <string name="lockpattern_settings_enable_visible_pattern_title">Padrão de desbloq. visível</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Feedback táctil</string>
-    <string name="lockpattern_settings_enable_power_button_instantly_locks">"Botão liga/desliga bloqueia o telefone instantaneamente"</string>
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">"Botão liga/desliga bloqueia o dispositivo instantaneamente"</string>
     <string name="lockpattern_settings_choose_lock_pattern">Padrão de desbloqueio</string>
     <string name="lockpattern_settings_change_lock_pattern">Alterar padrão</string>
     <string name="lockpattern_settings_help_how_to_record">Como desenhar um padrão de desbloqueio</string>
@@ -943,8 +943,8 @@ Para limpar músicas, imagens e outros dados de usuário, o conteúdo do "<b>car
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Tente novamente em %d segundos.</string>
     <string name="skip_button_label">Cancelar</string>
     <string name="next_button_label">Avançar</string>
-    <string name="lock_title">Proteção do seu telefone</string>
-    <string name="lock_intro_message">"Proteja seu telefone contra uso não autorizado criando uma sequência de desbloqueio de tela pessoal. Deslize o dedo para ligar pelo menos quatro pontos em qualquer ordem na próxima tela. 
+    <string name="lock_title">Proteção do seu dispositivo</string>
+    <string name="lock_intro_message">"Proteja seu dispositivo contra uso não autorizado criando uma sequência de desbloqueio de tela pessoal. Deslize o dedo para ligar pelo menos quatro pontos em qualquer ordem na próxima tela. 
 
 Pronto para começar? Toque em Próximo."</string>
     <string name="manageapplications_settings_title">Gerenciar aplicativos</string>
@@ -954,7 +954,7 @@ Pronto para começar? Toque em Próximo."</string>
     <string name="applications_settings_header">Configurações do aplicativo</string>
     <string name="install_applications">Fontes desconhecidas</string>
     <string name="install_unknown_applications">Permite a instalação de aplicativos que não são do Android Market</string>
-    <string name="install_all_warning">Seu telefone e seus dados pessoais são mais vulneráveis ​​a ataques de aplicativos de fontes desconhecidas. Você concorda que é o único responsável por qualquer dano ao seu telefone ou perda de dados decorrentes do uso desses aplicativos.</string>
+    <string name="install_all_warning">Seu dispositivo e seus dados pessoais são mais vulneráveis ​​a ataques de aplicativos de fontes desconhecidas. Você concorda que é o único responsável por qualquer dano ao seu dispositivo ou perda de dados decorrentes do uso desses aplicativos.</string>
     <string name="advanced_settings">Configurações avançadas</string>
     <string name="advanced_settings_summary">Ativa mais opções de configuração</string>
     <string name="application_info_label">Informações do aplicativo</string>
@@ -1024,8 +1024,8 @@ Pronto para começar? Toque em Próximo."</string>
     <string name="app_factory_reset_dlg_text">Todas as atualizações deste aplicativo de sistema Android serão desinstaladas.</string>
     <string name="clear_failed_dlg_title">Limpar dados</string>
     <string name="clear_failed_dlg_text">Não foi possível limpar os dados do aplicativo.</string>
-    <string name="security_settings_desc">Este aplicativo pode acessar os seguintes itens em seu telefone:</string>
-    <string name="security_settings_desc_multi">Este aplicativo pode acessar os seguintes itens em seu telefone. Para melhorar a performance e reduzir o consumo de memória, algumas destas permissões estarão disponíveis para %1$s pois eles rodam no mesmo processo que %2$s:</string>
+    <string name="security_settings_desc">Este aplicativo pode acessar os seguintes itens em seu dispositivo:</string>
+    <string name="security_settings_desc_multi">Este aplicativo pode acessar os seguintes itens em seu dispositivo. Para melhorar a performance e reduzir o consumo de memória, algumas destas permissões estarão disponíveis para %1$s pois eles rodam no mesmo processo que %2$s:</string>
     <string name="join_two_items">%1$s e %2$s</string>
     <string name="join_many_items_last">%1$s e %2$s</string>
     <string name="join_many_items_first">%1$s, %2$s</string>
@@ -1035,7 +1035,7 @@ Pronto para começar? Toque em Próximo."</string>
     <string name="empty_list_msg">Você não tem aplicativos de terceiros instalados.</string>
     <string name="version_text">versão %1$s</string>
     <string name="move_app">Mover</string>
-    <string name="move_app_to_internal">Mover para telefone</string>
+    <string name="move_app_to_internal">Mover para dispositivo</string>
     <string name="move_app_to_sdcard">Mover para cartão SD</string>
     <string name="moving">Movendo</string>
     <string name="insufficient_storage">Não há espaço de armazenamento suficiente.</string>
@@ -1135,7 +1135,7 @@ Pronto para começar? Toque em Próximo."</string>
     <string name="user_dict_settings_all_languages">Todos os idiomas</string>
     <string name="user_dict_settings_more_languages">Mais Idiomas...</string>
     <string name="testing">Testando</string>
-    <string name="testing_phone_info">Informações do telefone</string>
+    <string name="testing_phone_info">Informações do dispositivo</string>
     <string name="testing_battery_info">Informações da bateria</string>
     <string name="testing_sim_toolkit">Toolkit do SIM</string>
     <string name="quick_launch_title">Início rápido</string>
@@ -1216,7 +1216,7 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="accessibility_script_injection_button_allow">Permitir</string>
     <string name="accessibility_script_injection_button_disallow">Não permitir</string>
     <string name="accessibility_service_security_warning_title">Usar %1$s?</string>
-    <string name="accessibility_service_security_warning_summary">O %1$s pode coletar todo o texto que você digitar, exceto senhas. Isso inclui dados pessoais, como números de cartão de crédito. Ele também pode coletar dados sobre sua interação com o telefone.</string>
+    <string name="accessibility_service_security_warning_summary">O %1$s pode coletar todo o texto que você digitar, exceto senhas. Isso inclui dados pessoais, como números de cartão de crédito. Ele também pode coletar dados sobre sua interação com o dispositivo.</string>
     <string name="accessibility_service_disable_warning_title">Parar %1$s?</string>
     <string name="accessibility_service_disable_warning_summary">Tocar em OK irá parar %1$s.</string>
     <string name="accessibility_no_services_installed">Nenhum serviço foi instalado</string>
@@ -1274,7 +1274,7 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="battery_action_wifi">Configurações de WiFi</string>
     <string name="battery_action_bluetooth">Conf. de Bluetooth</string>
     <string name="battery_desc_voice">Bateria usada por chamadas de voz</string>
-    <string name="battery_desc_standby">Bateria usada quando o telefone está ocioso</string>
+    <string name="battery_desc_standby">Bateria usada quando o dispositivo está ocioso</string>
     <string name="battery_desc_radio">Bateria usada por rádio celular</string>
     <string name="battery_sugg_radio">Alternar para o modo para avião para economizar energia nas áreas sem cobertura celular</string>
     <string name="battery_desc_display">Bateria usada pela tela e pela luz de fundo</string>
@@ -1365,7 +1365,7 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="credentials_erased">O armazenamento de credenciais foi apagado.</string>
     <string name="credentials_not_erased">Armaz. de creden. não apagado.</string>
     <string name="credentials_enabled">O armazenamento de credenciais foi ativado.</string>
-    <string name="credentials_configure_lock_screen_hint">Você deve configurar um PIN ou senha da tela de bloqueio antes de usar o armazenamento de credenciais.</string>
+    <string name="credentials_configure_lock_screen_hint">Você deve configurar um PIN ou senha da lockscreen antes de usar o armazenamento de credenciais.</string>
     <string name="emergency_tone_title">Tom de emergência</string>
     <string name="emergency_tone_summary">Definir comportamento durante uma chamada de emergência</string>
     <string name="privacy_settings">Backup e restauração</string>
@@ -1390,7 +1390,7 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="active_device_admin_msg">Administrador do dispositivo</string>
     <string name="remove_device_admin">Desativar</string>
     <string name="select_device_admin_msg">Administradores do dispositivo</string>
-    <string name="no_device_admins">Não há administradores de dispositivo disponíveis</string>
+    <string name="no_device_admins">Não há administradores de telefone disponíveis</string>
     <string name="add_device_admin_msg">Ativar o administrador do dispositivo?</string>
     <string name="add_device_admin">Ativar</string>
     <string name="device_admin_add_title">Administrador do dispositivo</string>
@@ -1469,8 +1469,8 @@ Um método do Google para sincronizar dados de modo a permitir o acesso aos seus
     <string name="header_add_an_account">Adicionar uma conta</string>
     <string name="finish_button_label">Concluir</string>
     <string name="really_remove_account_title">Remover conta?</string>
-    <string name="really_remove_account_message">A remoção desta conta excluirá todas as suas mensagens, contatos e outros dados do telefone!</string>
-    <string name="remove_account_failed">Esta conta é necessária para alguns aplicativos. Só é possível removê-la redefinindo o telefone para os padrões de fábrica (ação que exclui todos os seus dados pessoais) em Configurações > Fazer backup e redefinir.</string>
+    <string name="really_remove_account_message">A remoção desta conta excluirá todas as suas mensagens, contatos e outros dados do dispositivo!</string>
+    <string name="remove_account_failed">Esta conta é necessária para alguns aplicativos. Só é possível removê-la redefinindo o dispositivo para os padrões de fábrica (ação que exclui todos os seus dados pessoais) em Configurações > Fazer backup e redefinir.</string>
     <string name="provider_label">Enviar inscrições</string>
     <string name="sync_item_title">Sincronizar %s</string>
     <string name="cant_sync_dialog_title">Não é possível sincronizar manualmente</string>
@@ -1570,9 +1570,9 @@ Um método do Google para sincronizar dados de modo a permitir o acesso aos seus
     <string name="data_usage_app_restrict_dialog">Mais controles adequados de uso de dados podem ser encontrados nas configurações disponíveis no aplicativo.</string>
     <string name="data_usage_restrict_denied_dialog">Restringir dados de segundo plano só é possível quando você define um limite de dados móveis.</string>
     <string name="data_usage_auto_sync_on_dialog_title">Ativar sincronização automática?</string>
-    <string name="data_usage_auto_sync_on_dialog">"Qualquer alteração que você fizer em suas contas na internet serão automaticamente sincronizadas com o seu telefone.
+    <string name="data_usage_auto_sync_on_dialog">"Qualquer alteração que você fizer em suas contas na internet serão automaticamente sincronizadas com o seu dispositivo.
 
-Algumas contas poderão copiar automaticamente do telefone para a internet. Uma conta Google funciona deste modo.
+Algumas contas poderão copiar automaticamente do dispositivo para a internet. Uma conta Google funciona deste modo.
 
 Para escolher quais tipos de informações poderão ser sincronizadas, vá a Configurações > Contas."</string>
     <string name="data_usage_auto_sync_off_dialog_title">Turn auto-sync data off?</string>
@@ -1585,7 +1585,7 @@ Para escolher quais tipos de informações poderão ser sincronizadas, vá a Con
     <string name="data_usage_limit_dialog_title">Limitando uso de dados</string>
     <string name="data_usage_limit_dialog_mobile">"Sua conexão de dados %1$s será desativada quando o limite especificado for atingido.
 
-Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar o uso de forma diferente, cogite usar um limite moderado."</string>
+Como o uso de dados é calculado por seu dispositivo, e sua operadora pode explicar o uso de forma diferente, cogite usar um limite moderado."</string>
     <string name="data_usage_restrict_background_title">Restringir dados de segundo plano?</string>
     <string name="data_usage_restrict_background">Se você restringir os dados móveis de segundo plano, alguns aplicativos e serviços não funcionarão, a menos que você esteja conectado a uma rede WiFi.</string>
     <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
@@ -1595,7 +1595,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="data_usage_uninstalled_apps">Aplicativos removidos</string>
     <string name="data_usage_received_sent">%1$s recebido, %2$s enviado</string>
     <string name="data_usage_total_during_range">%2$s: por volta de %1$s utilizado</string>
-    <string name="data_usage_total_during_range_mobile">"%2$s: cerca de %1$s usado, calculado por seu telefone. A contagem de dados utilizados por sua operadora poderá diferir da apresentada aqui."</string>
+    <string name="data_usage_total_during_range_mobile">"%2$s: cerca de %1$s usado, calculado por seu dispositivo. A contagem de dados utilizados por sua operadora poderá diferir da apresentada aqui."</string>
     <string name="data_usage_metered_title">Hotspots Móveis</string>
     <string name="data_usage_metered_body">Seleciona a rede Wi-Fi que são hotspots móveis. Aplicativos poderão ser restritos a utilizar estas redes quando estiverem em segundo plano. Aplicativos poderão também avisá-lo antes de utilizar estas redes para downloads grandes..</string>
     <string name="data_usage_metered_mobile">Redes móveis</string>
@@ -1692,7 +1692,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="search_vpn">vpn</string>
     <string name="search_tether">tether</string>
     <string name="search_brightness">brilho</string>
-    <string name="search_wallpaper">papel de parede</string>
+    <string name="search_wallpaper">wallpaper</string>
     <string name="search_launcher">launcher</string>
     <string name="search_accelerometer">acelerômetro</string>
     <string name="search_screen_timeout">tempo limite da tela</string>
@@ -1749,7 +1749,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="launcher_settings_title">Launcher</string>
     <string name="screen_timeout_title">Tempo limite da tela</string>
     <string name="screen_on_proximity_sensor_title">Prevenir má operação</string>
-    <string name="screen_on_proximity_sensor_summary">Previne má operação quando o telefone estiver em algum bolso (utiliza o sensor de proximidade).</string>
+    <string name="screen_on_proximity_sensor_summary">Previne má operação quando o dispositivo estiver em algum bolso (utiliza o sensor de proximidade).</string>
     <string name="key_settings_title">Botões</string>
     <string name="key_settings">Botões</string>
     <string name="menu_key">Botão Menu</string>
@@ -1759,7 +1759,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="back_long_press_timeout">Atraso de finalização</string>
     <string name="enable_snapshot_screenlock">Tirar foto na lockscreen</string>
     <string name="power_key">Botão Liga/Desliga</string>
-    <string name="disable_power_key_long_press_under_keyguard">Desativ. na tela de bloqueio</string>
+    <string name="disable_power_key_long_press_under_keyguard">Desativ. na lockscreen</string>
     <string name="media_button">Botão de mídia</string>
     <string name="preferred_media_app_summary">Escolher Player</string>
     <string name="no_media_button_receiver">Não</string>
@@ -1774,14 +1774,14 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="camera_key_action_shortcut_screenshot">Captura de tela</string>
     <string name="camera_key_action_shortcut_search">Pesquisar</string>
     <string name="camera_key_action_shortcut_call">Chamada</string>
-    <string name="camera_key_action_shortcut_wake">Bloqueio do telefone</string>
+    <string name="camera_key_action_shortcut_wake">Bloqueio do dispositivo</string>
     <string name="multi_touch_points_category_title">Multi-touch</string>
     <string name="multi_touch_points_preference">Reinicie para aplicar</string>
     <string name="trackball_wake_title">Ligar tela com trackball</string>
     <string name="trackball_settings">Trackball</string>
     <string name="pref_volume_category_title">Volume</string>
     <string name="pref_volume_wake_title">Ligar tela com botão de vol.</string>
-    <string name="pref_volume_wake_summary">Pressionando os botões de aumentar ou diminuir o volume do telefone ligará a tela do aparelho.</string>
+    <string name="pref_volume_wake_summary">Pressionando os botões de aumentar ou diminuir o volume do dispositivo ligará a tela do aparelho.</string>
     <string name="status_bar_settings">Barra de status</string>
     <string name="complete_settings">Todos os Itens</string>
     <string name="common_settings">Configs. Comuns</string>
@@ -1799,7 +1799,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="security_privacy_settings_title">Segurança &amp; privacidade</string>
     <string name="nearby_wifi">Redes WiFi disponíveis</string>
     <string name="unlock_set_enter_system">Acesso irrestrito</string>
-    <string name="unlock_set_enter_system_summary">"A tela de bloqueio ficará indisponível ao ativar esta função. ligue a tela do seu telefone para ter acesso ao sistema diretamente"</string>
+    <string name="unlock_set_enter_system_summary">"A lockscreen ficará indisponível ao ativar esta função. ligue a tela do seu dispositivo para ter acesso ao sistema diretamente"</string>
     <string name="forget_wifi_message">Isto interromperá a conexão automática, e em caso de uma conexão protegida por senha, será necessário que os dados de segurança sejam reinseridos</string>
     <string name="no_nearby_wifi">Nenhuma rede WiFi disponível atualmente. Você pode fazer uma nova verificação ou adicionar a rede manualmente.</string>
     <string name="manually_add_network">Adicionar rede manualmente</string>
@@ -1816,7 +1816,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="led_frequence_summary">Define a pausa entre repetições</string>
     <string name="led_pulse_summary">Pulsar LED para notificações</string>
     <string name="show_rounded_corners">Cantos arredondados</string>
-    <string name="show_rounded_corners_summary">Exibe cantos de tela arredondados. É necessário reiniciar o telefone para aplicar esta configuração</string>
+    <string name="show_rounded_corners_summary">Exibe cantos de tela arredondados. É necessário reiniciar o dispositivo para aplicar esta configuração</string>
     <string name="pref_operational_key">Teclas operacionais</string>
     <string name="pref_button_light">Luzes dos botões</string>
     <string name="pref_button_light_summary">Indicador das teclas de Menu, Início e Voltar</string>
@@ -1878,7 +1878,7 @@ Como o uso de dados é calculado por seu telefone, e sua operadora pode explicar
     <string name="frequently_fragment_delete">Excluir</string>
     <string name="show_fc">Exibir FCs</string>
     <string name="show_fc_summary">Exibir mensagem de Force Close para aplicativos</string>
-    <string name="factory_reset_summary">Você pode apagar seus dados pessoais redefinindo o telefone, ou optando por apagar os programas instalados e formatar o cartão SD para restaurar as configurações de fábrica</string>
+    <string name="factory_reset_summary">Você pode apagar seus dados pessoais redefinindo o dispositivo, ou optando por apagar os programas instalados e formatar o cartão SD para restaurar as configurações de fábrica</string>
     <string name="erase_sure">Apagar</string>
     <string name="erase_personal_data">Dados pessoais</string>
     <string name="erase_personal_data_description">Incluindo contas, contatos, registros de chamadas e outros dados</string>
@@ -1962,7 +1962,7 @@ Atenção, esta operação não pode ser desfeita"</string>
     <string name="power_mode">Modo de Energia</string>
     <string name="skip_step">Pular Etapa</string>
     <string name="msd_help_title">Ajuda</string>
-    <string name="msd_help_summary">"Tendo dificuldades ao acessar o armazenamento em massa de seu telefone pelo computador?
+    <string name="msd_help_summary">"Tendo dificuldades ao acessar o armazenamento em massa de seu dispositivo pelo computador?
 Por favor selecione o sistema operacional do seu computador:"</string>
     <string name="msd_install_succeed">Driver já instalado</string>
     <string name="msd_install_next">Próximo</string>

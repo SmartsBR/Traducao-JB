@@ -24,7 +24,7 @@
     <string name="device_settings_category_title">Limpar atalhos</string>
     <string name="system_search_category_title">Telefone</string>
     <string name="search_sources">Itens pesquisáveis</string>
-    <string name="search_sources_summary">Escolha o que pesquisar no telefone</string>
+    <string name="search_sources_summary">Escolha o que pesquisar no dispositivo</string>
     <string name="clear_shortcuts">Limpar atalhos</string>
     <string name="clear_shortcuts_summary">Limpar atalhos para sugestões de pesquisa recentes</string>
     <string name="clear_shortcuts_prompt">"Isto irá limpar todas as sugestões de pesquisa e atalhos.

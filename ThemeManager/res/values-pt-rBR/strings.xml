@@ -20,7 +20,7 @@
     <string name="theme_component_title_framework">Tema do sistema</string>
     <string name="theme_component_title_mms">Tema de mensagens</string>
     <string name="theme_component_title_wallpaper">Wallpaper</string>
-    <string name="theme_component_title_lockwallpaper">Img. de bloqueio</string>
+    <string name="theme_component_title_lockwallpaper">Wallpaper da Lockscreen</string>
     <string name="theme_component_title_icon">Ícone</string>
     <string name="theme_component_title_boot_animation">Animação de boot</string>
     <string name="theme_component_title_boot_audio">Som de boot</string>
@@ -29,7 +29,7 @@
     <string name="theme_component_title_notification">Notificações</string>
     <string name="theme_component_title_alarm">Alarme</string>
     <string name="theme_component_title_contact">Contatos</string>
-    <string name="theme_component_title_lockstyle">Tela de bloqueio</string>
+    <string name="theme_component_title_lockstyle">Lockscreen</string>
     <string name="theme_component_title_statusbar">Barra de status</string>
     <string name="theme_component_title_launcher">Launcher</string>
     <string name="theme_component_title_audio_effect">Efeitos sonoros</string>
@@ -38,7 +38,7 @@
     <string name="theme_component_title_others">Outros</string>
     <string name="theme_component_title_all">Tema completo</string>
     <string name="apply_theme_no_select_message">Por favor, selecione o tema!</string>
-    <string name="apply_lockscreen_paper_tips">Tela de bloqueio personalizada em uso, o novo papel de parede poderá não ser visualizado</string>
+    <string name="apply_lockscreen_paper_tips">Lockscreen personalizada em uso, o novo wallpaper poderá não ser visualizado</string>
     <string name="play_all_audio_effect">Executar todos os efeitos sonoros (total: %1$s)</string>
     <string name="theme_import">Importar tema</string>
     <string name="theme_select_others">Outro</string>
@@ -48,16 +48,16 @@
     <string name="wallpaper_settings">Definir wallpaper</string>
     <string name="desktop_wallpaper">Planos de fundo</string>
     <string name="live_wallpaper">Planos de fundo animados</string>
-    <string name="lockscreen_wallpaper">Imagem da tela de bloqueio</string>
+    <string name="lockscreen_wallpaper">Imagem da lockscreen</string>
     <string name="change_wallpaper">Wallpaper</string>
     <string name="component_settings_title">Temas atuais</string>
     <string name="component_select_title">Componetes selecionados: %1$s</string>
     <string name="component_include_title">Componentes incluídos: %1$s</string>
-    <string name="component_screen_title">Incluir papel de parede</string>
+    <string name="component_screen_title">Incluir wallpaper</string>
     <string name="resource_fail_to_show">Tema não contém os recursos necessários</string>
     <string name="wrong_title">Erro</string>
     <string name="theme_format_wrong_content">Formato inválido!</string>
-    <string name="apply_font_tip">Este tema contém fontes, por isso será necessário reiniciar o telefone.</string>
+    <string name="apply_font_tip">Este tema contém fontes, por isso será necessário reiniciar o dispositivo.</string>
     <string name="apply_font_btn_reboot">Aplicar e reiniciar</string>
     <string name="apply_font_btn_exclude">Aplicar sem fonte</string>
     <string name="title_local">Local</string>
@@ -71,7 +71,7 @@
     <string name="resource_preview">Pré-visualização</string>
     <string name="wallpaper_set_as_both">Definir ambos</string>
     <string name="wallpaper_set_as_destop">Definir como wallpaper</string>
-    <string name="wallpaper_set_as_lockscreen">Definir como tela de bloqueio</string>
+    <string name="wallpaper_set_as_lockscreen">Definir como lockscreen</string>
     <string name="wallpaper_crop">Cortar</string>
     <string name="wallpaper_loading_text">Carregando ...</string>
     <string name="wallpaper_decoded_error">Falha ao decodificar</string>

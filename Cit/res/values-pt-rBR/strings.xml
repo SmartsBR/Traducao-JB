@@ -17,7 +17,7 @@
 <string name="cit_wifi_address_check_title">Teste de endereço WLAN</string>
 <string name="cit_wifi_ap_scan_check_title">Teste de verificação de AP WLAN</string>
 <string name="cit_blue_tooth_address_check_title">Obter endereço Bluetooth local</string>
-<string name="cit_blue_tooth_scan_check_title">Procura de dispositivos Bluetooth</string>
+<string name="cit_blue_tooth_scan_check_title">Procura de telefones Bluetooth</string>
 <string name="cit_accelermeter_sensor_check_title">Teste do sensor de aceleração</string>
 <string name="cit_magnetic_sensor_check_title">Teste do sensor de campo magnético</string>
 <string name="cit_proximity_sensor_check_title">Teste de sensor de proximidade</string>
@@ -55,10 +55,10 @@
 <string name="cit_vibrator_check_summary">Executa uma verificação se a vibração está funcionando (incluindo vibração curta e longa)</string>
 <string name="cit_wifi_address_check_summary">Endereço atual das informações de conexão WLAN, confirme na parte verde</string>
 <string name="cit_wifi_ap_scan_check_summary">Informações digitalizadas para a AP WLAN, parte verde para confirmar</string>
-<string name="cit_blue_tooth_address_check_summary">Mostra informações do endereço de Bluetooth do telefone</string>
-<string name="cit_blue_tooth_scan_check_summary">Irá mostrar a pesquisa de informações de dispositivos Bluetooth</string>
-<string name="cit_accelermeter_sensor_check_summary">"Mova rápido em uma direção, o telefone irá mostrar valores X, Y e Z 
-(Nota: a direita do telefone representa X, a frente Y e o topo Z)"</string>
+<string name="cit_blue_tooth_address_check_summary">Mostra informações do endereço de Bluetooth do dispositivo</string>
+<string name="cit_blue_tooth_scan_check_summary">Irá mostrar a pesquisa de informações de telefones Bluetooth</string>
+<string name="cit_accelermeter_sensor_check_summary">"Mova rápido em uma direção, o dispositivo irá mostrar valores X, Y e Z 
+(Nota: a direita do dispositivo representa X, a frente Y e o topo Z)"</string>
 <string name="cit_headset_plug_detect_summary">Teste de fones inserido, a tela exibe \"fone conectado\", detectando-o</string>
 <string name="cit_headset_button_check_summary">Conecte o seu fone, pressione o botão do mesmo, o botão correspondente na tela irá acender</string>
 <string name="cit_headset_pull_detect_summary">Teste de fone desligado, a tela exibe \"fone desligado\"</string>
@@ -69,11 +69,11 @@
 Fale normalmente e irá ouvir sua voz pelo alto-falante"</string>
 <string name="cit_audio_loopback_check_summary_second">"Teste do som do microfone no alto-falante.
 
-Vire o telefone e ponha o microfone perto de sua boca. O alto-falante irá emitir um som"</string>
+Vire o dispositivo e ponha o microfone perto de sua boca. O alto-falante irá emitir um som"</string>
 <string name="cit_audio_loopback_summary_dualmic_earpiece">"Teste de chamada.
 
 Atenda a chamada normalmente. A voz será ouvida pelo alto-falante e o barulho ambiente será bem pequeno"</string>
-<string name="cit_headset_loopback_check_summary">Coloque os fones de ouvido no telefone, fale no microfone, e escute algumas vozes.</string>
+<string name="cit_headset_loopback_check_summary">Coloque os fones de ouvido no dispositivo, fale no microfone, e escute algumas vozes.</string>
 <string name="cit_sd_plugin_check_summary">Teste de cartão SD montado, a tela exibe \"cartão SD montado\"</string>
 <string name="cit_sd_plugout_check_summary">O teste irá detectar se há algum cartão SD presente e irá mostrar \"cartão SD desmontado\"</string>
 <string name="cit_keyboard_test_summary">Mostra a tecla pressionada atualmente. (Nota: As teclas de POWER e HOME não podem ser mostradas.）</string>
@@ -114,8 +114,8 @@ Atenda a chamada normalmente. A voz será ouvida pelo alto-falante e o barulho a
 <string name="cit_wifi_ap_scan_retry">Procurar novamente</string>
 <string name="cit_wifi_fail_to_scan">Não é possível procurar rede</string>
 <string name="cit_bluetooth_scan_retry">Procurar novamente</string>
-<string name="cit_bluetooth_scanning">A procura de dispositivos Bluetooth demora cerca de 4 segundos...</string>
-<string name="cit_bluetooth_not_support">O telefone não suporta dispositivos Bluetooth</string>
+<string name="cit_bluetooth_scanning">A procura de telefones Bluetooth demora cerca de 4 segundos...</string>
+<string name="cit_bluetooth_not_support">O dispositivo não suporta dispositivos Bluetooth</string>
 <string name="cit_bluetooth_scanning_opening_bluetooth">Abrindo dispositivos Bluetooth...</string>
 <string name="cit_bluetooth_scanning_bluetooth_error">Erro no Bluetooth impossível concluir a varredura</string>
 <string name="cit_bluetooth_address_open_error">Erro no dispositivo Bluetooth, incapaz de obter o endereço Bluetooth</string>

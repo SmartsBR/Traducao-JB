@@ -99,7 +99,7 @@
     <string name="ui_main_menu_option_setting">Configurações</string>
     <string name="ui_main_download_file_failed">Falha ao transferir “%1$s”</string>
     <string name="ui_filechange_btn_download">Transferir arquivos</string>
-    <string name="show_message">Este arquivo não pode ser aberto sem efetuar sua transferência para o telefone</string>
+    <string name="show_message">Este arquivo não pode ser aberto sem efetuar sua transferência para o dispositivo</string>
     <string name="ui_main_progress_txt_open_file">Transferindo...</string>
     <string name="networkView_notConnected">Nenhuma rede disponível</string>
     <string name="ui_main_toast_shareLink_err">Falha ao gerar link externo para a pasta</string>
@@ -149,7 +149,7 @@
     <string name="guide_access_files_through_web">"Seu arquivo poderá ser acessado 
  em qualquer PC conectado à internet"</string>
     <string name="guide_access_files_through_phone">"Você também pode enviar arquivos através da página, 
- e eles serão exibidos no MiDrive de seu telefone"</string>
+ e eles serão exibidos no MiDrive de seu dispositivo"</string>
     <string name="guide_advance_tech">Técnicas Avançadas</string>
     <string name="guide_manage_files_through_computer">"Você pode gerenciar facilmente arquivos 
  do MiDrive em seu computador"</string>

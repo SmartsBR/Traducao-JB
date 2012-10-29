@@ -28,9 +28,9 @@
         <item>@string/sip_always_send_keepalive</item>
     </array>
     <array name="incoming_call_widget_3way_targets">
-        <item>@drawable/ic_lockscreen_answer</item>
-        <item>@drawable/ic_lockscreen_text</item>
-        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@miui:drawable/android_ic_lockscreen_answer</item>
+        <item>@miui:drawable/android_ic_lockscreen_send_sms</item>
+        <item>@miui:drawable/android_ic_lockscreen_decline</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_3way_target_descriptions">
@@ -40,15 +40,15 @@
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_3way_direction_descriptions">
-        <item>@android:string/description_direction_right</item>
-        <item>@android:string/description_direction_up</item>
-        <item>@android:string/description_direction_left</item>
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_targets">
-        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@miui:drawable/android_ic_lockscreen_answer</item>
         <item>@null</item>
-        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@miui:drawable/android_ic_lockscreen_decline</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_target_descriptions">
@@ -58,9 +58,9 @@
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_direction_descriptions">
-        <item>@android:string/description_direction_right</item>
+        <item>@string/description_direction_right</item>
         <item>@null</item>
-        <item>@android:string/description_direction_left</item>
+        <item>@string/description_direction_left</item>
         <item>@null</item>
     </array>
     <string-array name="clir_display_values">
@@ -74,21 +74,27 @@
         <item>SHOW</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>LTE / CDMA</item>
+        <item>Somente EvDo</item>
+        <item>CDMA s/ EvDo</item>
         <item>CDMA / EvDo automático</item>
-        <item>WCDMA</item>
-        <item>GSM</item>
-        <item>GSM / WCDMA preferido</item>
+        <item>GSM / WCDMA automático</item>
+        <item>Somente WCDMA</item>
+        <item>Somente GSM</item>
+        <item>GSM / WCDMA de preferência</item>
     </string-array>
     <string-array name="preferred_network_mode_values">
         <item>7</item>
+        <item>6</item>
+        <item>5</item>
         <item>4</item>
+        <item>3</item>
         <item>2</item>
         <item>1</item>
         <item>0</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_lte">
-        <item>LTE/CDMA</item>
+        <item>LTE / CDMA</item>
         <item>CDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_values_lte">

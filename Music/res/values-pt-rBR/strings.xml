@@ -58,7 +58,7 @@
     <string name="shake_degree_low">Baixa</string>
     <string name="shake_degree_high">Alta</string>
     <string name="shake_while_screen_on_title">Alternar com tela ativa</string>
-    <string name="shake_while_screen_on_title_summary">Troca as músicas ao agitar o celular somente se a tela do telefone estiver ativa.</string>
+    <string name="shake_while_screen_on_title_summary">Troca as músicas ao agitar o celular somente se a tela do dispositivo estiver ativa.</string>
     <string name="other_settings">Outros</string>
     <string name="play_and_download">Escutar e Baixar</string>
     <string name="play_and_download_summary">Baixar músicas que você já tenha escutado online. É recomendado ativar esta opção.</string>
@@ -86,8 +86,8 @@
     <string name="recentlyadded_title">Adicionados recentemente</string>
     <string name="recentlyplayed_title">Executados recentemente</string>
     <string name="frequentlyplayed_title">Executados frequentemente</string>
-    <string name="sdcard_missing_message">Seu telefone não possui um cartão SD inserido.</string>
-    <string name="sdcard_missing_message_nosdcard">Seu telefone não possui um armazenamento USB.</string>
+    <string name="sdcard_missing_message">Seu dispositivo não possui um cartão SD inserido.</string>
+    <string name="sdcard_missing_message_nosdcard">Seu dispositivo não possui um armazenamento USB.</string>
     <string name="sdcard_busy_message">"Desculpe, seu cartão SD está ocupado.
 Verifique o estado de seu cartão SD."</string>
     <string name="sdcard_busy_message_nosdcard">Desculpe, seu armazenamento USB está ocupado.</string>
@@ -95,9 +95,9 @@ Verifique o estado de seu cartão SD."</string>
     <string name="sdcard_error_message_nosdcard">Foi encontrado um erro em seu armazenamento USB.</string>
     <string name="unknown_artist_name">Artista desconhecido</string>
     <string name="unknown_album_name">Álbum desconhecido</string>
-    <string name="ringtone_menu">Usar como toque do telefone</string>
+    <string name="ringtone_menu">Usar como toque do dispositivo</string>
     <string name="ringtone_menu_short">Usar como toque</string>
-    <string name="ringtone_set">\"%s\" definido como toque do telefone.</string>
+    <string name="ringtone_set">\"%s\" definido como toque do dispositivo.</string>
     <string name="play_selection">Executar</string>
     <string name="add_to_playlist">Adicionar à lista de reprodução</string>
     <string name="add_to_favorite">Adicionar aos Favoritos</string>
@@ -151,9 +151,9 @@ Verifique o estado de seu cartão SD."</string>
     <string name="use_local_lyric">Utilizar letras salvas</string>
     <string name="album_download">Baixar capas</string>
     <string name="use_local_album">Utilizar capas salvas</string>
-    <string name="lyric_picker_not_found">Gerenciador de arquivos não encontrado no telefone</string>
+    <string name="lyric_picker_not_found">Gerenciador de arquivos não encontrado no dispositivo</string>
     <string name="lrc_select">Selecionar letra</string>
-    <string name="album_picker_not_found">Galeria não encontrada no telefone</string>
+    <string name="album_picker_not_found">Galeria não encontrada no dispositivo</string>
     <string name="id3_edit_failed">Falha ao editar a ID3 Tag</string>
     <string name="album_search_failed">Capa do álbum não encontrada!</string>
     <string name="start_to_download_album">Baixando capas dos álbuns de sua biblioteca de músicas</string>

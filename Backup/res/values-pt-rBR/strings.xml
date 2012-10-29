@@ -16,7 +16,7 @@
     <string name="button_ok">Ok</string>
     <string name="backup_finished">Backup concluído</string>
     <string name="backup_report">Relatório do Backup</string>
-    <string name="backup_hint">Não reinicie ou desligue seu telefone.</string>
+    <string name="backup_hint">Não reinicie ou desligue seu dispositivo.</string>
     <string name="menu_patch_delete">Excluir backup(s)</string>
     <string name="delete">Excluir</string>
     <string name="cancel">Cancelar</string>
@@ -152,7 +152,7 @@ Isto pode resultar em corrupção dos dados!"</string>
     <string name="total_num">%d registro(s) no total</string>
     <string name="cloud_restore_guide">"Clique em Restaurar para iniciar a restauração de seu backup
  Você pode também restaurar %s no backup"</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009Inicie um telefone com contatos
+    <string name="import_from_xiaomi_account_hint1">"1.\u0009Inicie um dispositivo com contatos
 
 2.\u0009Instale o MiTalk e conecte-se.
 \u0009http://www.miliao.com
@@ -169,9 +169,9 @@ Isto pode resultar em corrupção dos dados!"</string>
     <string name="enable_encrypt">Ativar agora</string>
     <string name="already_enable_encrypt">Encriptação ativada</string>
     <string name="enable_encrypt_summery1">"O sistema irá encriptar seu backup local baseando-se em sua conta Xiaomi 
- Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro dispositivo."</string>
+ Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do dispositivo ou para restaurar o backup em outro dispositivo."</string>
     <string name="enable_encrypt_summery2">"O novo backup será encriptado automaticamente 
- Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro dispositivo."</string>
+ Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do dispositivo ou para restaurar o backup em outro dispositivo."</string>
     <string name="enable_encrypt_xiaomi_account">Este backup foi criado por %1$s, por favor exclua a conta atual, e conecte-se com a conta %2$s para restaurar os dados.</string>
     <string name="enable_encrypt_ok">OK</string>
     <string name="no_encrypt_password">Nenhuma senha encriptada</string>

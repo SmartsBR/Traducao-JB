@@ -14,7 +14,7 @@
     <string name="access_sd_fail">Não foi possível acessar o cartão SD.</string>
     <string name="confirm_restore_title">Restaurar padrões</string>
     <string name="confirm_restore_message">Restaurar as configurações padrão da câmera?</string>
-    <string name="confirm_location_message">Seu telefone com MIUI pode armazenar informações de local em suas fotos. Gostaria de ativar esta função?</string>
+    <string name="confirm_location_message">Seu dispositivo com MIUI pode armazenar informações de local em suas fotos. Gostaria de ativar esta função?</string>
     <string name="open">Ativar</string>
     <string name="skip">Ignorar</string>
     <string name="review_play">Reproduzir</string>

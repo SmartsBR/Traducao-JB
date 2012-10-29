@@ -79,7 +79,7 @@
     <string name="emailLabelsGroup">E-mail</string>
     <string name="imLabelsGroup">Mensagem instantânea</string>
     <string name="postalLabelsGroup">Endereço</string>
-    <string name="photoPickerNotFoundText">Nenhuma imagem disponível no telefone.</string>
+    <string name="photoPickerNotFoundText">Nenhuma imagem disponível no dispositivo.</string>
     <string name="attach_photo_dialog_title">Foto do contato</string>
     <string name="customLabelPickerTitle">Personalizar nome do marcador</string>
     <string name="removePhoto">Remover foto</string>
@@ -126,7 +126,7 @@
 
 Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>" e, a seguir, toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o dispositivo
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
 "</li></font></b>" 
@@ -137,7 +137,7 @@ Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>"
 
 Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o dispositivo
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos serão visíveis
 "</li></font></b>" 
@@ -150,7 +150,7 @@ Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>"
 
 Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>" e, a seguir, toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o dispositivo
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Novo contato para criar um novo contato do início
 "</li></font></b>" 
@@ -161,7 +161,7 @@ Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>"
 
 Para adicionar contatos, toque em "<b><font fgcolor="#ffffffff">Menu</font></b>" e toque em:
  
-"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o tablet
+"<b><font fgcolor="#ffffffff"><li>"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o dispositivo
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Opções de exibição para alterar quais contatos serão visíveis
 "</li></font></b>" 
@@ -260,7 +260,7 @@ Motivo: \"%s\""</string>
     <string name="fail_reason_could_not_initialize_exporter">Não foi possível iniciar o exportador: \"%s\".</string>
     <string name="fail_reason_error_occurred_during_export">Ocorreu um erro durante a exportação: \"%s\".</string>
     <string name="composer_failed_to_get_database_infomation">Não foi possível obter as informações do banco de dados.</string>
-    <string name="composer_has_no_exportable_contact">Não há contatos exportáveis. Se você tiver contatos em seu telefone, alguns provedores de dados podem não permitir que os contatos sejam exportados a partir do telefone.</string>
+    <string name="composer_has_no_exportable_contact">Não há contatos exportáveis. Se você tiver contatos em seu dispositivo, alguns provedores de dados podem não permitir que os contatos sejam exportados a partir do dispositivo.</string>
     <string name="composer_not_initialized">O criador do vCard não iniciou corretamente.</string>
     <string name="fail_reason_could_not_open_file" formatted="false">Não foi possível abrir \"%s\": %s.</string>
     <string name="cancel_import_confirmation_title">Cancelando a importação do vCard</string>
@@ -296,7 +296,7 @@ Motivo: \"%s\""</string>
     <string name="display_ungrouped">Todos os outros contatos</string>
     <string name="display_all_contacts">Todos os contatos</string>
     <string name="display_warn_remove_ungrouped">A remoção de \"%s\" da sincronização também removerá os contatos não agrupados da sincronização.</string>
-    <string name="account_phone">Somente telefone, não sincronizado</string>
+    <string name="account_phone">Somente dispositivo, não sincronizado</string>
     <string name="call_custom">Chamar %s</string>
     <string name="call_home">Chamar residência</string>
     <string name="call_mobile">Chamar celular</string>
@@ -622,7 +622,7 @@ Escolha uma das seguintes opções:"</string>
     <string name="frequency_weekly">Semanalmente</string>
     <string name="frequency_none">Não verificar</string>
     <string name="dirty_contacts_notification_title">Sincronizar contatos?</string>
-    <string name="dirty_contacts_notification_description">O telefone possui %d contatos não sincronizados</string>
+    <string name="dirty_contacts_notification_description">O dispositivo possui %d contatos não sincronizados</string>
     <string name="dirty_contacts_notification_message">(O lembrete poderá ser desativado na configuração de contatos)</string>
     <string name="remind_btn_sync_now">Agora</string>
     <string name="remind_btn_ignore">Ignorar</string>

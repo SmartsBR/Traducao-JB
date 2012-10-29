@@ -36,7 +36,7 @@
     <string name="discard_draft_dialog_button_discard">OK</string>
     <string name="discard_draft_dialog_button_cancel">Cancelar</string>
     <string name="network_unavailable_dialog_title">Rede indisponível</string>
-    <string name="network_unavailable_dialog_content">Seu feedback será enviado quando houver uma conexão de dados válida em seu telefone</string>
+    <string name="network_unavailable_dialog_content">Seu feedback será enviado quando houver uma conexão de dados válida em seu dispositivo</string>
     <string name="network_unavailable_dialog_button_ok">OK</string>
     <string name="wlan_unavailable_dialog_title">WiFi indisponível</string>
     <string name="wlan_unavailable_dialog_content">%s é requerido para dados 2G/3G, toque em OK para enviar somente em redes WiFi</string>

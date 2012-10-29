@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="reboot_confirm">O telefone será reiniciado.</string>
+    <string name="reboot_confirm">O dispositivo será reiniciado.</string>
     <string name="reboot_progress">Reiniciando...</string>
     <string name="resourcebrowser_lable">Procurar Erros</string>
     <string name="sdcard_status_changed_dialog_title">Estado do cartão SD alterado</string>
@@ -44,11 +44,11 @@ Abra novamente este aplicativo para atualizar recursos."</string>
     <string name="resource_default_name">Recursos</string>
     <string name="resource_detail">Detalhes</string>
     <string name="lockscreen_time_bottom_hint">Deslizar para baixo para desbloquear</string>
-    <string name="lockscreen_call_bottom_hint">Deslizar para abrir telefone</string>
+    <string name="lockscreen_call_bottom_hint">Deslizar para abrir dispositivo</string>
     <string name="lockscreen_sms_bottom_hint">Deslizar para abrir SMS</string>
     <string name="lock_screen_date">EEEE, d MMMM</string>
     <string name="lockscreen_unlock_sim_via_puk">Insira o PUK para desbloquear o cartão SIM</string>
-    <string name="safetylegal_activity_unreachable">O telefone não está conectado ao serviço de dados. Para ver estas informações agora, acesse %s em qualquer computador conectado à internet.</string>
+    <string name="safetylegal_activity_unreachable">O dispositivo não está conectado ao serviço de dados. Para ver estas informações agora, acesse %s em qualquer computador conectado à internet.</string>
     <string name="miui_copyright_title">Direitos de Autor</string>
     <string name="miui_user_agreement_title">Acordo de utilização</string>
     <string name="miui_privacy_policy_title">Política de privacidade</string>
@@ -503,7 +503,7 @@ Por favor insira um cartão SIM válido, ou insira a senha da sua conta Xiaomi"<
     <string name="error_forbidden">Ocorreram problemas em sua conta. Sincronização desativada.</string>
     <string name="error_not_acceptable">Erro do Servidor. Sincronização desativada.</string>
     <string name="screen_on_proximity_sensor_hint">"Forçar saída pressionando os botões 'Voltar' + 'Aumentar Volume'"</string>
-    <string name="screen_on_proximity_sensor_summary">"Não cubra a parte superior do telefone"</string>
+    <string name="screen_on_proximity_sensor_summary">"Não cubra a parte superior do dispositivo"</string>
     <string name="screen_on_proximity_sensor_title">Prevenção de má operação</string>
     <string name="wake_alarm_message">Alarme de desligamento tocará ás %s</string>
     <string name="alarm_message_12_hour_formate">h:mm aa</string>
@@ -511,7 +511,7 @@ Por favor insira um cartão SIM válido, ou insira a senha da sua conta Xiaomi"<
     <string name="android_storage_usb">@android:string/storage_usb</string>
     <string name="description_downloadtime">Download:</string>
     <string name="permlab_accessNote">Acessar suas anotações</string>
-    <string name="permdesc_accessNote">Permite que o aplicativo leia e modifique anotações armazenadas em seu telefone. Aplicativos maliciosos podem utilizar esta permissão para apagar suas anotações ou enviá-las para terceiros.</string>
+    <string name="permdesc_accessNote">Permite que o aplicativo leia e modifique anotações armazenadas em seu dispositivo. Aplicativos maliciosos podem utilizar esta permissão para apagar suas anotações ou enviá-las para terceiros.</string>
     <string name="memory_clear_result">"Liberado com sucesso %1$s de memória,
 Memória disponível: %2$s"</string>
     <string name="memory_clear_nothing_result">Não há memória disponível para ser liberada atualmente</string>
