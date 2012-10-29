@@ -835,7 +835,7 @@
         <item>@string/pref_data_preload_value_never</item>
         <item>@string/pref_data_preload_value_wifi_only</item>
         <item>@string/pref_data_preload_value_always</item>
-    </array>
+    </string-array>
     <string-array name="pref_link_prefetch_choices">
         <item>Nunca</item>
         <item>Apenas com Wi-Fi</item>

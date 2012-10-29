@@ -1264,7 +1264,7 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="accessibility_no_services_installed">Nenhum serviço foi instalado</string>
     <string name="accessibility_service_no_apps_title">Precisa de um leitor de tela?</string>
     <string name="accessibility_service_no_apps_message">O TalkBack fornece feedback por voz para ajudar usuários cegos ou com visão reduzida. Deseja instalá-lo gratuitamente do Android Market?</string>
-    <string name="accessibility_script_injection_security_warning_title">Instalar scripts da web?</string>
+    <string name="accessibility_script_injection_security_warning_summary">Instalar scripts da web?</string>
     <string name="accessibility_service_default_description">Nenhuma descrição foi fornecida.</string>
     <string name="settings_button">Configurações</string>
     <string name="power_usage_summary_title">Bateria</string>
@@ -1440,9 +1440,9 @@ Alguns aplicativos podem não funcionar até que sejam atualizados por seus dese
     <string name="device_admin_status">Este administrador está ativo e permite que o aplicativo %1$s execute as seguintes operações:</string>
     <string name="untitled_apn">Sem título</string>
     <string name="sound_category_sound_title">Geral</string>
-    <string name="sound_category_calls_and_notification_title">Toques do sistema</string>
     <string name="sound_category_notification_title">Notificações</string>
-    <string name="sound_category_feedback_title">Sistema</string>
+    <string name="sound_category_call_ringtone_vibrate_title">Toques &amp; vibração</string>
+    <string name="sound_category_system_title">Sistema</string>
     <string name="wifi_setup_title">Configuração de WiFi</string>
     <string name="wifi_setup_title_editing_network">Conectar a uma rede WiFi %s</string>
     <string name="wifi_setup_title_connecting_network">Conectando-se à rede WiFi %s…</string>
@@ -1625,7 +1625,7 @@ Para escolher quais tipos de informações poderão ser sincronizadas, vá a Con
     <string name="data_usage_warning_editor_title">Definir aviso de uso de dados</string>
     <string name="data_usage_limit_editor_title">Definir limite do uso de dados</string>
     <string name="data_usage_limit_dialog_title">Limitando uso de dados</string>
-    <string name="data_usage_limit_dialog">"Sua conexão de dados %1$s será desativada quando o limite especificado for atingido.
+    <string name="data_usage_limit_dialog_mobile">"Sua conexão de dados %1$s será desativada quando o limite especificado for atingido.
 
 Como o uso de dados é calculado por seu dispositivo, e sua operadora pode explicar o uso de forma diferente, cogite usar um limite moderado."</string>
     <string name="data_usage_restrict_background_title">Restringir dados de segundo plano?</string>

@@ -343,8 +343,8 @@ O próximo período começa em %2$d dias (%3$s)"</string>
     <string name="sum_fdn_manage_list">Gerenciar lista de números telefônicos</string>
     <string name="voice_privacy">Privacidade de voz</string>
     <string name="voice_privacy_summary">Ativar modo de privacidade aprimorado</string>
-    <string name="tty_mode_title">Modo TTY</string>
-    <string name="tty_mode_summary">Ativar modo TTY</string>
+    <string name="tty_mode_option_title">Modo TTY</string>
+    <string name="tty_mode_option_summary">Ativar modo TTY</string>
     <string name="auto_retry_mode_title">Repetir automaticamente</string>
     <string name="auto_retry_mode_summary">Ativar modo Repetir automaticamente</string>
     <string name="menu_add">Adicionar contato</string>
@@ -445,7 +445,7 @@ Tentativas Restantes :"</string>
     <string name="notification_missedCallsTitle">Chamadas perdidas</string>
     <string name="notification_missedCallsMsg">%s chamadas perdidas</string>
     <string name="notification_missedCallTicker">Chamada perdida de %s</string>
-    <string name="notification_ongoing_call_format">Chamada atual (%s)</string>
+    <string name="notification_ongoing_call">Chamada atual</string>
     <string name="notification_on_hold">Em espera</string>
     <string name="notification_incoming_call">Recebendo chamada</string>
     <string name="notification_voicemail_title">Novo correio de voz</string>
@@ -520,7 +520,7 @@ Tentativas Restantes :"</string>
 Depois de pressionar “Ativar”, ouça as instruções fornecidas para ativar o seu dispositivo."</string>
     <string name="ota_skip_activation_dialog_title">Ignorar ativação?</string>
     <string name="ota_skip_activation_dialog_message">Se você ignorar a ativação, não poderá fazer chamadas ou se conectar a redes móveis de dados (embora possa se conectar a redes Wi-Fi). Até que o seu dispositivo seja ativado, você receberá solicitações de ativação sempre que o ligar.</string>
-    <string name="ota_skip_activation_dialog_continue_label">Ativar</string>
+    <string name="ota_skip_activation_dialog_skip_label">Pular</string>
     <string name="ota_activate">Ativar</string>
     <string name="ota_title_activate_success">O dispositivo está ativado!</string>
     <string name="ota_title_problem_with_activation">Problema com a ativação</string>
@@ -585,7 +585,7 @@ Tente novamente ou ligue para o serviço de atendimento ao cliente para obter ma
     <string name="alert_dialog_close">Fechar o perfil</string>
     <string name="alert_dialog_ok">OK</string>
     <string name="close_profile">Fechar</string>
-    <string name="primary_account_summary">Usada para chamadas de saída</string>
+    <string name="primary_account_summary_with">Conta primária. %s</string>
     <string name="registration_status_checking_status">Verificando status...</string>
     <string name="registration_status_registering">Registrando...</string>
     <string name="registration_status_still_trying">Ainda tentando...</string>

@@ -40,15 +40,15 @@
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_3way_direction_descriptions">
-        <item>@string/description_direction_right</item>
-        <item>@string/description_direction_up</item>
-        <item>@string/description_direction_left</item>
+        <item>@android:string/description_direction_right</item>
+        <item>@android:string/description_direction_up</item>
+        <item>@android:string/description_direction_left</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_targets">
-        <item>@miui:drawable/android_ic_lockscreen_answer</item>
+        <item>@drawable/ic_lockscreen_answer</item>
         <item>@null</item>
-        <item>@miui:drawable/android_ic_lockscreen_decline</item>
+        <item>@drawable/ic_lockscreen_decline</item>
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_target_descriptions">
@@ -58,9 +58,9 @@
         <item>@null</item>
     </array>
     <array name="incoming_call_widget_2way_direction_descriptions">
-        <item>@string/description_direction_right</item>
+        <item>@android:string/description_direction_right</item>
         <item>@null</item>
-        <item>@string/description_direction_left</item>
+        <item>@android:string/description_direction_left</item>
         <item>@null</item>
     </array>
     <string-array name="clir_display_values">

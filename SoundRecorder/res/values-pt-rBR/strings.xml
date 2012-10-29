@@ -18,8 +18,8 @@
     <string name="default_record_name">Gravação sem título</string>
     <string name="menu_view_record_list">Visualizar gravações</string>
     <string name="menu_setting">Configurações</string>
-    <string name="delete_dialog_title">Você deseja excluir a gravação atual?</string>
-    <string name="overwrite_dialog_title">%s já existe, você deseja sobrescrevê-lo?</string>
+    <string name="delete_dialog_message">Você deseja excluir a gravação atual?</string>
+    <string name="overwrite_dialog_message">%s já existe, você deseja sobrescrevê-lo?</string>
     <string name="preferences_title">Configurações</string>
     <string name="pref_title_record_type">Tipo de arquivo</string>
     <string name="prefDialogTitle_recordType">Selecione o tipo de arquivo da gravação</string>
