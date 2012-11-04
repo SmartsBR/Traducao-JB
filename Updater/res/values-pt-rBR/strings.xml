@@ -71,8 +71,8 @@
     <string name="stable_build">Versão Estável</string>
     <string name="about_device">Informação do Sistema:</string>
     <string name="emegency_build">Build:</string>
-    <string name="wifi_not_available_title">Wi-Fi indisponível</string>
-    <string name="wifi_not_available_body">Arquivos de ROM são grandes, é recomendado que seja utilizado uma rede Wi-Fi para efetaur o download. Foi detectado que você não está conectado em uma rede Wi-Fi no momento. Você deseja continuar?</string>
+    <string name="wifi_not_available_title">WiFi indisponível</string>
+    <string name="wifi_not_available_body">Arquivos de ROM são grandes, é recomendado que seja utilizado uma rede WiFi para efetaur o download. Foi detectado que você não está conectado em uma rede WiFi no momento. Você deseja continuar?</string>
     <string name="boot_recovery">Reiniciar em recovery</string>
     <string name="applying_rom_message">ROM sendo aplicada</string>
     <string name="loading">Conectando à MIUI...</string>
@@ -96,7 +96,7 @@ Mais de %2$s já se conectaram à MIUI %3$s"</string>
     <string name="finish_download">Download concluído</string>
     <string name="install_whole_rom">Nós recomendamos que você faça download e instale o pacote de atualização completo</string>
     <string name="check_update_policy">Configurações de atualização</string>
-    <string name="check_update_when_wifi_available">Somente utilizar Wi-Fi</string>
+    <string name="check_update_when_wifi_available">Somente utilizar WiFi</string>
     <string name="update_monthly_build_only">Atualizar somente versões mensais</string>
     <string name="install_file_explorer">Por favor instale o Gerenciador de Arquivos</string>
     <string name="share_update">Compartilhar informações de atualização</string>

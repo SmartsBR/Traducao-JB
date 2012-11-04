@@ -20,7 +20,7 @@
     <string name="theme_component_title_framework">Tema do sistema</string>
     <string name="theme_component_title_mms">Tema de mensagens</string>
     <string name="theme_component_title_wallpaper">Wallpaper</string>
-    <string name="theme_component_title_lockwallpaper">Wallpaper da Lockscreen</string>
+    <string name="theme_component_title_lockwallpaper">Wallpaper da lockscreen</string>
     <string name="theme_component_title_icon">Ícone</string>
     <string name="theme_component_title_boot_animation">Animação de boot</string>
     <string name="theme_component_title_boot_audio">Som de boot</string>
@@ -46,9 +46,9 @@
     <string name="lockstyle_personal_settings">Personalização</string>
     <string name="component_lockstyle_personal_title">Configuração</string>
     <string name="wallpaper_settings">Definir wallpaper</string>
-    <string name="desktop_wallpaper">Planos de fundo</string>
-    <string name="live_wallpaper">Planos de fundo animados</string>
-    <string name="lockscreen_wallpaper">Imagem da lockscreen</string>
+    <string name="desktop_wallpaper">Wallpapers</string>
+    <string name="live_wallpaper">Live Wallpapers</string>
+    <string name="lockscreen_wallpaper">Wallpaper da lockscreen</string>
     <string name="change_wallpaper">Wallpaper</string>
     <string name="component_settings_title">Temas atuais</string>
     <string name="component_select_title">Componetes selecionados: %1$s</string>

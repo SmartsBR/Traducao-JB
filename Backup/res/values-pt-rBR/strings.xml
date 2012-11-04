@@ -62,7 +62,7 @@
     <string name="call_title">Chamadas</string>
     <string name="sms_title">Mensagens</string>
     <string name="mms_title">Mensagens Multimídia</string>
-    <string name="wifi_title">Configs. de Wi-Fi</string>
+    <string name="wifi_title">Configs. de WiFi</string>
     <string name="note_title">Anotações Salvas</string>
     <string name="compute_backup_info">Recuperando informações</string>
     <string name="compute_delete_contact_info">Excluindo informações</string>
@@ -102,7 +102,7 @@ Isto pode resultar em corrupção dos dados!"</string>
     <string name="service_stoped">Serviço parado</string>
     <string name="sc_network_unavailable">Rede de dados indisponível</string>
     <string name="sc_bad_request">Requisição inválida</string>
-    <string name="sc_unaccess_password_file">Não salvar senha de redes Wi-Fi</string>
+    <string name="sc_unaccess_password_file">Não salvar senha de redes WiFi</string>
     <string name="sc_service_unavailable">Serviço de Backup na Nuvem indisponível</string>
     <string name="sc_unauthorized">Certificado inválido</string>
     <string name="sc_request_timeout">Requisição expirada</string>
@@ -126,7 +126,7 @@ Isto pode resultar em corrupção dos dados!"</string>
     <string name="local_no_backup">Nenhum backup local</string>
     <string name="auto_backup_setting">Configurações de Backup Automático</string>
     <string name="auto_backup_open">Ativar backup automático</string>
-    <string name="auto_backup_only_wifi">Usar somente em Wi-Fi</string>
+    <string name="auto_backup_only_wifi">Usar somente em WiFi</string>
     <string name="auto_backup_date">Frequência de backup(dias)</string>
     <string name="auto_backup_time">Agendar backup</string>
     <string name="auto_backup_choose_title">Backup Automático</string>

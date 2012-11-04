@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="backup_dialog_content_type">
-        <item>Dados de Wi-Fi</item>
+        <item>Dados de WiFi</item>
         <item>Aplicativos</item>
     </string-array>
     <string-array name="system_package_label">
@@ -19,7 +19,7 @@
         <item>Mensagens</item>
         <item>Mensagens Multimídia</item>
         <item>Configs. do Sistema</item>
-        <item>Configs. de Wi-Fi</item>
+        <item>Configs. de WiFi</item>
         <item>Configs. do Launcher</item>
         <item>Configs. do Alarme</item>
         <item>Anotações Salvas</item>
@@ -35,12 +35,12 @@
         <item>Contatos</item>
         <item>Registro de Chamadas</item>
         <item>Mensagens</item>
-        <item>Config. de Wi-Fi</item>
+        <item>Config. de WiFi</item>
         <item>Anotações Salvas</item>
     </string-array>
     <string-array name="cloud_account_data">
         <item>Contatos</item>
-        <item>Configs. de Wi-Fi</item>
+        <item>Configs. de WiFi</item>
         <item>Anotações</item>
     </string-array>
     <string-array name="cloud_sim_data">

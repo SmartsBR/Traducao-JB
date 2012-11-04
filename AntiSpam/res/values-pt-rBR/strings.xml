@@ -15,7 +15,7 @@
     <string name="fw_end_time">Hora final</string>
     <string name="fw_all_day">Diário</string>
     <string name="fw_period">Especificar período</string>
-    <string name="fw_advanced_settings">Configurações Avançadas</string>
+    <string name="fw_advanced_settings">Configurações avançadas</string>
     <string name="anti_stranger_title">Bloquear desconhecidos</string>
     <string name="anti_stranger_summary">Bloqueia chamadas recebidas de números desconhecidos</string>
     <string name="anti_private_title">Números privados</string>

@@ -519,7 +519,7 @@ Tentativas Restantes :"</string>
 
 Depois de pressionar “Ativar”, ouça as instruções fornecidas para ativar o seu dispositivo."</string>
     <string name="ota_skip_activation_dialog_title">Ignorar ativação?</string>
-    <string name="ota_skip_activation_dialog_message">Se você ignorar a ativação, não poderá fazer chamadas ou se conectar a redes móveis de dados (embora possa se conectar a redes Wi-Fi). Até que o seu dispositivo seja ativado, você receberá solicitações de ativação sempre que o ligar.</string>
+    <string name="ota_skip_activation_dialog_message">Se você ignorar a ativação, não poderá fazer chamadas ou se conectar a redes móveis de dados (embora possa se conectar a redes WiFi). Até que o seu dispositivo seja ativado, você receberá solicitações de ativação sempre que o ligar.</string>
     <string name="ota_skip_activation_dialog_skip_label">Pular</string>
     <string name="ota_activate">Ativar</string>
     <string name="ota_title_activate_success">O dispositivo está ativado!</string>
@@ -561,7 +561,7 @@ Tente novamente ou ligue para o serviço de atendimento ao cliente para obter ma
     <string name="sip_receive_calls">Receber chamadas</string>
     <string name="sip_receive_calls_summary">Reduz a vida útil da bateria</string>
     <string name="sip_call_options_title">Usar chamada pela Internet</string>
-    <string name="sip_call_options_wifi_only_title">Usar chamada pela internet (somente Wi-Fi)</string>
+    <string name="sip_call_options_wifi_only_title">Usar chamada pela internet (somente WiFi)</string>
     <string name="sip_call_options_entry_1">Para todas as chamadas, quando a rede de dados estiver disponível</string>
     <string name="sip_call_options_entry_2">Apenas para cham. pela internet</string>
     <string name="sip_call_options_entry_3">Perguntar toda chamada</string>
@@ -591,7 +591,7 @@ Tente novamente ou ligue para o serviço de atendimento ao cliente para obter ma
     <string name="registration_status_still_trying">Ainda tentando...</string>
     <string name="registration_status_not_receiving">Sem chamadas recebidas</string>
     <string name="registration_status_no_data">Registro da conta interrompido porque não há conexão à internet</string>
-    <string name="registration_status_no_wifi_data">Registro da conta interrompido porque não há conexão Wi-Fi</string>
+    <string name="registration_status_no_wifi_data">Registro da conta interrompido porque não há conexão WiFi</string>
     <string name="registration_status_not_running">Falha no registro da conta</string>
     <string name="registration_status_done">Chamadas recebidas</string>
     <string name="registration_status_failed_try_later">Falha no registro da conta: (%s). Nova tentativa mais tarde</string>
@@ -623,9 +623,9 @@ Tente novamente ou ligue para o serviço de atendimento ao cliente para obter ma
     <string name="empty_alert">%s é campo obrigatório e não pode ser deixado em branco</string>
     <string name="not_a_valid_port">O número da porta deve estar entre 1000 e 65534</string>
     <string name="no_internet_available_title">Nenhuma conexão à internet</string>
-    <string name="no_wifi_available_title">Nenhuma conexão Wi-Fi</string>
+    <string name="no_wifi_available_title">Nenhuma conexão WiFi</string>
     <string name="no_internet_available">Antes de fazer uma chamada pela internet, verifique a conexão à internet</string>
-    <string name="no_wifi_available">Você deve estar conectado a uma rede Wi-Fi para realizar chamadas pela internet (use as Configurações de redes sem fio e outras)</string>
+    <string name="no_wifi_available">Você deve estar conectado a uma rede WiFi para realizar chamadas pela internet (use as Configurações de redes sem fio e outras)</string>
     <string name="no_voip">Chamada pela internet não suportada</string>
     <string name="sip_system_decide">Automático</string>
     <string name="sip_always_send_keepalive">Sempre enviar</string>
@@ -910,8 +910,8 @@ Tente novamente ou ligue para o serviço de atendimento ao cliente para obter ma
     <string name="fdn_enable_puk2_requested_miui">PIN2 bloqueado! Por favor altere o PIN2 e tente novamente!</string>
     <string name="fdn_miui">Números de Discagem Fixa</string>
     <string name="fdn_summary_miui">As opções abaixo são desativadas quando o FDN está ativo</string>
-    <string name="get_smsc_address_error_miui">Falha ao obter o número do Centro de Mensagens, tente novamente mais tarde.</string>
-    <string name="get_smsc_address_timeout_miui">Tempo esgotado ao obter o número do Centro de Mensagens, tente novamente mais tarde.</string>
+    <string name="get_smsc_address_error_miui">Falha ao obter o número do centro de mensagens, tente novamente mais tarde.</string>
+    <string name="get_smsc_address_timeout_miui">Tempo esgotado ao obter o número do centro de mensagens, tente novamente mais tarde.</string>
     <string name="go_private_miui">modo privado</string>
     <string name="hac_mode_summary_miui">Ativar compatibilidade com aparelhos auditivos</string>
     <string name="hac_mode_title_miui">Aparelhos auditivos</string>
@@ -1009,9 +1009,9 @@ Seu cartão SIM será inutilizado caso a senha seja inserida incorretamente nova
     <string name="reject_via_sms_summary_miui">Definir SMS a ser enviada durante uma rejeição de chamada</string>
     <string name="reject_via_sms_title_miui">Rejeitar com SMS</string>
     <string name="separate_from_conference_miui">Chamada única</string>
-    <string name="set_smsc_address_error_miui">Falha ao definir o número do Centro de Mensagens, tente novamente mais tarde.</string>
-    <string name="set_smsc_address_timeout_miui">Tempo esgotado ao tentar obter o número do Centro de Mensagens, Tente novamente mais tarde.</string>
-    <string name="set_smsc_address_title_miui">Definir Centro de Mensagens</string>
+    <string name="set_smsc_address_error_miui">Falha ao definir o número do centro de mensagens, tente novamente mais tarde.</string>
+    <string name="set_smsc_address_timeout_miui">Tempo esgotado ao tentar obter o número do centro de mensagens, tente novamente mais tarde.</string>
+    <string name="set_smsc_address_title_miui">Definir centro de mensagens</string>
     <string name="sim_contact_dropdown_menu_deselect_all_miui">Limpar seleção</string>
     <string name="sim_contact_dropdown_menu_select_all_miui">Selecioanr tudo</string>
     <string name="sim_contact_name_miui">Nome</string>

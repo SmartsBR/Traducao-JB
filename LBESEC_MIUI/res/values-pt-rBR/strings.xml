@@ -63,12 +63,12 @@
     <string name="HIPS_Perm_MobileNetwork">Redes Móveis</string>
     <string name="HIPS_Perm_MobileNetwork_Desc">Accessar a Internet através de redes móveis</string>
     <string name="HIPS_Perm_MobileNetwork_Hint">%1$s apps tem permissão para acessar a Internet</string>
-    <string name="HIPS_Perm_WIFINetwork">Wi-Fi</string>
-    <string name="HIPS_Perm_WIFINetwork_Desc">Accessar a Internet através de redes Wi-Fi</string>
+    <string name="HIPS_Perm_WIFINetwork">WiFi</string>
+    <string name="HIPS_Perm_WIFINetwork_Desc">Accessar a Internet através de redes WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Hint">%1$s apps tem permissão para acessar a Internet</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Endereço desconhecido</string>
     <string name="HIPS_Perm_Network_MobileEvent">utilizando rede de dados móveis</string>
-    <string name="HIPS_Perm_Network_WIFIEvent">utilizando rede Wi-Fi</string>
+    <string name="HIPS_Perm_Network_WIFIEvent">utilizando rede WiFi</string>
     <string name="HIPS_Perm_Network_Accept">aceitar conexão de %1$s</string>
     <string name="HIPS_Perm_Network_Connect">conectar em %1$s</string>
     <string name="HIPS_Perm_Network_Listen">escutar na porta %1$s</string>

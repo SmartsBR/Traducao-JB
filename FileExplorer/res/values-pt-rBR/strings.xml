@@ -51,7 +51,7 @@
     <string name="delete_file">Tem certeza que deseja excluir este arquivo?</string>
     <string name="delete_files">Tem certeza que deseja excluir os %1$d arquivos selecionados?</string>
     <string name="delete_files_and_folders">Você tem certeza que deseja excluir os %1$d arquivo(s) e %2$d pasta(s)?</string>
-    <string name="new_folder_name">Nova Pasta</string>
+    <string name="new_folder_name">Nova pasta</string>
     <string name="sd_card_size">Cartão SD: %1$s</string>
     <string name="sd_card_available">Disponível: %1$s</string>
     <string name="file_info_location">Local:</string>
@@ -126,9 +126,9 @@
     <string name="ui_task_menu_goon">Continuar todas as tarefas</string>
     <string name="login_reg_content">MiDrive o auxilia a armazenar arquivos e sincronizá-los entre múltiplos dispositivos.</string>
     <string name="login_reg_login_xiaomi">Conectar-se à conta Xiaomi</string>
-    <string name="start_use_xiaomi_account">Iniciar Uso</string>
+    <string name="start_use_xiaomi_account">Iniciar uso</string>
     <string name="pan_settting">Configurações do MiDrive</string>
-    <string name="xiaomi_account">conta Xiaomi</string>
+    <string name="xiaomi_account">Conta Xiaomi</string>
     <string name="space_usage">Espaço utilizado</string>
     <string name="local_cache">Cache local</string>
     <string name="clear_cache">Limpar cache</string>
@@ -141,11 +141,11 @@
     <string name="kuaipan_tech_support">Suporte técnico fornecido por Kingsoft Kuaipan</string>
     <string name="no_tasks">Nenhuma tarefa</string>
     <string name="upload_items_detail_message">Copiando %1$d arquivo(s) para o MiDrive...%2$d%%</string>
-    <string name="download_items_detail_message">Copiando %1$d arquivo(s) para o Cartão SD...%2$d%%</string>
+    <string name="download_items_detail_message">Copiando %1$d arquivo(s) para o cartão SD...%2$d%%</string>
     <string name="create_new_folder_failed">Falha ao criar pasta %1$s</string>
     <string name="create_new_folder_succeeded">Pasta %1$s criada com sucesso</string>
     <string name="slide_left_text">Deslize para a esquerda</string>
-    <string name="guide_copy_to_sdcard">Copie arquivos entre seu Cartão SD e o MiDrive</string>
+    <string name="guide_copy_to_sdcard">Copie arquivos entre seu cartão SD e o MiDrive</string>
     <string name="guide_access_files_through_web">"Seu arquivo poderá ser acessado 
  em qualquer PC conectado à internet"</string>
     <string name="guide_access_files_through_phone">"Você também pode enviar arquivos através da página, 
