@@ -27,6 +27,8 @@
     <string name="download_lyric_summary">"Efetua o download das letras de músicas automaticamente. O download de letras de músicas não consome uma quantidade significativa de dados móveis, porém você pode desativá-la para uma maior economia no plano de dados móveis."</string>
     <string name="listen_to_music_online_settings">Ouvir música online</string>
     <string name="listen_to_online_summary">Ouça música através de uma rede de dados móveis ou WiFi</string>
+    <string name="correct_id3_settings">Corrigir ID3</string>
+    <string name="correct_id3_summary">Poderá implicar em cobrança de dados. Recomenda-se desativar.</string>
     <string name="player_display_settings">Exibições do Player</string>
     <string name="lyric_display_settings">Exibir letras</string>
     <string name="lyric_display_summary">Exibe letra das músicas em execução na interface do player.</string>
@@ -37,6 +39,8 @@
     <string name="lyric_and_album">LETRAS E CAPAS</string>
     <string name="android_album_settings">Usar capas incorporadas</string>
     <string name="android_album_summary">Associadas de acordo com o nome do arquivo. Pode causar erros.</string>
+    <string name="auto_correct_id3_settings">Corrigir autom. ID3</string>
+    <string name="auto_correct_id3_summary">Utilizando algoritmo de impressão digital de música da Baidu, corrige ID3 durante execução.</string>
     <string name="music_filter">Filtrar arquivos de música</string>
     <string name="filter_by_size">Filtrar por tamanho</string>
     <string name="filter_by_size_summary">Filtro para arquivos de áudio pequenos</string>
@@ -217,6 +221,13 @@ Verifique o estado de seu cartão SD."</string>
     <string name="detail_genre">"Gênero: "</string>
     <string name="detail_size">"Tamanho: "</string>
     <string name="detail_format">"Formato: "</string>
+    <string name="correct_id3_by_internet">Corrigir ID3 autom. pela internet</string>
+    <string name="correct_id3_start">Correção da ID3 pela internet iniciada.</string>
+    <string name="correct_id3_success">Correção da ID3 terminada.</string>
+    <string name="correct_id3_failed">Falha na correção da ID3.</string>
+    <string name="correct_id3_open_other_connect">Ativar configuração de correção da ID3 pela internet móvel.</string>
+    <string name="correct_id3_not_support">Correção de ID3 não soportada neste tipo de arquivo.</string>
+    <string name="batch_correct_id3_completed">Correção de ID3 em lote finalizada.</string>
     <string name="albumsongseparator">"
 "</string>
     <string name="notification_artist_album">"%2$s

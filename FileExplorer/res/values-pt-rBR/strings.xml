@@ -102,9 +102,6 @@
     <string name="show_message">Este arquivo não pode ser aberto sem efetuar sua transferência para o dispositivo</string>
     <string name="ui_main_progress_txt_open_file">Transferindo...</string>
     <string name="networkView_notConnected">Nenhuma rede disponível</string>
-    <string name="ui_main_toast_shareLink_err">Falha ao gerar link externo para a pasta</string>
-    <string name="ui_main_choose_title">Método de envio</string>
-    <string name="ui_main_toast_shareLink_header">Eu compartilhei %1$s pelo meu MiDrive, por favor clique no link abaixo para acessá-lo:</string>
     <string name="ui_main_toast_favorite_removed">Favorito(s) removido(s)</string>
     <string name="ui_main_toast_operation_failed">Remoção de favorito falhou para o item %1$s.</string>
     <string name="user_guide">Guia do Usuário</string>
@@ -207,6 +204,7 @@ pan.xiaomi.com em seu PC"</string>
     <string name="move_failed">Falha ao recortar</string>
     <string name="copy_success">Copiado com sucesso</string>
     <string name="copy_failed">Falha ao copiar</string>
+    <string name="delete_failed">Falha ao excluir</string>
     <string name="toast_file_not_can_read">Erro na leitura do arquivo.</string>
     <string name="server_control_advanced_settings">Configuração Avançada</string>
     <string name="server_control_charset">Codificação de transferência</string>
@@ -225,4 +223,17 @@ pan.xiaomi.com em seu PC"</string>
     <string name="ftp_username_hint">Usuário</string>
     <string name="ftp_password_hint">Senha</string>
     <string name="ftp_invalid_username_or_password">Usuário ou senha inválidos</string>
+    <string name="adding_upload_tasks">Adicionando tarefas de upload.</string>
+    <string name="clean_transh_box_desctiption">Limpando lixeira...</string>
+    <string name="create_new_folder_desctiption">Criando nova pasta...</string>
+    <string name="create_share_link_description">Criando link de compartilhamento...</string>
+    <string name="delete_file_description">Excluindo arquivo(s)...</string>
+    <string name="load_data_from_local">Carregando dados, aguarde...</string>
+    <string name="move_file_description">Movendo arquivo(s)...</string>
+    <string name="rename">Renomear</string>
+    <string name="rename_description">Renomeando...</string>
+    <string name="share_link">compartilhar</string>
+    <string name="share_link_failed">Falha ao gerar link para pasta</string>
+    <string name="choose_send_type">Selecionar método de envio</string>
+    <string name="download_link_completed">Eu compartilhei %1$s via MiDrive. Clique no link a seguir para acessá-lo:</string>
 </resources>

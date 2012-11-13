@@ -68,6 +68,8 @@
     <string name="fw_call" formatted="false">Chamadas interceptadas: %s (%d)</string>
     <string name="fw_import_blacklist">Importar lista negra</string>
     <string name="fw_import_whitelist">Importar lista branca</string>
+    <string name="fw_import_blacklist_confirm">%d números selecionados. Importá-los para a lista negra?</string>
+    <string name="fw_import_whitelist_confirm">%d números selecionados. Importá-los para a lista branca?</string>
     <string name="fw_blacklist_hint">"Lista negra: Bloqueia todas as mensagens e chamadas de contatos não desejados."</string>
     <string name="fw_whitelist_hint">"Lista branca: Não bloqueia mensagens e chamadas de contatos confiáveis."</string>
     <string name="fw_no_effect">A opção de bloqueio não está ativa. É necessário ativa-la para desbloquear as opções. Deseja ativá-lo?</string>

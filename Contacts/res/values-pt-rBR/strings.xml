@@ -563,6 +563,7 @@ Escolha uma das seguintes opções:"</string>
     <string name="callrecordview_menu_paste">Colar</string>
     <string name="openDialKeyboard">Teclado</string>
     <string name="t9_search_guide">Digite o número que deseja, ou pesquise conteúdo pelo índice T9.</string>
+    <string name="t9_search_guide_zhuyin">Digite o número que deseja, ou pesquise conteúdo pelo índice T9.</string>
     <string name="date_time_set">Definir</string>
     <string name="sim_no_contact">Nenhum contato no SIM</string>
     <string name="sim_indexed_contact_not_exist">Posição %1$d inválida, a posição deve ser entre %2$d e %3$d</string>

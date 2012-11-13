@@ -633,11 +633,6 @@
         <item>Normal</item>
         <item>Economia de Energia</item>
     </string-array>
-    <string-array name="power_mode_value">
-        <item>high</item>
-        <item>middle</item>
-        <item>low</item>
-    </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP ou versões antigas</item>
         <item>Windows Vista ou versões recentes</item>

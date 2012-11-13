@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, MoSecurityProviderActivity!</string>
-    <string name="app_name">Provedor de Segurança</string>
+    <string name="app_name">Hello World, MoSecurityProviderActivity!</string>
+    <string name="hello_world">Provedor de Segurança</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="title_activity_main">Principal</string>
 </resources>

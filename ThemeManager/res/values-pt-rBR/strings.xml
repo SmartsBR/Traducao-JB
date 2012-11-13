@@ -77,4 +77,6 @@
     <string name="wallpaper_decoded_error">Falha ao decodificar</string>
     <string name="close">Fechar</string>
     <string name="download_success">Download concluído</string>
+    <string name="theme_importing">Importando temas</string>
+    <string name="theme_import_success">Importação concluída</string>
 </resources>

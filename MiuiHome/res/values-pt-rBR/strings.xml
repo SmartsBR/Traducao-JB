@@ -88,6 +88,7 @@
     <string name="transformation_type_rotate">Rotação</string>
     <string name="pref_wallpaper_scroll_type_title">Efeito de wallpaper</string>
     <string name="pref_cell_layout_size">Leiaute dos ícones</string>
+    <string name="prompt_transition_icon_layout">Manter posição anterior do ícones no novo leiaute?</string>
     <string name="widget_gadget_player">Música(4x)</string>
     <string name="buffering">Armazenando buffer...</string>
     <string name="emptyplaylist">Lista de reprodução vazia</string>
@@ -95,12 +96,12 @@
     <string name="global_search_hint">Clique para procurar</string>
     <string name="widget_global_search">Pesquisa</string>
     <string name="gadget_clear_button_label">Gerenc. de Tarefasr</string>
-    <string name="gadget_clock_12_label">Relógio 1x2</string>
+    <string name="gadget_clock_12_label">Relógio 2x1</string>
     <string name="gadget_clock_22_label">Relógio 2x2</string>
-    <string name="gadget_clock_24_label">Relógio 2x4</string>
+    <string name="gadget_clock_24_label">Relógio 4x2</string>
     <string name="gadget_photo_44_label">Moldura 4x4</string>
     <string name="gadget_photo_22_label">Moldura 2x2</string>
-    <string name="gadget_photo_24_label">Moldura 2x4</string>
+    <string name="gadget_photo_24_label">Moldura 4x2</string>
     <string name="gadget_load_error">Carregando widget...</string>
     <string name="invalid_contact_shortcut">Contato inválido</string>
     <string name="guide_tips_editing_mode">Segure um dos widgets abaixo para arrastá-lo para a tela inicial</string>
@@ -114,8 +115,8 @@
     <string name="photo_load_failed">Falha ao carregar foto!</string>
     <string name="frame_load_failed">Moldura inválida. Falha ao foto!</string>
     <string name="gadget_weather_loading">Nenhum dado meteorológico</string>
-    <string name="gadget_weather_title_24">Clima 2x4</string>
-    <string name="gadget_weather_title_14">Clima 1x4</string>
+    <string name="gadget_weather_title_24">Clima 4x2</string>
+    <string name="gadget_weather_title_14">Clima 4x1</string>
     <string name="gadget_weather_app_not_installed">Clique para instalar o apliactivo de Clima MIUI</string>
     <string name="gadget_weather_time_format">dd/MM EEE</string>
     <string name="gadget_weather_time_spliter">:</string>
