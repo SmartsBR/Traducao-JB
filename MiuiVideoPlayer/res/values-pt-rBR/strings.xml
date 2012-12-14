@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, VideoPlayerActivity!</string>
     <string name="app_name">Video</string>
+    <string name="temp_play_history_button_label">Exibir histórico de reprodução</string>
     <string name="vp_VideoView_error_text_invalid_progressive_playback">Desculpe, este vídeo não pode ser reproduzido neste dispositivo</string>
     <string name="vp_VideoView_error_text_unknown">Desculpe, este vídeo não pode ser reproduzido</string>
     <string name="vp_VideoView_error_title">Impossível executar vídeo.</string>
@@ -32,9 +32,9 @@
     <string name="adjust_position_prev_media_notice">Anterior</string>
     <string name="adjust_position_next_media_notice">Próximo</string>
     <string name="loading_video_netplay_label">Carregando, aguarde...</string>
-    <string name="buffering">Armazenando em buffer...</string>
+    <string name="buffering">Armazenando em butter...</string>
     <string name="airkan_video_playing_in">vídeo executando em</string>
-    <string name="airkan_video_playing">executando</string>
+    <string name="airkan_video_playing" />
     <string name="menu_item_orientation_auto_sensor_action">Ativar Rotação</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Desativar Rotação</string>
     <string name="menu_item_screen_shot">Capturar Tela</string>
@@ -43,6 +43,10 @@
     <string name="toast_message_continue_play_hour">h </string>
     <string name="toast_message_continue_play_minute">m </string>
     <string name="toast_message_continue_play_second_and_play">s</string>
-    <string name="temp_play_history_button_label">Mostrar Itens Recentes</string>
     <string name="vp_VideoView_error_network_not_available">Rede de dados indisponível</string>
+    <string name="top_status_local_media">Local</string>
+    <string name="top_status_online_media">Online</string>
+    <string name="loading_video_netplay_label_v5">Carregando, aguarde...</string>
+    <string name="buffering_video_netplay_label_v5">Buffer de vídeo</string>
+    <string name="to_be_play_label_v5">Lista de reprodução</string>
 </resources>
