@@ -520,7 +520,7 @@ Memória disponível: %2$s"</string>
     <string name="miui_user_manual_title">Manual do Usuário</string>
     <string name="status_bar_toggle_ac">Proteger apps</string>
     <string name="status_bar_toggle_bluetooth">Bluetooth</string>
-    <string name="status_bar_toggle_brightness">Luz de fundo</string>
+    <string name="status_bar_toggle_brightness">Brilho</string>
     <string name="status_bar_toggle_data">Dados móveis</string>
     <string name="status_bar_toggle_divider">Mais</string>
     <string name="status_bar_toggle_flight_mode">Modo avião</string>
@@ -566,13 +566,13 @@ Memória disponível: %2$s"</string>
     <string name="perm_payment_lab">Serviço de pagamentos Xiaomi</string>
     <string name="perm_payment_dspt">Permitir aplicativos receberem pagamentos pelo serviço de pagamentos Xiaomi</string>
     <string name="resource_buy">Comprar</string>
-    <string name="resources_importing">Importando recursos</string>
+    <string name="resource_importing">Importando</string>
     <string name="resource_price_free">Grátis</string>
     <string name="resource_price_unit">MI Dollar</string>
     <string name="resource_get_auth">Você não ter permissões para utilizar este recurso.</string>
     <string name="resource_get_auth_checking">Checando autorização...</string>
     <string name="resource_get_auth_retrieving">Recebendo autorização...</string>
-    <string name="resource_get_auth_failed">Falha ao receber autorização.</string>
+    <string name="resource_server_out_of_service">Fora de serviço, tente novamente mais tarde.</string>
     <string name="description_summary">Sumário:</string>
     <string name="resource_price_format">(%1$s)</string>
     <string name="theme_update_request_title">Atualizar tema</string>
@@ -595,5 +595,28 @@ Memória disponível: %2$s"</string>
     <string name="theme_update_complete_content_success">%1$d concluída</string>
     <string name="theme_update_complete_content_fail">, %1$d com falha</string>
     <string name="resource_get_auth_missing">Este tema não foi baixado do Gerenciador de Temas. Por favor, efetue o download de temas similares no Gerenciador de Temas.</string>
+    <string name="resource_no_result">Sem resultados</string>
+    <string name="status_bar_toggle_drive_mode">Direção</string>
+    <string name="status_bar_toggle_drive_mode_action">com.android.settings/com.android.settings.Settings$AccessibilitySettingsActivity</string>
+    <string name="status_bar_toggle_auto_brightness">Brilho Auto.</string>
+    <string name="status_bar_toggle_ring">Vol. toque</string>
+    <string name="status_bar_toggle_ringtone">Toque</string>
+    <string name="status_bar_toggle_sync_auto">Sinc. Auto.</string>
+    <string name="status_bar_toggle_sync_manual">Sinc. Manual</string>
+    <string name="status_bar_toggle_syncing">Sincronizando</string>
+    <string name="status_bar_toggle_power_low">Economia de Energia</string>
+    <string name="status_bar_toggle_power_mid">Normal</string>
+    <string name="status_bar_toggle_power_high">Performance</string>
     <string name="v5_icon_menu_bar_more_item_label">Mais</string>
+    <string name="android_capital_on">@android:string/capital_on</string>
+    <string name="android_capital_off">@android:string/capital_off</string>
+    <string name="resource_get_auth_exceed_max_limit_title">Autorização excede o limite atual</string>
+    <string name="resource_get_auth_exceed_max_limit_tips">Este tema não pode ser executado no dispositivo atual com sua conta, que suporta até 10 aparelhos por ano. Tente autorizar o uso com outra conta Xiaomi.</string>
+    <string name="resource_switch_account">Alternar</string>
+    <string name="find_device_turn_off_flight_mode">Desabilitar modo avião</string>
+    <string name="find_device_turn_off_flight_mode_instructions">"Seu dispositivo foi bloqueado
+Por favor, desabilite o modo avião"</string>
+    <string name="find_device_sim_change_instructions_no_network">"Seu dispositivo foi bloqueado
+Por favor, insira o cartão SIM"</string>
+    <string name="find_device_check_sim">Verificando cartão SIM...</string>
 </resources>
