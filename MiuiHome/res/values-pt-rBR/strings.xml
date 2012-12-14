@@ -133,4 +133,6 @@
     <string name="upside_enter_tip">Deslize dois dedos para baixo para ir ao MiSpace</string>
     <string name="upside_exit_tip">Deslize dois dedos para cima para retornar ao Desktop padrão</string>
     <string name="upside_londing_text">Aprimorando a imaginação e a liberdade…</string>
+    <string name="toggle_select_title">Selecionar botões</string>
+    <string name="toggle_title">Botão</string>
 </resources>
