@@ -647,16 +647,59 @@
         <item>27</item>
         <item>34</item>
     </integer-array>
-    <string-array name="entries_dolby_control">
-        <item>Desligado</item>
-        <item>Modo de Música</item>
-        <item>Modo de Vídeo</item>
+    <array name="dolby_mode_entries">
+        <item>@string/dolby_mode_off</item>
+        <item>@string/dolby_mode_music</item>
+        <item>@string/dolby_mode_movie</item>
+    </array>
+    <array name="dolby_bassboost_ranks">
+        <item>@string/dolby_bassboost_low</item>
+        <item>@string/dolby_bassboost_normal</item>
+        <item>@string/dolby_bassboost_high</item>
+    </array>
+    <string-array name="dolby_bassboost_rank_valus">
+        <item>0</item>
+        <item>3</item>
+        <item>6</item>
     </string-array>
-    <string-array name="entryvalues_dolby_control">
-        <item>-1</item>
+    <array name="dolby_roomsize_ranks">
+        <item>@string/dolby_roomsize_low</item>
+        <item>@string/dolby_roomsize_normal</item>
+        <item>@string/dolby_roomsize_high</item>
+    </array>
+    <string-array name="dolby_roomsize_rank_valus">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
+    <string-array name="dolby_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>16,8,0,-8,0,8,16</item>
+        <item>0,0,-4,-8,-8,-4,0</item>
+        <item>-8,-20,4,12,8,8,8</item>
+        <item>4,0,0,-8,-4,0,0</item>
+        <item>16,4,-4,-4,4,4,4</item>
+        <item>16,-4,0,-8,0,-4,-4</item>
+        <item>4,0,-4,-8,0,4,8</item>
+        <item>16,4,-8,-4,-8,-4,0</item>
+        <item>0,-4,-4,-4,-8,-4,-8</item>
+        <item>16,12,-24,-24,-16,12,16</item>
+        <item>24,14,-20,6,12,16,8</item>
+    </string-array>
+    <array name="dolby_equalizer_preset_names">
+        <item>@string/dolby_eq_flat</item>
+        <item>@string/dolby_eq_rock</item>
+        <item>@string/dolby_eq_jazz</item>
+        <item>@string/dolby_eq_pop</item>
+        <item>@string/dolby_eq_classical</item>
+        <item>@string/dolby_eq_rb</item>
+        <item>@string/dolby_eq_hiphop</item>
+        <item>@string/dolby_eq_blues</item>
+        <item>@string/dolby_eq_electronic</item>
+        <item>@string/dolby_eq_country</item>
+        <item>@string/dolby_eq_dance</item>
+        <item>@string/dolby_eq_metal</item>
+    </array>
     <string-array name="wfd_status">
         <item>Dispositivo conectado, criando sessão...</item>
         <item>Sessão criada</item>
@@ -714,5 +757,14 @@ O computador irá abrir e ler dados do dispositivo automaticamente"</item>
     <string-array name="msd_install_status">
         <item>Instalar driver</item>
         <item>Driver já instalado</item>
+    </string-array>
+    <string-array name="screen_color_title">
+        <item>Quente</item>
+        <item>Natural</item>
+        <item>Frio</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>Brilhante</item>
+        <item>Padrão</item>
     </string-array>
 </resources>
