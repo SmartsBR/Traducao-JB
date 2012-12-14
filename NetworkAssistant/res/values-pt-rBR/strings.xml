@@ -150,4 +150,8 @@
     <string name="version_label">Versão:</string>
     <string name="sms_template_updated_label">"Atualização: "</string>
     <string name="unknown">desconhecido</string>
+    <string name="overseas_unknown_traffic_hint">O limite de uso de dados móveis não foi configurado. Configurar agora?</string>
+    <string name="overseas_menu_traffic_settings">Limite de Tráfego</string>
+    <string name="overseas_menu_traffic_adjust">Ajuste Manual</string>
+    <string name="about">Sobre</string>
 </resources>
