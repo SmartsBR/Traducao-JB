@@ -227,7 +227,8 @@
     <string name="tab_wallpaper_text">Desktop</string>
     <string name="tab_all_text">Todos</string>
     <string name="move_cloud_data">Dados do álbum online movidos para: %s</string>
-    <string name="cloud_gallery_space_full">Falha no envio, armazenamento online excedido.</string>
+    <string name="cloud_gallery_space_full">O álbum online está cheio. Por favor, apague algumas imagens desnecessárias.</string>
+    <string name="cloud_gallery_recyclebin_full">A lixeira está cheia. Por Favor, limpe-a em i.xiaomi.com.</string>
     <string name="cloud_gallery_setting">Configurações</string>
     <string name="sync_history_power_on">Sincronizar ao carregar dispositivo</string>
     <string name="sync_history_power_on_summary">É recomendado ativar esta opção para economizar bateria.</string>
