@@ -160,6 +160,8 @@ d-M-yyyy"</string>
     <string name="usb_notification_mtp_problem">Ajuda ></string>
     <string name="usb_ptp_text">Fotos</string>
     <string name="usb_mtp_text">Arquivos</string>
+    <string name="usb_notification_mtp_ticker_text">Conectado ao USB(Arquivos)</string>
+    <string name="usb_notification_ptp_ticker_text">Conectado ao USB(Fotos)</string>
     <string name="move_data_to_sdcard_title">Exportar dados internos para o cartão SD</string>
     <string name="move_data_to_sdcard_message">"Isto irá mover dados como screenshots, imagens e outros do armazenamento interno para o cartão SD. Esta opção visa a uma experiência de usuário mais estável. Utilize o armazenamento interno apenas para acesso limitado."</string>
     <string name="user_guide_for_notification">Nova notificação recebida，você pode deslizar a barra de status para verificar detalhes</string>
@@ -254,4 +256,9 @@ d-M-yyyy"</string>
     <string name="status_bar_network_flow_today">Hoje:%1$s</string>
     <string name="status_bar_network_flow">"Hoje:%1$s    Restante:%2$s    Pacote:%3$s"</string>
     <string name="status_bar_network_flow_exceed">"Hoje:%1$s    Excedido:%2$s    Pacote:%3$s"</string>
+    <string name="drive_mode_tip">Você está no modo de direção. Proceda com cuidado.</string>
+    <string name="sleep_notification" />
+    <string name="sleep_notification_action_start" />
+    <string name="sleep_notification_action_stop" />
+    <string name="sleep_notification_action_fail" />
 </resources>
