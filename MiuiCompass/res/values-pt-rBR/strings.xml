@@ -8,6 +8,12 @@
     <string name="location_east">%s E</string>
     <string name="location_west">%s W</string>
     <string name="calibrate_success">Calibração concluída</string>
+    <string name="menu_calibrate">Calibrar</string>
+    <string name="dialog_title">Cancelar calibração</string>
+    <string name="dialog_content">A calibração da bússola não está completa e pode resultar em imprecisões. Tem certeza que deseja cancelar?</string>
+    <string name="user_guide_calibrate">Press Menu to calibrate compass</string>
+    <string name="toast_accuracy_low">"A precisão é baixa.
+Por favor, pressione Menu para calibrar a bússola."</string>
     <string name="pressure">Pressão %.1fhPa</string>
     <string name="altitude">Altitude %.1fm</string>
 </resources>
