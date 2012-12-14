@@ -73,6 +73,8 @@
     <string name="emegency_build">Build:</string>
     <string name="wifi_not_available_title">WiFi indisponível</string>
     <string name="wifi_not_available_body">Arquivos de ROM são grandes, é recomendado que seja utilizado uma rede WiFi para efetaur o download. Foi detectado que você não está conectado em uma rede WiFi no momento. Você deseja continuar?</string>
+    <string name="paused_queued_for_network">Aguardando conexão de rede</string>
+    <string name="paused_queued_for_wifi">Aguardando conexão de rede WiFi</string>
     <string name="boot_recovery">Reiniciar em recovery</string>
     <string name="applying_rom_message">ROM sendo aplicada</string>
     <string name="loading">Conectando à MIUI...</string>
