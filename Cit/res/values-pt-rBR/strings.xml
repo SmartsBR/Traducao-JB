@@ -229,7 +229,7 @@ Clique em ativar GPS ..."</string>
 <string name="cit_tool_log_toast">Registo salvo para %s</string>
 <string name="cit_tool_log_file_not_exist">Arquivo %s não existe</string>
 <string name="cit_tool_log_generate_bugreport">Relatório de bugs está sendo gerado...</string>
-<string name="cit_tool_log_toast_generate_bugreport">Relatório de bugs está sendo gerado e leva 10 segundos</string>
+<string name="cit_tool_log_toast_generate_bugreport">Relatório de bugs está sendo gerado e leva 1 minuto</string>
 <string name="cit_tool_bluetooth">Ferramentas de teste de Bluetooth</string>
 <string name="cit_tool_bluetooth_on">Ativar o Bluetooth</string>
 <string name="cit_tool_bluetooth_mode">Entrar no modo de teste Bluetooth</string>
