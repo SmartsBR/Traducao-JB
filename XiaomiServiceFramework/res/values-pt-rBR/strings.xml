@@ -125,6 +125,7 @@ Contatos, fotos etc"</string>
     <string name="password_error">Por favor reinsira sua senha</string>
     <string name="progress_creating">Recebendo informações da compra...</string>
     <string name="progress_loading">Processando, aguarde...</string>
+    <string name="progress_connecting">Conectando...</string>
     <string name="button_cancel">Cancelar</string>
     <string name="button_retry">Reiniciar</string>
     <string name="button_pay">Confirmar</string>
@@ -162,9 +163,9 @@ Contatos, fotos etc"</string>
     <string name="recharge_denomination">%1$s RMB</string>
     <string name="btn_recharge_large">Recarregar</string>
     <string name="recharge_other">Selecione outros meios de pagamento</string>
-    <string name="alipay_picker_hint">Por favor selecione a quantidade de Créditos Mi a recarregar:</string>
-    <string name="alipay_edit_hint">Quantidade</string>
-    <string name="alipay_edit_unit">RMB</string>
+    <string name="alipay_picker_hint">Por favor selecione a quantidade de Créditos Mi a recarregar</string>
+    <string name="alipay_edit_hint">Quantidade (RMB):</string>
+    <string name="alipay_edit_unit">Menos de 500</string>
     <string name="progress_alipay_creating">Gerando compra no Alipay...</string>
     <string name="progress_alipay_installing">Instalando plugin de segurança móvel Alipay...</string>
     <string name="progress_prepaid_creating">Gerando compra de recarga...</string>
@@ -175,17 +176,26 @@ Contatos, fotos etc"</string>
     <string name="prepaid_china_mobile">China Mobile</string>
     <string name="prepaid_china_unicom">China Unicom</string>
     <string name="prepaid_china_telcom">China Telecom</string>
-    <string name="prepaid_picker_hint">O valor de recarga selecionado deve ser do mesmo valor que o cartão pré-pago.</string>
-    <string name="prepaid_number_edit_hint">Número do cartão pré-pago</string>
-    <string name="prepaid_password_edit_hint">Senha do cartão pré-pago</string>
+    <string name="prepaid_picker_hint_1_1">1.</string>
+    <string name="prepaid_picker_hint_1_2">Suporta somente uma recarga;</string>
+    <string name="prepaid_picker_hint_2_1">2.</string>
+    <string name="prepaid_picker_hint_2_2_a">O valor nominal selecionado deve ser consistente com o valor do cartão pré-pago, senão poderá resultar em perda de dinheiro creditado.</string>
+    <string name="prepaid_picker_hint_2_2_b">Se o valor nominal do cartão pré-pago não for em &lt;font color=red>%1$s yuan&lt;/font>, ele poderá resultar em erro na cobrança e perda do balanço do cartão</string>
+    <string name="prepaid_picker_title">Valor da recarga</string>
+    <string name="prepaid_picker_value_default">selecionar</string>
+    <string name="prepaid_number_edit_hint">Número:</string>
+    <string name="prepaid_password_edit_hint">Senha:</string>
+    <string name="prepaid_edit_limit">dígitos</string>
     <string name="prepaid_error_carrier">Selecione a operadora</string>
     <string name="prepaid_error_denomination">Selecione o valor de recarga</string>
-    <string name="prepaid_error_card_number">Insira o valor correto de recarga</string>
+    <string name="prepaid_error_card_number">Insira o número correto de recarga</string>
     <string name="prepaid_error_password">Por favor insira a senha correta do cartão</string>
+    <string name="prepaid_error_card_length">Por favor, insira o numero ou a senha correta do cartão pré-pago</string>
     <string name="progress_submit_title">Solicitação de recarga enviada</string>
     <string name="progress_submit_summary">Recarregando: %1$s RMB</string>
-    <string name="progress_submit_hint_init">A recarga será efetivada em até 3 minutos. Uma verificação será feita após %1$s segundos</string>
-    <string name="progress_submit_hint_query">A recarga será efetivada em até 3 minutos. Uma verificação será feira após %1$s segundos</string>
+    <string name="progress_submit_hint">A recarga será efetuada em até 3 minutos</string>
+    <string name="btn_count_down_auto">Verificar após %1$s segundos</string>
+    <string name="btn_count_down_wait">Aguardar por %1$s segundos</string>
     <string name="btn_query">Verificar agora</string>
     <string name="progress_querying">Processando verificação de pagamento...</string>
     <string name="progress_success_title">Recarga de %1$s Créditos Mi concluída</string>
@@ -196,9 +206,12 @@ Contatos, fotos etc"</string>
     <string name="progress_error_network">Falha ao conectar-se à rede, verifique sua conexão de dados.</string>
     <string name="progress_error_invalid_number">O número do cartão e senha inseridos estão incorretos, por favor tente novamente.</string>
     <string name="progress_error_waiting">Recarga em processamento, tente novamente mais tarde</string>
-    <string name="progress_error_contact_server">"Recarga ainda em processamento, entre em contato com o suporte técnico no número 400-001-0195, Informe o número de série: %1$s"</string>
+    <string name="progress_warning_contact_server">"Recarga em progresso. 
+1. Entre em contato com o suporte em Shenzhou：%1$s 
+2. Informe o número de série: %2$s"</string>
     <string name="btn_back">Retornar</string>
-    <string name="btn_recharge_other">Outros métodos de recarga</string>
+    <string name="btn_recharge_other">Recarregar</string>
+    <string name="btn_call">Chamar</string>
     <string name="recharge_notification">Recarregando %1$s Créditos Mi</string>
     <string name="title_mili_center">Centro de Créditos Mi</string>
     <string name="title_recharge_record">Registro de recargas</string>
