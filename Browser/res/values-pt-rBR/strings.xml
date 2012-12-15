@@ -449,9 +449,11 @@
     <string name="tab_closed">Aba fechada.</string>
     <string name="search_cancel">Cancelar</string>
     <string name="search_baidu">Baidu</string>
+	<string name="search_sogou">Sogou</string>
     <string name="search_google">Google</string>
     <string name="search_yahoo">Yahoo</string>
     <string name="search_bing">Bing</string>
     <string name="MIUI_homepage">Início MIUI</string>
     <string name="manage_feature_permissions">Gerenciar Permissões</string>
+	<string name="find_on_page">Localizar na página</string>
 </resources>

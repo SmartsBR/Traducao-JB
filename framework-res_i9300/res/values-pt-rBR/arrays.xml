@@ -37,6 +37,50 @@
         <item>Outros</item>
         <item>Personalizado</item>
     </string-array>
+    <string-array name="telephony_provider_3lm">
+        <item>name</item>
+        <item>numeric</item>
+        <item>mcc</item>
+        <item>mnc</item>
+        <item>apn</item>
+        <item>user</item>
+        <item>server</item>
+        <item>password</item>
+        <item>proxy</item>
+        <item>port</item>
+        <item>mmsproxy</item>
+        <item>mmsport</item>
+        <item>mmsc</item>
+        <item>authtype</item>
+        <item>type</item>
+        <item>current</item>
+        <item>protocol</item>
+        <item>roaming_protocol</item>
+        <item>carrier_enabled</item>
+        <item>bearer</item>
+    </string-array>
+    <string-array name="telephony_provider_oem">
+        <item>name</item>
+        <item>numeric</item>
+        <item>mcc</item>
+        <item>mnc</item>
+        <item>apn</item>
+        <item>user</item>
+        <item>server</item>
+        <item>password</item>
+        <item>proxy</item>
+        <item>port</item>
+        <item>mmsproxy</item>
+        <item>mmsport</item>
+        <item>mmsc</item>
+        <item>authtype</item>
+        <item>type</item>
+        <item>current</item>
+        <item>protocol</item>
+        <item>roaming_protocol</item>
+        <item>carrier_enabled</item>
+        <item>bearer</item>
+    </string-array>
     <array name="preloaded_drawables">
         <item>@drawable/toast_frame_holo</item>
         <item>@drawable/btn_check_on_pressed_holo_light</item>
@@ -316,6 +360,7 @@
         <item>@drawable/quickcontact_badge_overlay_light</item>
         <item>@drawable/quickcontact_badge_overlay_normal_light</item>
         <item>@drawable/quickcontact_badge_overlay_pressed_light</item>
+        <item>@drawable/tw_background_holo_dark</item>
     </array>
     <array name="preloaded_color_state_lists">
         <item>@color/primary_text_dark</item>
@@ -406,24 +451,38 @@
         <item>@null</item>
         <item>@null</item>
     </array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
     <string-array name="config_statusBarIcons">
+        <item>felica_lock</item>
         <item>headset</item>
         <item>call_record</item>
         <item>privacy_mode</item>
-		<item>sleep_notification</item>
         <item>ime</item>
+        <item>face</item>
         <item>sync_failing</item>
         <item>sync_active</item>
         <item>gps</item>
+        <item>lbs</item>
         <item>bluetooth</item>
         <item>bluetooth_handsfree_battery</item>
+        <item>nfc_on</item>
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
         <item>mute</item>
         <item>volume</item>
+        <item>ims_volte</item>
+        <item>com.samsung.rcs</item>
+        <item>wifi_p2p</item>
         <item>wifi</item>
         <item>wimax</item>
+        <item>wifi_ap</item>
         <item>cdma_eri</item>
         <item>data_connection</item>
         <item>phone_evdo_signal</item>
@@ -432,6 +491,8 @@
         <item>alarm_clock</item>
         <item>secure</item>
         <item>clock</item>
+        <item>phone_signal_second_sub</item>
+        <item>sleep_notification</item>
     </string-array>
     <integer-array name="config_masterVolumeRamp">
         <item>0</item>
@@ -442,10 +503,12 @@
         <item>mobile,0,0,0,-1,true</item>
         <item>mobile_mms,2,0,2,60000,true</item>
         <item>mobile_supl,3,0,2,60000,true</item>
-        <item>mobile_dun,4,0,3,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
         <item>mobile_hipri,5,0,3,60000,true</item>
-        <item>mobile_bluetooth,7,7,1,-1,true</item>
-        <item>ethernet,9,9,1,-1,true</item>
+        <item>bluetooth,7,7,2,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
         <item>wifi_p2p,13,1,0,-1,true</item>
     </string-array>
     <integer-array name="config_protectedNetworks">
@@ -457,7 +520,6 @@
         <item>1,1</item>
         <item>0,1</item>
         <item>7,1</item>
-        <item>9,1</item>
     </string-array>
     <integer-array name="config_data_usage_network_types">
         <item>0</item>
@@ -485,10 +547,13 @@
         <item>0</item>
         <item>1</item>
         <item>5</item>
-        <item>7</item>
     </integer-array>
     <array name="config_cdma_dun_supported_types" />
-    <array name="config_usbHostBlacklist" />
+    <string-array name="config_usbHostBlacklist">
+        <item>/dev/bus/usb/001/002</item>
+        <item>/dev/bus/usb/001/001</item>
+        <item>/dev/bus/usb/002/001</item>
+    </string-array>
     <array name="config_serialPorts" />
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -497,7 +562,10 @@
         <item>21</item>
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
         <item>10</item>
+        <item>20</item>
+        <item>30</item>
     </integer-array>
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
@@ -523,103 +591,96 @@
         <item>10</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>6</item>
-        <item>9</item>
-        <item>14</item>
-        <item>20</item>
-        <item>30</item>
-        <item>46</item>
-        <item>68</item>
-        <item>103</item>
-        <item>154</item>
-        <item>231</item>
-        <item>346</item>
-        <item>519</item>
-        <item>778</item>
-        <item>1168</item>
-        <item>1752</item>
-        <item>2627</item>
-        <item>3941</item>
-        <item>5912</item>
-        <item>8867</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>15000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessHysteresisLevels">
+        <item>7</item>
+        <item>75</item>
+        <item>1000</item>
+        <item>10000</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>19</item>
-        <item>23</item>
-        <item>26</item>
-        <item>30</item>
-        <item>34</item>
-        <item>39</item>
-        <item>45</item>
-        <item>51</item>
-        <item>59</item>
-        <item>67</item>
-        <item>77</item>
-        <item>88</item>
-        <item>101</item>
-        <item>116</item>
-        <item>133</item>
-        <item>152</item>
-        <item>174</item>
-        <item>199</item>
-        <item>228</item>
-        <item>250</item>
+        <item>20</item>
+        <item>80</item>
+        <item>130</item>
+        <item>190</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>255</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
     </integer-array>
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
+        <item>255</item>
+        <item>255</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
+    </integer-array>
+    <integer-array name="config_minimumExpressiveBrightnessValues">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevels">
         <item>0</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1500</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisValues">
+        <item>20</item>
+        <item>80</item>
+        <item>132</item>
+        <item>220</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLevels">
         <item>0</item>
+        <item>6</item>
+        <item>50</item>
+        <item>500</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>15000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessValues">
+        <item>20</item>
+        <item>20</item>
+        <item>80</item>
+        <item>132</item>
+        <item>220</item>
+        <item>250</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevels">
         <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>15000</item>
+        <item>16000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisValues">
+        <item>20</item>
+        <item>20</item>
+        <item>80</item>
+        <item>132</item>
+        <item>220</item>
+        <item>255</item>
     </integer-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_sms_enabled_single_shift_tables" />
     <array name="config_sms_enabled_locking_shift_tables" />
     <array name="config_oemUsbModeOverride" />
-    <integer-array name="maps_starting_lat_lng">
-        <item>36149777</item>
-        <item>-95993398</item>
-    </integer-array>
-    <integer-array name="maps_starting_zoom">
-        <item>3</item>
-    </integer-array>
+    <array name="hideApnBlackList" />
     <array name="common_nicknames" />
     <string-array name="imAddressTypes">
         <item>Residencial</item>
@@ -628,4 +689,149 @@
         <item>Personalizado</item>
     </string-array>
     <array name="carrier_properties" />
+    <string-array name="zzz_tts_lockscreen_time_am">
+        <item>It is %1$d : %2$d AM</item>
+        <item>Il est %1$d:%2$d du matin</item>
+        <item>Es ist %1$d:%2$d AM</item>
+        <item>Sono le %1$d:%2$d AM</item>
+        <item>Son las %1$d:%2$d AM</item>
+        <item>오전 %1$d시%2$d분입니다</item>
+        <item>上午 %1$d点 %2$d分</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_time_pm">
+        <item>It is %1$d : %2$d PM</item>
+        <item>"Il est %1$d:%2$d de l'après-midi"</item>
+        <item>Es ist %1$d:%2$d PM</item>
+        <item>Sono le %1$d:%2$d PM</item>
+        <item>Son las %1$d:%2$d PM</item>
+        <item>오후 %1$d시%2$d분입니다</item>
+        <item>下午 %1$d点 %2$d分</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_time">
+        <item>It is %1$d : %2$d</item>
+        <item>Il est %1$d:%2$d du matin</item>
+        <item>Es ist %1$d:%2$d</item>
+        <item>Sono le %1$d:%2$d</item>
+        <item>Son las %1$d:%2$d</item>
+        <item>%1$d시 %2$d분입니다</item>
+        <item>现在时间 %1$d点%2$d分</item>
+    </string-array>
+    <string-array name="zzz_tts_temperature">
+        <item>%1$d Degree %2$s</item>
+        <item>%1$d Degré %2$s</item>
+        <item>%1$d Grad %2$s</item>
+        <item>%1$d Grado %2$s</item>
+        <item>%1$d Grado %2$s</item>
+        <item>%2$s %1$d 도</item>
+        <item>%2$s %1$d 度</item>
+    </string-array>
+    <string-array name="zzz_tts_temperature_for_sina">
+        <item>%1$d Degree %3$s high %2$d Degree %3$s low</item>
+        <item>%1$d Degré %3$s high %2$d Degré %3$s low</item>
+        <item>%1$d Grad %3$s high %2$d Grad %3$s low</item>
+        <item>%1$d Grado %3$s high %2$d Grado %3$s low</item>
+        <item>%1$d Grado %3$s high %2$d Grado %3$s low</item>
+        <item>오늘 최고기온 %3$s %1$d 도 최저기온 %3$s %2$d 도</item>
+        <item>今天 最高温度 %3$s %1$d 度 最低温度 %3$s %2$d 度</item>
+    </string-array>
+    <string-array name="zzz_tts_temp_celsius">
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Centígrados</item>
+        <item>섭씨</item>
+        <item>摄氏度</item>
+    </string-array>
+    <string-array name="zzz_tts_temp_fahrenheit">
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>화씨</item>
+        <item>华氏温度</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_calls_and_messages">
+        <item>You have %1$d missed calls and %2$d unread messages</item>
+        <item>Vous avez %1$d appels manqués et %2$d messages non lus</item>
+        <item>Sie haben %1$d verpasste Anrufe und %2$d ungelesene Nachrichten</item>
+        <item>%1$d chiamate perse e %2$d messaggi non letti</item>
+        <item>Tiene %1$d llamadas perdidas y %2$d mensajes sin leer</item>
+        <item>%1$d개의 부재중 전화 및 %2$d개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 %1$d 个未接来电和 %2$d 条未读消息</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_n_missed_calls">
+        <item>You have %1$d missed calls</item>
+        <item>Vous avez %1$d appels manqués</item>
+        <item>Sie haben %1$d entgangene Anrufe</item>
+        <item>%1$d chiamate perse</item>
+        <item>Tiene %1$d llamadas perdidas</item>
+        <item>부재중 전화가 %1$d통 있습니다</item>
+        <item>您有 %1$d 个未接来电</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_n_unread_messages">
+        <item>You have %1$d unread messages</item>
+        <item>Vous avez %1$d messages non lus</item>
+        <item>Sie haben %1$d ungel Nachr</item>
+        <item>%1$d messaggi non letti</item>
+        <item>Tiene %1$d mensajes sin leer</item>
+        <item>%1$d개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 %1$d 条未读消息</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_1_missed_call">
+        <item>You have 1 missed call</item>
+        <item>Vous avez 1 appel manqué</item>
+        <item>Sie haben 1 entgangenen Anruf</item>
+        <item>1 chiamata persa</item>
+        <item>Tiene 1 llamada perdida</item>
+        <item>부재중 전화가 1통 있습니다</item>
+        <item>您有1个未接来电</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_1_unread_message">
+        <item>You have 1 unread message</item>
+        <item>Vous avez 1 message non lu</item>
+        <item>Sie haben 1 ungel Nachr</item>
+        <item>1 messaggio non letto</item>
+        <item>Tiene 1 mensaje sin leer</item>
+        <item>1개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 1 条未读消息</item>
+    </string-array>
+    <string-array name="zzz_tts_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+        <item>zho</item>
+    </string-array>
+    <string-array name="default_apps_for_spen">
+        <item>com.sec.android.app.snotebook/com.infraware.filemanager.FmFileTreeListActivity</item>
+        <item>com.sec.android.gallery3d/com.sec.android.gallery3d.app.MediaFlow</item>
+        <item>com.android.email/com.android.email.activity.Welcome</item>
+        <item>com.android.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.android.browser/com.android.browser.BrowserActivity</item>
+    </string-array>
+    <string-array name="default_apps_for_earphone">
+        <item>com.sec.android.app.music/com.sec.android.app.music.MusicActionTabActivity</item>
+        <item>com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.activity.MainTab</item>
+        <item>com.samsung.music/com.samsung.music.Main</item>
+        <item>com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+        <item>com.sec.android.app.fm/com.sec.android.app.fm.MainActivity</item>
+    </string-array>
+    <string-array name="default_apps_for_carcradle">
+        <item>com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity</item>
+        <item>com.google.android.apps.maps/com.google.android.maps.MapsActivity</item>
+        <item>com.sec.android.app.music/com.sec.android.app.music.MusicActionTabActivity</item>
+        <item>com.sec.android.gallery3d/com.sec.android.gallery3d.app.MediaFlow</item>
+        <item>com.samsung.music/com.samsung.music.Main</item>
+    </string-array>
+    <string-array name="default_apps_for_deskcradle">
+        <item>com.android.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.android.email/com.android.email.activity.Welcome</item>
+        <item>com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.activity.MainTab</item>
+        <item>com.android.browser/com.android.browser.BrowserActivity</item>
+        <item>com.sec.android.gallery3d/com.sec.android.gallery3d.app.MediaFlow</item>
+    </string-array>
 </resources>

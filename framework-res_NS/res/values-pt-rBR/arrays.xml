@@ -431,6 +431,7 @@
         <item>alarm_clock</item>
         <item>secure</item>
         <item>clock</item>
+        <item>clock</item>
     </string-array>
     <integer-array name="config_masterVolumeRamp">
         <item>0</item>
