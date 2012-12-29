@@ -81,8 +81,10 @@
     <string name="download_success">Download concluído</string>
     <string name="theme_importing">Importando temas</string>
     <string name="theme_import_success">Importação concluída</string>
-    <string name="theme_update_request_title">Atualização necessária de tema</string>
-    <string name="theme_update_request_content">É necessário atualizar o tema para o novo formato utilizado pelo sistema. O processo pode levar vários minutos. Clique em OK para atualizar agora.</string>
+    <string name="theme_upgrade_request_title">Atualização necessária de tema</string>
+    <string name="theme_upgrade_request_content">É necessário atualizar o tema para o novo formato utilizado pelo sistema. O processo pode levar vários minutos. Clique em OK para atualizar agora.</string>
+    <string name="theme_upgrade_request_yes">Sim</string>
+    <string name="theme_upgrade_request_cancel">Não</string>
     <string name="theme_import_preparing">Pesquisando temas locais</string>
     <string name="theme_import_importing">Atualizando.. %1$d restante(s)</string>
     <string name="theme_import_normal">Atualização de tema</string>
@@ -102,7 +104,7 @@
     <string name="theme_is_imported">Tema importado</string>
     <string name="theme_import_new_download">Importando</string>
     <string name="theme_import_fail">Falha ao importar tema %1$s.</string>
-    <string name="theme_import_data">Importando temas predefinidos</string>
+    <string name="theme_import_data">Inicializando, aguarde...</string>
     <string name="resource_comment_no_comment">Nenhum comentário</string>
     <string name="resource_comment_sending">Enviando comentário...</string>
     <string name="resource_comment_upload_failed">Falha ao enviar comentário</string>

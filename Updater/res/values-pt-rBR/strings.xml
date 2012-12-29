@@ -5,8 +5,8 @@
     <string name="app_name">Atualizador</string>
     <string name="apply_now_button_text">Atualizar</string>
     <string name="view_details">Ver detalhes</string>
-    <string name="download_whole_rom">Baixar a ROM Completa(%s)</string>
-    <string name="download_ota_rom">Baixar o Pacote OTA(%s)</string>
+    <string name="download_whole_rom">Baixar (%s)</string>
+    <string name="download_ota_rom">Baixar (%s)</string>
     <string name="apply_later_button_text">Atualizar depois</string>
     <string name="start_update">Iniciar atualização</string>
     <string name="applying_update">Atualizando...</string>
@@ -72,7 +72,7 @@
     <string name="about_device">Informação do Sistema:</string>
     <string name="emegency_build">Build:</string>
     <string name="wifi_not_available_title">WiFi indisponível</string>
-    <string name="wifi_not_available_body">Arquivos de ROM são grandes, é recomendado que seja utilizado uma rede WiFi para efetaur o download. Foi detectado que você não está conectado em uma rede WiFi no momento. Você deseja continuar?</string>
+    <string name="wifi_not_available_body">É recomendado utilizar a rede WiFi para baixar as atualizações, visto que os arquivos podem ser grandes. Você não está conectado à rede WiFi, deseja continuar?</string>
     <string name="paused_queued_for_network">Aguardando conexão de rede</string>
     <string name="paused_queued_for_wifi">Aguardando conexão de rede WiFi</string>
     <string name="boot_recovery">Reiniciar em recovery</string>
@@ -107,7 +107,7 @@ Mais de %2$s já se conectaram à MIUI %3$s"</string>
     <string name="share_sina">Postar com o Sina Weibo</string>
     <string name="install_sina">Instalar o Sina Weibo</string>
     <string name="share_qq">Postar com o Tencent Weibo</string>
-    <string name="install_qq">Instalar o Tencent Weibo</string>
+	<string name="install_qq">Instalar o Tencent Weibo</string>
     <string name="upgrade_kernel">Versão do kernel atual preisa ser atualizado</string>
     <string name="upgrade_kernel_msg">"Versão do kernel atual não coincide com a ROM MIUI.Você precisa atualizar o kernel manualmente. Por favor, consulte o tutorial de atualização:
 "</string>

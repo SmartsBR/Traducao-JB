@@ -50,5 +50,7 @@
     <string name="dialog_warning">Atenção</string>
     <string name="alert_message_delete_record">Deseja apagar este registo?</string>
     <string name="unknown_caller">Número desconhecido</string>
-    <string name="record_saving">Salvando gravação, aguarde.</string>
+    <string name="record_saving">Salvando a gravação, aguarde.</string>
+    <string name="preparing_playback">Carregando a gravação, aguarde.</string>
+    <string name="loading_duration">Carregando a duração...</string>
 </resources>

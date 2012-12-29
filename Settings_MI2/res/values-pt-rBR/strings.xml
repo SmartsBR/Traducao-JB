@@ -1609,7 +1609,9 @@ Um método do Google para sincronizar dados de modo a permitir o acesso aos seus
     <string name="data_usage_app_restrict_background_summary">Desat. dados de seg. plano na rede móvel. Usar WiFi se disp.</string>
     <string name="data_usage_app_restrict_background_summary_disabled">Def. lim. de dados móv. p/ restr. dados de seg. plano no aplic.</string>
     <string name="data_usage_app_restrict_dialog_title">Restringir dados de segundo plano?</string>
-    <string name="data_usage_app_restrict_dialog">Mais controles adequados de uso de dados podem ser encontrados nas configurações disponíveis no aplicativo.</string>
+    <string name="data_usage_app_restrict_dialog">"Este recurso poderá impedir o funcionamento de aplicativos que dependam de dados em segundo plano, quando somente a rede móvel estiver disponível.
+
+Controles mais adequados de uso de dados podem ser encontrados nas configurações disponíveis no aplicativo."</string>
     <string name="data_usage_restrict_denied_dialog">Restringir dados de segundo plano só é possível quando você define um limite de dados móveis.</string>
     <string name="data_usage_auto_sync_on_dialog_title">Ativar sincronização automática?</string>
     <string name="data_usage_auto_sync_on_dialog">"Qualquer alteração que você fizer em suas contas na internet serão automaticamente sincronizadas com o seu dispositivo.

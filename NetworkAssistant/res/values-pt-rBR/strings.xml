@@ -154,4 +154,6 @@
     <string name="overseas_menu_traffic_settings">Limite de Tráfego</string>
     <string name="overseas_menu_traffic_adjust">Ajuste Manual</string>
     <string name="about">Sobre</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">"Você não abriu o firewall."</string>
 </resources>

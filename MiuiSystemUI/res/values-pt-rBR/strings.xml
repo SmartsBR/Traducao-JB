@@ -148,7 +148,7 @@ Se você reativar os dados móveis, cobranças adicionais poderão ser realizada
     <string name="status_bar_date_format">"E
 d-M-yyyy"</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
-    <string name="status_bar_recent_memory_info">%1$s / %2$s</string>
+    <string name="status_bar_recent_memory_info">%1$s / %2$s disponíveis</string>
     <string name="usb_mode_notification">Armazenamento USB</string>
     <string name="usb_mode_dont_ask">"Não perguntar novamente"</string>
     <string name="usb_mode_mount_storage_title">Abrir armazenamento usb agora？</string>
